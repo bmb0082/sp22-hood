@@ -3,12 +3,12 @@ Mitochrondrial cytochrome c oxidase I (mt-Co1) enables cytochrome c oxidase term
 
 ### Predicted mt-Co1 protein read 5'-3'
 description of why this one is correct
-![COX1 5-3](https://user-images.githubusercontent.com/98036665/150718978-64d2b76d-a4ce-45ee-a0dd-dfb1231e703a.png)
+![COX1 5-3](https://user-images.githubusercontent.com/98036665/150719383-7032787c-18a1-41e8-8956-ba49c54abef2.png)
+
 
 ### Predicted mt-Co1 protein read 3'-5'
 description of why this one is incorrect
-![COX1 3-5](https://user-images.githubusercontent.com/98036665/150719022-5ff081b0-3515-423d-bfd3-dc890d12b787.png)
-
+![COX1 3-5](https://user-images.githubusercontent.com/98036665/150719390-4b9598a1-a27a-4266-84ca-448126c0dbc9.png)
 
 ```
 this should be the gene information
