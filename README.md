@@ -8,7 +8,7 @@ This is the correct folding conformation, direction, and open reading frame. The
 
 
 ### Predicted mt-Co1 protein, ORF 3'-5'
-This is not the correct folding conformation of cytochrome c oxidase I. It lacks structural integrity and appears to lack the necessary binding pockets for heme prosthetic groups and copper cofactor.
+This is not the correct folding conformation of cytochrome c oxidase I. It lacks structural integrity, and appears to lack the necessary binding pockets for heme prosthetic groups and copper cofactor.
 ![COX1 3-5](https://user-images.githubusercontent.com/98036665/150719390-4b9598a1-a27a-4266-84ca-448126c0dbc9.png)
 
 ```
