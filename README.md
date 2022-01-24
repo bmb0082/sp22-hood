@@ -3,7 +3,8 @@ Mitochrondrial cytochrome c oxidase I (mt-Co1) enables cytochrome c oxidase term
 
 ### Predicted mt-Co1 protein, ORF 5'-3'
 This is the correct folding conformation, direction, and open reading frame. There is a defined structure of cytochrome c oxidase I.
-![COX1 5-3](https://user-images.githubusercontent.com/98036665/150719383-7032787c-18a1-41e8-8956-ba49c54abef2.png)
+![COX1 5-3 (2)](https://user-images.githubusercontent.com/98036665/150802099-67a8ab35-e1e9-4bc4-9030-2fecf860af05.png)
+
 
 
 ### Predicted mt-Co1 protein, ORF 3'-5'
