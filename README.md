@@ -36,9 +36,13 @@ AATTTAGAATGACTTCATGGCTGCCCTCCACCATATCACACATTCGAGGAACCAACCTATGTAAAAGTAA
 AATAA
 ```
 
-### Predicted mt-Co1 protein, ORF 5'-3'
+### Predicted model of the mt-Co1 protein, presented 5'-3'
 Reading the translated sequence 5'-3' is the correct direction, as it generates a defined structure of cytochrome c oxidase I. ExPASy translate tool recognized the entire gene in this direction as a single open reading frame, and SWISS-MODEL generated a sequence identity value of 94.16% compared a known sequence for bovine heart cytochrome c oxidase subunit I. Likewise, it models a protein-ligand interaction pipeline between the active site and a peroxide ion.
 ![COX1 5-3](https://user-images.githubusercontent.com/98036665/151239026-dd14ff6f-7f56-4f55-8523-3b206c1305ee.png)
+'''
+Open reading frame 1 translated sequence, 5'-3':
+MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLGDDQIYNVIVTAHAFVMIFFMVMPMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSMVEAGAGTGWTVYPPLAGNLAHAGASVDLTIFSLHLAGVSSILGAINFITTIINMKPPAMTQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWAHHMFTVGLDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGGNIKWSPAMLWALGFIFLFTVGGLTGIVLSNSSLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGFTLDDTWAKAHFAIMFVGVNMTFFPQHFLGLSGMPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
+'''
 
 ### Predicted mt-Co1 protein, ORF 3'-5'
 This is not the correct folding conformation of cytochrome c oxidase I. Reading the translated sequence 3'-5' results in a polypeptide that lacks structural integrity and the binding pockets for heme-a, heme-a3, and CuB copper (II) cofactors that are necessary for successful electron transport.
