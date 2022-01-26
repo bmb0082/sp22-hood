@@ -5,7 +5,7 @@ Mitochrondrial cytochrome c oxidase I (mt-Co1) is a subunit of cytochrome c oxid
 
 Below is selected mitochondiral gene encoding subunit I of for cytochrome c oxidase. I chose this gene because mutations that affect function of subunit I are some of the most common causes of genetic mitochondiral disorders. Subunit I of cytochome c oxidase is the home of the catalytic unit; therefore, it's correct stucture and function are vital for cytochrome c oxidase activity.
 ```
-Source mt-Co1 gene, presented in the 5'-3' direction
+Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
 Mus musculus mitochondrion, complete genome
 NCBI Reference Sequence: NC_005089.1
 
@@ -58,13 +58,4 @@ I-GEAWK-WESVNKSCYDSKHCSHW-NMVEMGYYMVCIVKHDVKGWVG-NNSG-TTNCK-ENKA-GS-YSW-SFNITSV-
 -SYCEYVVGSYNKA-KAN-HYCSYYSYMAE-FFFSGVVSNYMWNNSKSWEDKNMNFWVPKESEQMLVENWVPSSSGIKESCV-VAVC--YSNACG-HW-W--EQYGCNK
 YGSDK-WSLMLCYGWGFHVDNSGNKINCT-N-WHSS-MKGENC-VYWCSCMG-ISG--WVDCSSCSCSCFYYWWC-EKEKWWW-ESKTYIIYSWECYIWGSDY-WDKSV
 SKASNYYWYYYEENYNKSMGSYDNIVNLVIS-KCTWLT-FCSN-NT-CSTHYSRSGSE--MEGSDIFVIGWE-STINEH
-```
-
-```
-Reference genome:
-Mus musculus mitochondrion, complete genome
-NCBI Reference Sequence: NC_005089.1
-
-GenBank Graphics
->NC_005089.1 Mus musculus mitochondrion, complete genome
 ```
