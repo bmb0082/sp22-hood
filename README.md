@@ -6,7 +6,7 @@ Reading the translated sequence 5'-3' is the correct direction, as it generates 
 ![COX1 5-3 (2)](https://user-images.githubusercontent.com/98036665/150802099-67a8ab35-e1e9-4bc4-9030-2fecf860af05.png)
 
 ### Predicted mt-Co1 protein, ORF 3'-5'
-This is not the correct folding conformation of cytochrome c oxidase I. Reading the translated sequence 3'-5' results in a polypeptide that lacks structural integrity and the necessary binding pockets for the heme-a and heme-a3 prosthetic groups and the CuB copper (II) cofactor.
+This is not the correct folding conformation of cytochrome c oxidase I. Reading the translated sequence 3'-5' results in a polypeptide that lacks structural integrity and the binding pockets for heme-a, heme-a3, and CuB copper (II) cofactors that are necessary for successful electron transport.
 ![COX1 3-5](https://user-images.githubusercontent.com/98036665/150719390-4b9598a1-a27a-4266-84ca-448126c0dbc9.png)
 
 ```
