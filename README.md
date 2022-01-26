@@ -52,7 +52,7 @@ HGGNIKWSPAMLWALGFIFLFTVGGLTGIVLSNSSLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGFTLDD
 PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 ```
 
-### Predicted mt-Co1 protein, ORF 3'-5'
+### Predicted model of the mt-Co1 protein, presented 3'-5'
 This is not the correct folding conformation of cytochrome c oxidase I. Reading the translated sequence 3'-5' results in a polypeptide that lacks structural integrity and the binding pockets for heme-a, heme-a3, and CuB copper (II) cofactors that are necessary for successful electron transport.
 
 <p align="center">
