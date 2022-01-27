@@ -1,9 +1,9 @@
 # Modeling *Mus musculus* mitochondrial cytochrome c oxidase I
-Mitochrondrial cytochrome c oxidase I (mt-Co1) is a subunit of cytochrome c oxidase (RC-IV), the last enzyme in the mitochondiral electron transport chain. Correct native protein structure is essential for safe acceptance of terminal electons and overall mitochondiral efficiency. As a result, errors in mt-Co1 can trap electrons in respiratory complex-III (RC-III), resulting in increased production of reactive oxygen species.
+Mitochrondrial cytochrome c oxidase I (mt-Co1) is a subunit of cytochrome c oxidase (RC-IV), the last enzyme in the mitochondiral electron transport chain. Correct native protein structure is essential for safe acceptance of terminal electons and overall mitochondiral efficiency. As a result, errors in mt-Co1 can trap electrons in respiratory complex-III (RC-III), resulting in increased production of reactive oxygen species. Cytochrome c oxidase deficiency is the most common cause of genetic mitochondiral disorders, presenting as multi-organ, heterogeneous symptoms depending on the efficiency.
 
 ## **Purpose: To understand the importance of direction when modeling proteins from translated sequences**
 
-Below is the selected mitochondiral gene encoding subunit I of for cytochrome c oxidase. I chose this gene because mutations that affect function of subunit I are some of the most common causes of genetic mitochondiral disorders. Subunit I of cytochome c oxidase is the home of the catalytic unit; therefore, it's correct stucture and function are vital for cytochrome c oxidase activity.
+Below is the selected mitochondiral gene encoding subunit I of for cytochrome c oxidase. I chose this gene because mt-Co1 contains the catalytic unit of cytochrome c oxidase; therefore, it's correct stucture and function are vital for the enzyme's overall activity. I wanted to see how different the protein would fold depending on the directionality of the translated sequence.
 ```
 Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
 Mus musculus mitochondrion, complete genome
@@ -37,7 +37,7 @@ AATAA
 ```
 
 ### Predicted model of the mt-Co1 protein, presented 5'-3'
-Reading the translated sequence 5'-3' is the correct direction, as it generates a defined structure of cytochrome c oxidase I. ExPASy translate tool recognized the entire gene in this direction as a single open reading frame, and SWISS-MODEL generated a sequence identity value of 94.16% compared a known sequence for bovine heart cytochrome c oxidase subunit I. Likewise, it models a protein-ligand interaction pipeline between the active site and a peroxide ion.
+Reading the translated sequence 5'-3' is the correct direction, as it generates a defined structure of cytochrome c oxidase I. [ExPASy Translate Tool](https://web.expasy.org/translate/) recognized the entire gene in this direction as a single open reading frame, and [SWISS-MODEL](https://swissmodel.expasy.org/interactive/SAhTnr/models/) generated a 94.16% sequence homology to bovine heart cytochrome c oxidase subunit I. Likewise, it models a protein-ligand interaction pipeline between the active site and a peroxide ion.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/151239026-dd14ff6f-7f56-4f55-8523-3b206c1305ee.png" width="600" height="600">
