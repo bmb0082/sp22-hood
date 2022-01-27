@@ -1,7 +1,7 @@
 # Modeling *Mus musculus* mitochondrial cytochrome c oxidase I
 Mitochrondrial cytochrome c oxidase I (mt-Co1) is a subunit of cytochrome c oxidase (RC-IV), the last enzyme in the mitochondiral electron transport chain. Correct native protein structure is essential for safe acceptance of terminal electons and overall mitochondiral efficiency. As a result, errors in mt-Co1 can trap electrons in respiratory complex-III (RC-III), resulting in increased production of reactive oxygen species.
 
-## **Purpose: To understand the importance of direction when modelling proteins from translated sequences**
+## **Purpose: To understand the importance of direction when modeling proteins from translated sequences**
 
 Below is the selected mitochondiral gene encoding subunit I of for cytochrome c oxidase. I chose this gene because mutations that affect function of subunit I are some of the most common causes of genetic mitochondiral disorders. Subunit I of cytochome c oxidase is the home of the catalytic unit; therefore, it's correct stucture and function are vital for cytochrome c oxidase activity.
 ```
@@ -68,7 +68,7 @@ YGSDK-WSLMLCYGWGFHVDNSGNKINCT-N-WHSS-MKGENC-VYWCSCMG-ISG--WVDCSSCSCSCFYYWWC-EKEK
 SKASNYYWYYYEENYNKSMGSYDNIVNLVIS-KCTWLT-FCSN-NT-CSTHYSRSGSE--MEGSDIFVIGWE-STINEH
 ```
 
-# Modelling mutations of *Mus musculus* mitochondrial cytochrome c oxidase I
+# Modeling mutations of *Mus musculus* mitochondrial cytochrome c oxidase I
 overview
 
 ## **Purpose:**
