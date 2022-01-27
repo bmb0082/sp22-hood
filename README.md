@@ -69,6 +69,6 @@ SKASNYYWYYYEENYNKSMGSYDNIVNLVIS-KCTWLT-FCSN-NT-CSTHYSRSGSE--MEGSDIFVIGWE-STINEH
 ```
 
 # Modeling mutations of *Mus musculus* mitochondrial cytochrome c oxidase I
-overview
+Background information goes here
 
-## **Purpose:**
+## **Purpose: To investigate the effect of mutations on predicted protein structure**
