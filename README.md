@@ -73,6 +73,7 @@ Background information here
 
 ## Purpose: To investigate the effect of mutations on predicted protein structure
 Hypothesis: how will mutations affect the function of your gene of interest?
+
 Alternative hypothesis: opposing view
 
 ## Methodology:
@@ -132,8 +133,6 @@ Explanation of INS mutation, its effect, and why.
 <img src="https://user-images.githubusercontent.com/98036665/151746314-195cc2b9-c203-438f-a71f-044387dc412d.png" width="600" height="600">
 </p>
 
-Centered & resized INS SWISS-MODEL here.
-
 ```
 Mutated sequence, insertion of P between H290 and H291, translated 5'-3'
 MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLGDDQIYNVIVTAHAFVMIFFMVMPMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSF
@@ -144,6 +143,7 @@ MPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 ```
 
 Explanation of INS dot plot changes observed and why.
+
 Centered & resized INS nucelotide dot plot GIF here.
 
 ### Deletion
@@ -152,8 +152,6 @@ Explanation of DEL mutation, its effect, and why.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/151746630-abef7de7-909d-4c22-a074-f1af242938d7.png" width="600" height="600">
 </p>
-
-Centered & resized DEL SWISS-MODEL here.
 
 ```
 Mutated sequence, deletion of H290, translated 5'-3'
@@ -165,6 +163,7 @@ RRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 ```
 
 Explanation of DEL dot plot changes observed and why.
+
 Centered & resized DEL nucelotide dot plot GIF here.
 
 ### INDEL
@@ -173,8 +172,6 @@ Explanation of INDEL mutation, its effect, and why.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/151746674-c42968c7-bfd3-4401-9c9b-53f9acd134b4.png" width="600" height="600">
 </p>
-
-Centered & resized INDEL SWISS-MODEL here.
 
 ```
 Mutated sequence, deletion of H290 and H291 and insertion of G290 G291, translated 5'-3'
@@ -186,6 +183,7 @@ PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 ```
 
 Explanation of INDEL dot plot changes observed and why.
+
 Centered & resized INDEL nucelotide dot plot GIF here.
 
 ## Results:
