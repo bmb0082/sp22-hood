@@ -95,29 +95,29 @@ Mutated INS amino acid sequence here
 ```
 
 "Explanation of INS dot plot changes observed and why"
-[Centered & resized INS nucelotide dot plot GIF here]
+Centered & resized INS nucelotide dot plot GIF here
 
 ### Deletion
 "Explanation of DEL mutation, its effect, and why"
-[Centered & resized DEL SWISS-MODEL here]
+Centered & resized DEL SWISS-MODEL here
 
 ```
 Mutated DEL amino acid sequence here
 ```
 
 "Explanation of DEL dot plot changes observed and why"
-[Centered & resized DEL nucelotide dot plot GIF here]
+Centered & resized DEL nucelotide dot plot GIF here
 
 ### INDEL
 "Explanation of INDEL mutation, its effect, and why"
-"Centered & resized INDEL SWISS-MODEL here"
+Centered & resized INDEL SWISS-MODEL here
 
 ```
 Mutated INDEL amino acid sequence here
 ```
 
 "Explanation of INDEL dot plot changes observed and why"
-[Centered & resized INDEL nucelotide dot plot GIF here]
+Centered & resized INDEL nucelotide dot plot GIF here
 
 ## Results: 
 
