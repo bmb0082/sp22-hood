@@ -3,7 +3,7 @@ Mitochrondrial cytochrome c oxidase I (mt-Co1) is a subunit of cytochrome c oxid
 
 ## Purpose: To understand the importance of direction when modeling proteins from translated sequences
 
-Below is the selected mitochondiral gene encoding subunit I of for cytochrome c oxidase. I chose this gene because mt-Co1 contains the catalytic unit of cytochrome c oxidase; therefore, it's correct stucture and function are vital for the enzyme's overall activity. I wanted to see how differently the protein would fold depending on the directionality of the translated sequence.
+Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase. I chose this gene because mt-Co1 contains the catalytic unit of cytochrome c oxidase; therefore, it's correct stucture and function are vital for the enzyme's overall activity. I wanted to see how differently the protein would fold depending on the directionality of the translated sequence.
 ```
 Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
 Mus musculus mitochondrion, complete genome
@@ -76,7 +76,7 @@ Background information here
 ### Alternative hypothesis: the opposite
 ## Methodology: describe how you will test the idea with the tools you've been introduced to, and how you will create the mutations (be sure to add links to the tools! We will properly cite them later. Provide an explanation and prediction as to why you chose the region you did to mutate.
 
-Text explaining the reference sequence below
+Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase and it's translated sequence, presented in the 5'-3' direction. These will serve as control sequences for the mutated proteins.
 
 ```
 Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
