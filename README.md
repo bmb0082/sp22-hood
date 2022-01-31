@@ -76,7 +76,7 @@ Background information here
 ### Alternative hypothesis: the opposite
 ## Methodology: describe how you will test the idea with the tools you've been introduced to, and how you will create the mutations (be sure to add links to the tools! We will properly cite them later. Provide an explanation and prediction as to why you chose the region you did to mutate.
 
-Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase, it's translated sequence, and [SWISS-MODEl](https://swissmodel.expasy.org/assess/SAhTnr/01) protein prediction. These will serve as control sequences for the mutated proteins.
+Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase, it's translated sequence from the [ExPASy Translate Tool](https://web.expasy.org/translate/), and [SWISS-MODEL](https://swissmodel.expasy.org/assess/SAhTnr/01) protein prediction. These will serve as control sequences for the mutated proteins.
 
 ```
 Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
