@@ -1,7 +1,7 @@
 # Modeling *Mus musculus* mitochondrial cytochrome c oxidase I
 Mitochrondrial cytochrome c oxidase I (mt-Co1) is a subunit of cytochrome c oxidase (RC-IV), the last enzyme in the mitochondiral electron transport chain. Correct native protein structure is essential for safe acceptance of terminal electons and overall mitochondiral efficiency. As a result, errors in mt-Co1 can trap electrons in respiratory complex-III (RC-III), resulting in increased production of reactive oxygen species. Cytochrome c oxidase deficiency is the most common cause of genetic mitochondiral disorders, presenting as multi-organ, heterogeneous symptoms depending on the level of mitochondiral efficiency.
 
-## **Purpose: To understand the importance of direction when modeling proteins from translated sequences**
+## Purpose: To understand the importance of direction when modeling proteins from translated sequences
 
 Below is the selected mitochondiral gene encoding subunit I of for cytochrome c oxidase. I chose this gene because mt-Co1 contains the catalytic unit of cytochrome c oxidase; therefore, it's correct stucture and function are vital for the enzyme's overall activity. I wanted to see how differently the protein would fold depending on the directionality of the translated sequence.
 ```
@@ -69,14 +69,14 @@ SKASNYYWYYYEENYNKSMGSYDNIVNLVIS-KCTWLT-FCSN-NT-CSTHYSRSGSE--MEGSDIFVIGWE-STINEH
 ```
 
 # Modeling mutations of *Mus musculus* mitochondrial cytochrome c oxidase I
-"Background information here"
+Background information here
 
-## **Purpose: To investigate the effect of mutations on predicted protein structure**
-## Hypothesis: "how mutations will mutations affect the function of your gene of interest?"
-### Alternative hypothesis: "the opposite"
-## Methodology: "describe how you will test the idea with the tools you've been introduced to, and how you will create the mutations (be sure to add links to the tools! We will properly cite them later. Provide an explanation and prediction as to why you chose the region you did to mutate."
+## Purpose: To investigate the effect of mutations on predicted protein structure
+## Hypothesis: how mutations will mutations affect the function of your gene of interest?
+### Alternative hypothesis: the opposite
+## Methodology: describe how you will test the idea with the tools you've been introduced to, and how you will create the mutations (be sure to add links to the tools! We will properly cite them later. Provide an explanation and prediction as to why you chose the region you did to mutate.
 
-"Text explaining the reference sequence below"
+Text explaining the reference sequence below
 
 ```
 Reference sequence here
@@ -87,38 +87,38 @@ Control translated sequence here
 ```
 
 ### Insertion
-"Explanation of INS mutation, its effect, and why"
-[Centered & resized INS SWISS-MODEL here]
+Explanation of INS mutation, its effect, and why.
+Centered & resized INS SWISS-MODEL here.
 
 ```
 Mutated INS amino acid sequence here
 ```
 
-"Explanation of INS dot plot changes observed and why"
-Centered & resized INS nucelotide dot plot GIF here
+Explanation of INS dot plot changes observed and why.
+Centered & resized INS nucelotide dot plot GIF here.
 
 ### Deletion
-"Explanation of DEL mutation, its effect, and why"
-Centered & resized DEL SWISS-MODEL here
+Explanation of DEL mutation, its effect, and why.
+Centered & resized DEL SWISS-MODEL here.
 
 ```
 Mutated DEL amino acid sequence here
 ```
 
-"Explanation of DEL dot plot changes observed and why"
-Centered & resized DEL nucelotide dot plot GIF here
+Explanation of DEL dot plot changes observed and why.
+Centered & resized DEL nucelotide dot plot GIF here.
 
 ### INDEL
-"Explanation of INDEL mutation, its effect, and why"
-Centered & resized INDEL SWISS-MODEL here
+Explanation of INDEL mutation, its effect, and why.
+Centered & resized INDEL SWISS-MODEL here.
 
 ```
 Mutated INDEL amino acid sequence here
 ```
 
-"Explanation of INDEL dot plot changes observed and why"
-Centered & resized INDEL nucelotide dot plot GIF here
+Explanation of INDEL dot plot changes observed and why.
+Centered & resized INDEL nucelotide dot plot GIF here.
 
 ## Results: 
 
-## Conclusions: "end the section by stating which mutation you think would achieve a change in function and why (remember what the protein does)"
+## Conclusions: end the section by stating which mutation you think would achieve a change in function and why (remember what the protein does)
