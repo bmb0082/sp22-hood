@@ -40,7 +40,7 @@ AATAA
 Reading the translated sequence 5'-3' is the correct direction, as it generates a defined structure of cytochrome c oxidase I. [ExPASy Translate Tool](https://web.expasy.org/translate/) recognized the entire gene in this direction as a single open reading frame, and [SWISS-MODEL](https://swissmodel.expasy.org/interactive/SAhTnr/models/) generated a 94.16% sequence homology to bovine heart cytochrome c oxidase subunit I. Likewise, it models a protein-ligand interaction pipeline between the active site and a peroxide ion, shown as two red dots in the catalytic core.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/98036665/151239026-dd14ff6f-7f56-4f55-8523-3b206c1305ee.png" width="600" height="600">
+<img src="https://user-images.githubusercontent.com/98036665/151746598-19682dd3-16ae-4470-91c8-03b9d1dadf38.png" width="600" height="600">
 </p>
 
 ```
@@ -76,7 +76,7 @@ Background information here
 ### Alternative hypothesis: the opposite
 ## Methodology: describe how you will test the idea with the tools you've been introduced to, and how you will create the mutations (be sure to add links to the tools! We will properly cite them later. Provide an explanation and prediction as to why you chose the region you did to mutate.
 
-Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase and it's translated sequence, presented in the 5'-3' direction. These will serve as control sequences for the mutated proteins.
+Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase, it's translated sequence, and [SWISS-MODEl](https://swissmodel.expasy.org/assess/SAhTnr/01) protein prediction. These will serve as control sequences for the mutated proteins.
 
 ```
 Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
@@ -110,6 +110,10 @@ AATTTAGAATGACTTCATGGCTGCCCTCCACCATATCACACATTCGAGGAACCAACCTATGTAAAAGTAA
 AATAA
 ```
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/98036665/151746598-19682dd3-16ae-4470-91c8-03b9d1dadf38.png" width="600" height="600">
+</p>
+
 ```
 Control sequence, translated 5'-3'
 MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLGDDQIYNVIVTAHAFVMIFFMVMPMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSF
@@ -121,6 +125,11 @@ PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 
 ### Insertion
 Explanation of INS mutation, its effect, and why.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/98036665/151746314-195cc2b9-c203-438f-a71f-044387dc412d.png" width="600" height="600">
+</p>
+
 Centered & resized INS SWISS-MODEL here.
 
 ```
@@ -137,6 +146,11 @@ Centered & resized INS nucelotide dot plot GIF here.
 
 ### Deletion
 Explanation of DEL mutation, its effect, and why.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/98036665/151746630-abef7de7-909d-4c22-a074-f1af242938d7.png" width="600" height="600">
+</p>
+
 Centered & resized DEL SWISS-MODEL here.
 
 ```
@@ -153,6 +167,11 @@ Centered & resized DEL nucelotide dot plot GIF here.
 
 ### INDEL
 Explanation of INDEL mutation, its effect, and why.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/98036665/151746674-c42968c7-bfd3-4401-9c9b-53f9acd134b4.png" width="600" height="600">
+</p>
+
 Centered & resized INDEL SWISS-MODEL here.
 
 ```
