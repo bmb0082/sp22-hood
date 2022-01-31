@@ -1,4 +1,4 @@
-# Modeling *Mus musculus* mitochondrial cytochrome c oxidase I
+# Project 1: Modeling *Mus musculus* mitochondrial cytochrome c oxidase subunit I
 Mitochrondrial cytochrome c oxidase I (mt-Co1) is a subunit of cytochrome c oxidase (RC-IV), the last enzyme in the mitochondiral electron transport chain. Correct native protein structure is essential for safe acceptance of terminal electons and overall mitochondiral efficiency. As a result, errors in mt-Co1 can trap electrons in respiratory complex-III (RC-III), resulting in increased production of reactive oxygen species. Cytochrome c oxidase deficiency is the most common cause of genetic mitochondiral disorders, presenting as multi-organ, heterogeneous symptoms depending on the level of mitochondiral efficiency.
 
 ## Purpose: To understand the importance of direction when modeling proteins from translated sequences
@@ -68,13 +68,15 @@ YGSDK-WSLMLCYGWGFHVDNSGNKINCT-N-WHSS-MKGENC-VYWCSCMG-ISG--WVDCSSCSCSCFYYWWC-EKEK
 SKASNYYWYYYEENYNKSMGSYDNIVNLVIS-KCTWLT-FCSN-NT-CSTHYSRSGSE--MEGSDIFVIGWE-STINEH
 ```
 
-# Modeling mutations of *Mus musculus* mitochondrial cytochrome c oxidase I
+# Project 2: Modeling mutations of *Mus musculus* mitochondrial cytochrome c oxidase subunit I
 Background information here
 
 ## Purpose: To investigate the effect of mutations on predicted protein structure
-## Hypothesis: how mutations will mutations affect the function of your gene of interest?
-### Alternative hypothesis: the opposite
-## Methodology: describe how you will test the idea with the tools you've been introduced to, and how you will create the mutations (be sure to add links to the tools! We will properly cite them later. Provide an explanation and prediction as to why you chose the region you did to mutate.
+Hypothesis: how will mutations affect the function of your gene of interest?
+Alternative hypothesis: opposing view
+
+## Methodology:
+Describe how you will test the idea with the tools you've been introduced to, and how you will create the mutations (be sure to add links to the tools! We will properly cite them later. Provide an explanation and prediction as to why you chose the region you did to mutate.
 
 Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase, it's translated sequence from the [ExPASy Translate Tool](https://web.expasy.org/translate/), and [SWISS-MODEL](https://swissmodel.expasy.org/assess/SAhTnr/01) protein prediction. These will serve as control sequences for the mutated proteins.
 
@@ -186,6 +188,8 @@ PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 Explanation of INDEL dot plot changes observed and why.
 Centered & resized INDEL nucelotide dot plot GIF here.
 
-## Results: 
+## Results:
+Discuss your findings. Do they support or reject your hypothesis? Why or why not?
 
-## Conclusions: end the section by stating which mutation you think would achieve a change in function and why (remember what the protein does)
+## Conclusions:
+End the section by stating which mutation you think would achieve a change in function and why (remember what the protein does).
