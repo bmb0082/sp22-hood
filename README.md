@@ -36,7 +36,7 @@ AATTTAGAATGACTTCATGGCTGCCCTCCACCATATCACACATTCGAGGAACCAACCTATGTAAAAGTAA
 AATAA
 ```
 
-### Predicted model of the mt-Co1 protein, presented 5'-3'
+### Predicted model of COX1, presented 5'-3'
 Reading the translated sequence 5'-3' is the correct direction, as it generates a defined structure of cytochrome c oxidase I. [ExPASy Translate Tool](https://web.expasy.org/translate/) recognized the entire gene in this direction as a single open reading frame, and [SWISS-MODEL](https://swissmodel.expasy.org/interactive/SAhTnr/models/) generated a 94.16% sequence homology to bovine heart cytochrome c oxidase subunit I. Likewise, it models a protein-ligand interaction pipeline between the active site and a peroxide ion, shown as two red dots in the catalytic core.
 
 <p align="center">
@@ -52,7 +52,7 @@ HGGNIKWSPAMLWALGFIFLFTVGGLTGIVLSNSSLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGFTLDD
 PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 ```
 
-### Predicted model of the mt-Co1 protein, presented 3'-5'
+### Predicted model of COX1, presented 3'-5'
 This is not the correct folding conformation of cytochrome c oxidase I. Reading the translated sequence 3'-5' results in a polypeptide that lacks structural integrity and the binding pockets for heme-a, heme-a3, and CuB copper (II) cofactors that are necessary for successful electron transport.
 
 <p align="center">
@@ -81,9 +81,9 @@ Hypothesis - If there is mutation in the active site of an enzyme, the enzyme's 
 ## Methodology
 The wild-type gene encoding COX1 was translated in the 5'-3' direction using [ExPASy Translate Tool](https://web.expasy.org/translate/) and modeled based on homology using [SWISS-MODEL](https://swissmodel.expasy.org). Based on the model of the wild-type control COX1 protein, the residues involved in the active site were identified as H240, V243, H290, and H291. I chose to create mutations in these amino acids in order to observe how they would affect ligand binding, as the active site residues are the most indicative of protein function.
 
-An insertion mutation, deletion mutation, and an insertion/deletion mutation respectively were added directly into the translated sequence at the amino acid level and modeled, producing models for all three in order to observe physical changes in protein structure. Dotplots comparing nucelotide seqeucens of each mutation agaisnt the control were created using [JDotter](https://4virology.net/virology-ca-tools/jdotter/) in order to view the differences between the sequences and have a visual representation of what occurs for each mutation.
+An insertion mutation, deletion mutation, and an insertion/deletion mutation respectively were added directly into the translated sequence at the amino acid level and modeled, producing models for all three in order to observe physical changes in protein structure. Dotplots comparing nucelotide seqeucens of each mutation agaisnt the control were created using [JDotter](https://4virology.net/virology-ca-tools/jdotter/) in order to view the differences between the sequences and have a visual representation of what occurs for each mutation and where.
 
-Below is the selected nucelotide reference sequence for the cytochrome c oxidase subunit I, its 5'-3' translated sequence, and the modeled protein prediction that will serve as the control for the mutated proteins.
+Below is the selected nucleotide reference sequence for the cytochrome c oxidase subunit I, its 5'-3' translated sequence, and the modeled protein prediction that will serve as the control for the mutated proteins.
 
 ```
 Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
