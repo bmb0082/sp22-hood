@@ -76,7 +76,7 @@ Mutations do not always have to cause a change in phenotype. These mutations, ca
 In this project, all mutations will be performed at the amino acid level, such as changes, insertions, or deletions of one or more amino acids that may or may not affect the overall function of the protein.
 
 ## Purpose - To investigate the effects of amino acid mutations on predicted protein structure
-Hypothesis: If there is mutation in the active site of an enzyme, the enzyme's affinity for substrate will decrease or cause loss of function.
+Hypothesis - If there is mutation in the active site of an enzyme, the enzyme's affinity for substrate will decrease or cause loss of function.
 
 ## Methodology
 The wild-type gene encoding COX1 was translated in the 5'-3' direction using [ExPASy Translate Tool](https://web.expasy.org/translate/) and modeled based on homology using [SWISS-MODEL](https://swissmodel.expasy.org). Based on the model of the wild-type control COX1 protein, the residues involved in the active site were identified as H240, V243, H290, and H291. I chose to create mutations in these amino acids in order to observe how they would affect ligand binding, as the active site residues are the most indicative of protein function.
@@ -131,14 +131,14 @@ PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 ```
 
 ### Insertion Mutation
-Single amino acid insertion mutations occur when three contiguous nucleotides are inserted into a gene, resulting in an additional residue somewhere in the primary sequence of the translated protein. Below, a proline (P) residue was inserted between the two wild-type histidines (H290, H291) involved in the the active site. I chose to insert a proline here because it is a notorious "helix breaker" due to its unique structure as the only amino acid where the side chain is connected to the backbone twice, making it rigid and disruptive to the regular α helical backbone conformation. Analysis of the active site using [SWISS-MODEL](https://swissmodel.expasy.org/interactive/6DHyNG/models/) confirms that P291 kinks the chain enough to pull H290 away from interacting in the active site; however, stabilization from other residues in the new active site (H240, V243, H292) still permits ligand binding, shown as two red dots on the model.
+Single amino acid insertion mutations occur when one codon or three contiguous nucleotides are inserted into a gene, resulting in an additional residue somewhere in the primary sequence of the translated protein. Below, a proline (P) residue was inserted between the two wild-type histidines (H290, H291) involved in the the active site. I chose to insert a proline here because it is a notorious "helix breaker" due to its unique structure as the only amino acid where the side chain is connected to the backbone twice, making it rigid and disruptive to the regular α helical backbone conformation. Analysis of the active site using [SWISS-MODEL](https://swissmodel.expasy.org/interactive/6DHyNG/models/) confirms that P291 kinks the chain enough to pull H290 away from interacting in the active site; however, stabilization from other residues in the new active site (H240, V243, H292) still permits ligand binding, represented as two red dots on the model below.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/151746314-195cc2b9-c203-438f-a71f-044387dc412d.png" width="600" height="600">
 </p>
 
 ```
-Mutated sequence, insertion of P between H290 and H291, translated 5'-3'
+Mutated sequence, insertion of P291, translated 5'-3'
 MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLGDDQIYNVIVTAHAFVMIFFMVMPMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSF
 LLLLASSMVEAGAGTGWTVYPPLAGNLAHAGASVDLTIFSLHLAGVSSILGAINFITTIINMKPPAMTQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTT
 FFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWA/HPH/MFTVGLDVDTRAYFTSATMIIAIPTGVKVFSWLAT
@@ -148,17 +148,17 @@ MPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 
 Explanation of INS dot plot changes observed and why.
 
-Centered & resized INS nucelotide dot plot GIF here.
+Add centered & resized INS nucelotide dot plot GIF here.
 
 ### Deletion Mutation
-Explanation of DEL mutation, its effect, and why.
+Single amino acid deletion mutations occur when one codon or three contiguous nucleotides are removed from a gene, resulting in loss of a residue somewhere in the primary sequence of the translated protein. Below, H291 was removed from the wild-type primary sequence, resuling in a new active site with only three residues (H240, V243, H290). I chose to remove one of the contiguous active site histidines in order to see if their combined activity is a significant factor in ligand association. Despite the deletion producing a similar active site to the insertion mutation, [SWISS-MODEL](https://swissmodel.expasy.org/interactive/MqvkuH/models/) analysis of the active site shows that the new active site does not bind the ligand. This difference could be because removing the histidine entirely as opposed to displacing it from the active site also removes the peripheral stabilization of the second histidine.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/151746630-abef7de7-909d-4c22-a074-f1af242938d7.png" width="600" height="600">
 </p>
 
 ```
-Mutated sequence, deletion of H290, translated 5'-3'
+Mutated sequence, deletion of H291, translated 5'-3'
 MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLGDDQIYNVIVTAHAFVMIFFMVMPMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSF
 LLLLASSMVEAGAGTGWTVYPPLAGNLAHAGASVDLTIFSLHLAGVSSILGAINFITTIINMKPPAMTQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTT
 FFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWA/H/MFTVGLDVDTRAYFTSATMIIAIPTGVKVFSWLATLH
@@ -168,17 +168,17 @@ RRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 
 Explanation of DEL dot plot changes observed and why.
 
-Centered & resized DEL nucelotide dot plot GIF here.
+Add centered & resized DEL nucelotide dot plot GIF here.
 
 ### Insertion and Deletion Mutation
-Explanation of INDEL mutation, its effect, and why.
+Single amino acid insertion and deletion mutations (INDELS) occur when one codon or three contiguous nucleotides are removed from a gene and different ones are inserted in their place, resulting in a substitution of an amino acid somewhere in the primary sequence of the translated protein. Below, H290 and H291 of the active site are removed and replaced with two glycine residues (G290, G291). I chose to insert glycine, the amino acid with the smallest R group, a single hydrogen, here in order to observe how completely replacing of the electrostatic effects of the contiguous active site histidines with small, hydrophobic residues would affect binding of a hydrophilic ligand. As shown by analysis of the active site using [SWISS-MODEL](https://swissmodel.expasy.org/interactive/4XSm2G/models/), this substitution results in complete loss of active site integrity and a loss of ligand binding affinity.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/151746674-c42968c7-bfd3-4401-9c9b-53f9acd134b4.png" width="600" height="600">
 </p>
 
 ```
-Mutated sequence, deletion of H290 and H291 and insertion of G290 G291, translated 5'-3'
+Mutated sequence, deletion of H290 and H291, insertion of G290 G291, translated 5'-3'
 MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLGDDQIYNVIVTAHAFVMIFFMVMPMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSF
 LLLLASSMVEAGAGTGWTVYPPLAGNLAHAGASVDLTIFSLHLAGVSSILGAINFITTIINMKPPAMTQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTT
 FFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLGFIVWA/GG/MFTVGLDVDTRAYFTSATMIIAIPTGVKVFSWLATL
@@ -188,7 +188,7 @@ PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 
 Explanation of INDEL dot plot changes observed and why.
 
-Centered & resized INDEL nucelotide dot plot GIF here.
+Add centered & resized INDEL nucelotide dot plot GIF here.
 
 ## Results
 Discuss your findings. Do they support or reject your hypothesis? Why or why not?
