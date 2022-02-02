@@ -1,7 +1,7 @@
-# Project 1: Modeling *Mus musculus* mitochondrial cytochrome c oxidase subunit I
+# Project 1 - Modeling *Mus musculus* mitochondrial cytochrome c oxidase subunit I
 Mitochrondrial cytochrome c oxidase I (COX1), encoded by the mt-Co1 gene, is a subunit of cytochrome c oxidase (RC-IV), the last enzyme in the mitochondiral electron transport chain. Correct native protein structure is essential for safe acceptance of terminal electons and overall mitochondiral efficiency. As a result, errors in COX1 can trap electrons in respiratory complex-III (RC-III), resulting in increased production of reactive oxygen species. Cytochrome c oxidase deficiency is the most common cause of genetic mitochondiral disorders, presenting as multi-organ, heterogeneous symptoms depending on the level of mitochondiral efficiency.
 
-## Purpose: To understand the importance of direction when modeling proteins from translated sequences
+## Purpose - To understand the importance of direction when modeling proteins from translated sequences
 
 Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase. I chose this gene because COX1 contains the catalytic unit of cytochrome c oxidase; therefore, it's correct stucture and function are vital for the enzyme's overall activity. I wanted to see how differently the protein would fold depending on the directionality of the translated sequence.
 ```
@@ -68,17 +68,17 @@ YGSDK-WSLMLCYGWGFHVDNSGNKINCT-N-WHSS-MKGENC-VYWCSCMG-ISG--WVDCSSCSCSCFYYWWC-EKEK
 SKASNYYWYYYEENYNKSMGSYDNIVNLVIS-KCTWLT-FCSN-NT-CSTHYSRSGSE--MEGSDIFVIGWE-STINEH
 ```
 
-# Project 2: Modeling mutations of *Mus musculus* mitochondrial cytochrome c oxidase subunit I
+# Project 2 - Modeling mutations of *Mus musculus* mitochondrial cytochrome c oxidase subunit I
 Mutations are changes in DNA sequence that result in a variant form that can be passed down to subsequent generations. Most commonly, alterations in the structure of a gene are caused by single nucleotide transversion or transversion mutations called single nucleotide polymorphisms (SNPs). However, mutations can also arise from insersion, deletion, or rearrangement of sections of a gene or chromosome.
 
 Mutations do not always have to cause a change in phenotype. These mutations, called neutral mutations, produce *synonymous proteins* that have the same function as the wild type. This can occur when single nucleotide changes encode the same amino acid or a residue with similar enough electrostatic properties to produce a protein with unaltered function. Alternatively, mutations that produce *non-synonymous* proteins, or proteins with altered function, usually, but not always, result from more drastic changes in the genome. For example, frameshift mutations such as insertions or deletions or rearrangement mutations at the chromosomal level can result in a completely different downstream primary structure, causing improper folding and complete loss of function.
 
 In this project, all mutations will be performed at the amino acid level, such as changes, insertions, or deletions of one or more amino acids that may or may not affect the overall function of the protein.
 
-## Purpose: To investigate the effects of amino acid mutations on predicted protein structure
+## Purpose - To investigate the effects of amino acid mutations on predicted protein structure
 Hypothesis: If there is mutation in the active site of an enzyme, the enzyme's affinity for substrate will decrease or cause loss of function.
 
-## Methodology:
+## Methodology
 The wild-type gene encoding COX1 was translated in the 5'-3' direction using [ExPASy Translate Tool](https://web.expasy.org/translate/) and modeled based on homology using [SWISS-MODEL](https://swissmodel.expasy.org). Based on the model of the wild-type control COX1 protein, the residues involved in the active site were identified as H240, V243, H290, and H291. I chose to create mutations in these amino acids in order to observe how they would affect ligand binding, as the active site residues are the most indicative of protein function.
 
 An insertion mutation, deletion mutation, and an insertion/deletion mutation respectively were added directly into the translated sequence at the amino acid level and modeled, producing models for all three in order to observe physical changes in protein structure. Dotplots comparing nucelotide seqeucens of each mutation agaisnt the control were created using [JDotter](https://4virology.net/virology-ca-tools/jdotter/) in order to view the differences between the sequences and have a visual representation of what occurs for each mutation.
@@ -150,7 +150,7 @@ Explanation of INS dot plot changes observed and why.
 
 Centered & resized INS nucelotide dot plot GIF here.
 
-### Deletion
+### Deletion Mutation
 Explanation of DEL mutation, its effect, and why.
 
 <p align="center">
@@ -170,7 +170,7 @@ Explanation of DEL dot plot changes observed and why.
 
 Centered & resized DEL nucelotide dot plot GIF here.
 
-### INDEL
+### Insertion and Deletion Mutation
 Explanation of INDEL mutation, its effect, and why.
 
 <p align="center">
@@ -190,8 +190,8 @@ Explanation of INDEL dot plot changes observed and why.
 
 Centered & resized INDEL nucelotide dot plot GIF here.
 
-## Results:
+## Results
 Discuss your findings. Do they support or reject your hypothesis? Why or why not?
 
-## Conclusions:
+## Conclusions
 End the section by stating which mutation you think would achieve a change in function and why (remember what the protein does).
