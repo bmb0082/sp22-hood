@@ -148,7 +148,7 @@ MPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 
 Explanation of INS dot plot changes observed and why.
 
-Add centered & resized INS nucelotide dot plot GIF here.
+![INS](https://user-images.githubusercontent.com/98036665/152242763-bf09633f-807e-4773-888c-3dc86f7ae85e.gif)
 
 ### Deletion Mutation
 Single amino acid deletion mutations occur when one codon or three contiguous nucleotides are removed from a gene, resulting in loss of a residue somewhere in the primary sequence of the translated protein. Below, H291 was removed from the wild-type primary sequence, resuling in a new active site with only three residues (H240, V243, H290). I chose to remove one of the contiguous active site histidines in order to see if their combined activity is a significant factor in ligand association. Despite the deletion producing a similar active site to the insertion mutation, [SWISS-MODEL](https://swissmodel.expasy.org/interactive/MqvkuH/models/) analysis of the active site shows that the new active site does not bind the ligand. This difference could be because removing the histidine entirely as opposed to displacing it from the active site also removes the peripheral stabilization of the second histidine.
@@ -168,7 +168,7 @@ RRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 
 Explanation of DEL dot plot changes observed and why.
 
-Add centered & resized DEL nucelotide dot plot GIF here.
+![DEL](https://user-images.githubusercontent.com/98036665/152242715-0fda2d53-6f93-4ab9-a6eb-91a48313cdc8.gif)
 
 ### Insertion and Deletion Mutation
 Single amino acid insertion and deletion mutations (INDELS) occur when one codon or three contiguous nucleotides are removed from a gene and different ones are inserted in their place, resulting in a substitution of an amino acid somewhere in the primary sequence of the translated protein. Below, H290 and H291 of the active site are removed and replaced with two glycine residues (G290, G291). I chose to insert glycine, the amino acid with the smallest R group, a single hydrogen, here in order to observe how completely replacing of the electrostatic effects of the contiguous active site histidines with small, hydrophobic residues would affect binding of a hydrophilic ligand. As shown by analysis of the active site using [SWISS-MODEL](https://swissmodel.expasy.org/interactive/4XSm2G/models/), this substitution results in complete loss of active site integrity and a loss of ligand binding affinity.
@@ -188,7 +188,7 @@ PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 
 Explanation of INDEL dot plot changes observed and why.
 
-Add centered & resized INDEL nucelotide dot plot GIF here.
+![INDEL](https://user-images.githubusercontent.com/98036665/152242496-e104637c-0838-4d8d-8201-2b8d03089255.gif)
 
 ## Results
 Discuss your findings. Do they support or reject your hypothesis? Why or why not?
