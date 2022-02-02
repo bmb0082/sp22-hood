@@ -1,9 +1,9 @@
 # Project 1: Modeling *Mus musculus* mitochondrial cytochrome c oxidase subunit I
-Mitochrondrial cytochrome c oxidase I (mt-Co1) is a subunit of cytochrome c oxidase (RC-IV), the last enzyme in the mitochondiral electron transport chain. Correct native protein structure is essential for safe acceptance of terminal electons and overall mitochondiral efficiency. As a result, errors in mt-Co1 can trap electrons in respiratory complex-III (RC-III), resulting in increased production of reactive oxygen species. Cytochrome c oxidase deficiency is the most common cause of genetic mitochondiral disorders, presenting as multi-organ, heterogeneous symptoms depending on the level of mitochondiral efficiency.
+Mitochrondrial cytochrome c oxidase I (COX1), encoded by the mt-Co1 gene, is a subunit of cytochrome c oxidase (RC-IV), the last enzyme in the mitochondiral electron transport chain. Correct native protein structure is essential for safe acceptance of terminal electons and overall mitochondiral efficiency. As a result, errors in COX1 can trap electrons in respiratory complex-III (RC-III), resulting in increased production of reactive oxygen species. Cytochrome c oxidase deficiency is the most common cause of genetic mitochondiral disorders, presenting as multi-organ, heterogeneous symptoms depending on the level of mitochondiral efficiency.
 
 ## Purpose: To understand the importance of direction when modeling proteins from translated sequences
 
-Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase. I chose this gene because mt-Co1 contains the catalytic unit of cytochrome c oxidase; therefore, it's correct stucture and function are vital for the enzyme's overall activity. I wanted to see how differently the protein would fold depending on the directionality of the translated sequence.
+Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase. I chose this gene because COX1 contains the catalytic unit of cytochrome c oxidase; therefore, it's correct stucture and function are vital for the enzyme's overall activity. I wanted to see how differently the protein would fold depending on the directionality of the translated sequence.
 ```
 Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
 Mus musculus mitochondrion, complete genome
@@ -69,17 +69,21 @@ SKASNYYWYYYEENYNKSMGSYDNIVNLVIS-KCTWLT-FCSN-NT-CSTHYSRSGSE--MEGSDIFVIGWE-STINEH
 ```
 
 # Project 2: Modeling mutations of *Mus musculus* mitochondrial cytochrome c oxidase subunit I
-Background information here
+Mutations are changes in DNA sequence that result in a variant form that can be passed down to subsequent generations. Most commonly, alterations in the structure of a gene are caused by single nucleotide transversion or transversion mutations called single nucleotide polymorphisms (SNPs). However, mutations can also arise from insersion, deletion, or rearrangement of sections of a gene or chromosome.
 
-## Purpose: To investigate the effect of mutations on predicted protein structure
-Hypothesis: how will mutations affect the function of your gene of interest?
+Mutations do not always have to cause a change in phenotype. These mutations, called neutral mutations, produce *synonymous proteins* that have the same function as the wild type. This can occur when single nucleotide changes encode the same amino acid or a residue with similar enough electrostatic properties to produce a protein with unaltered function. Alternatively, mutations that produce *non-synonymous* proteins, or proteins with altered function, usually, but not always, result from more drastic changes in the genome. For example, frameshift mutations such as insertions or deletions or rearrangement mutations at the chromosomal level can result in a completely different downstream primary structure, causing improper folding and complete loss of function.
 
-Alternative hypothesis: opposing view
+In this project, all mutations will be performed at the amino acid level, such as changes, insertions, or deletions of one or more amino acids that may or may not affect the overall function of the protein.
+
+## Purpose: To investigate the effects of amino acid mutations on predicted protein structure
+Hypothesis: If there is mutation in the active site of an enzyme, the enzyme's affinity for substrate will decrease or cause loss of function.
 
 ## Methodology:
-Describe how you will test the idea with the tools you've been introduced to, and how you will create the mutations (be sure to add links to the tools! We will properly cite them later. Provide an explanation and prediction as to why you chose the region you did to mutate.
+The wild-type gene encoding COX1 was translated in the 5'-3' direction using [ExPASy Translate Tool](https://web.expasy.org/translate/) and modeled based on homology using [SWISS-MODEL](https://swissmodel.expasy.org/assess/SAhTnr/01). Based on the model of the wild-type control COX1 protein, the residues involved in the active site were identified as H240, V243, H290, and H291. I chose to create mutations in these amino acids in order to observe how they would affect ligand binding, as the active site residues are the most indicative of protein function.
 
-Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase, it's translated sequence from the [ExPASy Translate Tool](https://web.expasy.org/translate/), and [SWISS-MODEL](https://swissmodel.expasy.org/assess/SAhTnr/01) protein prediction. These will serve as control sequences for the mutated proteins.
+An insertion mutation, deletion mutation, and an insertion/deletion mutation respectively were added directly into the translated sequence at the amino acid level and modeled, producing models for all three in order to observe physical changes in protein structure. Dotplots comparing nucelotide seqeucens of each mutation agaisnt the control were created using [JDotter](https://4virology.net/virology-ca-tools/jdotter/) in order to view the differences between the sequences and have a visual representation of what occurs for each mutation.
+
+Below is the selected nucelotide reference sequence for the cytochrome c oxidase subunit I, its 5'-3' translated sequence, and the modeled protein prediction that will serve as the control for the mutated proteins.
 
 ```
 Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
@@ -126,8 +130,8 @@ HGGNIKWSPAMLWALGFIFLFTVGGLTGIVLSNSSLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGFTLDD
 PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 ```
 
-### Insertion
-Explanation of INS mutation, its effect, and why.
+### Insertion Mutation
+Single amino acid insertion mutations occur when three contiguous nucleotides are inserted into a gene, resulting in an additional residue somewhere in the primary sequence of the translated protein. Below, a proline (P) residue was inserted between the two wild-type histidines (H290, H291) involved in the the active site. I chose to insert a proline here because it is a notorious "helix breaker" due to its unique structure as the only amino acid where the side chain is connected to the backbone twice, making it rigid and disruptive to the regular α helical backbone conformation. Analysis of the active site using [SWISS-MODEL](https://swissmodel.expasy.org/assess/SAhTnr/01) confirms that P291 kinks the chain enough to pull H290 away from interacting in the active site; however, stabilization from other residues in the new active site (H240, V243, H292) still permits ligand binding, shown as two red dots on the model.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/151746314-195cc2b9-c203-438f-a71f-044387dc412d.png" width="600" height="600">
