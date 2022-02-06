@@ -1,4 +1,15 @@
-# Project 1 - Modeling *Mus musculus* mitochondrial cytochrome c oxidase subunit I
+# Table of Contents
+
+<details>
+<summary>Projects</summary>
+
+ 1. [Modeling transcript directionality in Mus musculus mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/edit/main/README.md#project-1---modeling-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
+ 2. [Modeling insertions, deletions, and INDEL mutations in Mus musculus mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/edit/main/README.md#project-2---modeling-mutations-of-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
+ 
+</details>
+
+
+# Modeling transcript directionality in *Mus musculus* mitochondrial cytochrome c oxidase subunit I
 Mitochrondrial cytochrome c oxidase I (COX1), encoded by the mt-Co1 gene, is a subunit of cytochrome c oxidase (RC-IV), the last enzyme in the mitochondiral electron transport chain. Correct native protein structure is essential for safe acceptance of terminal electons and overall mitochondiral efficiency. As a result, errors in COX1 can trap electrons in respiratory complex-III (RC-III), resulting in increased production of reactive oxygen species. Cytochrome c oxidase deficiency is the most common cause of genetic mitochondiral disorders, presenting as multi-organ, heterogeneous symptoms depending on the level of mitochondiral efficiency.
 
 ## Purpose - To understand the importance of direction when modeling proteins from translated sequences
@@ -68,7 +79,7 @@ YGSDK-WSLMLCYGWGFHVDNSGNKINCT-N-WHSS-MKGENC-VYWCSCMG-ISG--WVDCSSCSCSCFYYWWC-EKEK
 SKASNYYWYYYEENYNKSMGSYDNIVNLVIS-KCTWLT-FCSN-NT-CSTHYSRSGSE--MEGSDIFVIGWE-STINEH
 ```
 
-# Project 2 - Modeling mutations of *Mus musculus* mitochondrial cytochrome c oxidase subunit I
+# Modeling insertions, deletions, and INDEL mutations in *Mus musculus* mitochondrial cytochrome c oxidase subunit I
 Mutations are changes in DNA sequence that result in a variant form that can be passed down to subsequent generations. Most commonly, alterations in the structure of a gene are caused by single nucleotide transversion or transversion mutations called single nucleotide polymorphisms (SNPs). However, mutations can also arise from insersion, deletion, or rearrangement of sections of a gene or chromosome.
 
 Mutations do not always have to cause a change in phenotype. These mutations, called neutral mutations, produce *synonymous proteins* that have the same function as the wild type. This can occur when single nucleotide changes encode the same amino acid or a residue with similar enough electrostatic properties to produce a protein with unaltered function. Alternatively, mutations that produce *non-synonymous* proteins, or proteins with altered function, usually, but not always, result from more drastic changes in the genome. For example, frameshift mutations such as insertions or deletions or rearrangement mutations at the chromosomal level can result in a completely different downstream primary structure, causing improper folding and complete loss of function.
