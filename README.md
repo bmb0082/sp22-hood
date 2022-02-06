@@ -220,7 +220,7 @@ As before, a baseline was created by plotting the unmutated control sequence aga
 <img src="https://user-images.githubusercontent.com/98036665/152242496-e104637c-0838-4d8d-8201-2b8d03089255.gif" width="60%" height="60%"/>
 </p>
 
-Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced an alignment score of 2760 with an identity of 1539/1545(99%) compared to the control COX1 gene. As shown below, there is a mismatch of of 6 nucleotides, caused by deletion of *CACCAC*, encoding two histidines at amino acid positions 290 and 291, and insertion of *GGGGGG*, encoding two glycines at amino acid positions 290 and 291, in the subject sequence starting at base pair 868. This matches up with the INDEL mutation shown in the dot plot above.
+Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced an alignment score of 2760 with an identity of 1539/1545(99%) compared to the control COX1 gene. As shown below, there is a mismatch of of 6 nucleotides, caused by deletion of *CACCAC*, encoding two histidines at amino acid positions 290 and 291, and insertion of *GGGGGG*, encoding two glycines at amino acid positions 290 and 291, in the subject sequence starting at base pair 868. This matches up with the INDEL mutation shown in the dot plot above. Out of the three mutations made, the INDEL has the lowest sequence alignment score.
 
 <p align="center">
 <img width="653" alt="INDEL" src="https://user-images.githubusercontent.com/98036665/152701414-e457b9f1-e679-40d5-8ae2-8357b2061c9c.png">
