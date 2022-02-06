@@ -148,11 +148,9 @@ MPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 
 The figure below compares two dot plots. The control dot plot compared the unmutated sequence plotted agaisnt itself to create a baseline. The second dot plot shows the unmutated control COX1 nucleotide sequence on the X-axis and the COX1 sequence mutated with a proline codon insertion on the Y-axis. Flipping back and forth between the two plots reveals differences in their nucleotide sequence around the 850bp mark. The mutated graph expands, or gains nucelotides, compared to the control due to the insertion mutation. This change is most easily observed by watching the domain and range of the mutated graph expand compated to the control.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/98036665/152700427-8b1345f9-149b-4776-86a4-1c005b067d22.gif)" alt="animated" />
-</p>
+![INS](https://user-images.githubusercontent.com/98036665/152700666-b02b93f7-0b49-43ee-a0fb-c5ef9c9a38da.gif)
 
-Alignment created by [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi#alnHdr_Query_458007) produced a 1545/1548(99%) sequence identity score compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by insertion of *CCC*, encoding proline, in the subject sequence after base pair 870. This matches up with the insertion shown in the dot plot above.
+Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi#alnHdr_Query_458007) produced a 1545/1548(99%) sequence identity score compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by insertion of *CCC*, encoding proline, in the subject sequence after base pair 870. This matches up with the insertion shown in the dot plot above.
 
 <p align="center">
 <img width="653" alt="INS" src="https://user-images.githubusercontent.com/98036665/152700341-fe8f4617-6e03-4c4d-a476-8d3f9df519bb.png">
@@ -177,6 +175,12 @@ RRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 As before, a baseline was created by plotting the unmutated control sequence agaisnt itself. The second dot plot shows the unmutated control COX1 nucleotide sequence on the X-axis and the COX1 sequence mutated by the H291 codon deletion on the Y-axis. Similar to the insertion mutation, flipping back and forth between the two plots reveals differences in their nucleotide sequence around the 850bp mark; however, in this instance, the mutated graph contracts, or loses nucelotides, compared to the control due to the deletion mutation. This change is most easily observed by watching the domain and range of the mutated graph shrink compated to the control.
 
 ![DEL](https://user-images.githubusercontent.com/98036665/152242715-0fda2d53-6f93-4ab9-a6eb-91a48313cdc8.gif)
+
+Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi#alnHdr_Query_287953) produced a score of 2772 with an identity of 1545/1548(99%) compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by deletion of *CAC*, encoding H291, in the subject sequence starting at base pair 868. This matches up with the deletion shown in the dot plot above.
+
+<p align="center">
+<img width="653" alt="DEL" src="https://user-images.githubusercontent.com/98036665/152701058-ed3fd6b9-17ad-4c9b-a4f0-2337635a928f.png">
+</p>
 
 ### Insertion of G290, G291 and Deletion of H290, H291
 Single amino acid insertion and deletion mutations (INDELS) occur when one codon or three contiguous nucleotides are removed from a gene and different ones are inserted in their place, resulting in a substitution of an amino acid somewhere in the primary sequence of the translated protein. Below, H290 and H291 of the active site are removed and replaced with two glycine residues (G290, G291). I chose to insert glycine, the amino acid with the smallest R group, a single hydrogen, here in order to observe how completely replacing of the electrostatic effects of the contiguous active site histidines with small, hydrophobic residues would affect binding of a hydrophilic ligand. As shown by analysis of the active site using [SWISS-MODEL](https://swissmodel.expasy.org/interactive/4XSm2G/models/), this substitution results in complete loss of active site integrity and a loss of ligand binding affinity.
