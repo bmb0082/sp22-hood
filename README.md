@@ -150,7 +150,7 @@ The figure below compares two dot plots. The control dot plot compared the unmut
 
 ![INS](https://user-images.githubusercontent.com/98036665/152700666-b02b93f7-0b49-43ee-a0fb-c5ef9c9a38da.gif)
 
-Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi#alnHdr_Query_458007) produced a 1545/1548(99%) sequence identity score compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by insertion of *CCC*, encoding proline, in the subject sequence after base pair 870. This matches up with the insertion shown in the dot plot above.
+Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced an alignment score of 2777 with an identity of 1545/1548(99%) compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by insertion of of *CCC*, encoding the proline, in the subject sequence after base pair 870. This matches up with the insertion shown in the dot plot above.
 
 <p align="center">
 <img width="653" alt="INS" src="https://user-images.githubusercontent.com/98036665/152700341-fe8f4617-6e03-4c4d-a476-8d3f9df519bb.png">
@@ -176,7 +176,7 @@ As before, a baseline was created by plotting the unmutated control sequence aga
 
 ![DEL](https://user-images.githubusercontent.com/98036665/152242715-0fda2d53-6f93-4ab9-a6eb-91a48313cdc8.gif)
 
-Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi#alnHdr_Query_287953) produced a score of 2772 with an identity of 1545/1548(99%) compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by deletion of *CAC*, encoding H291, in the subject sequence starting at base pair 868. This matches up with the deletion shown in the dot plot above.
+Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced an alignment score of 2772 with an identity of 1545/1548(99%) compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by deletion of *CAC*, encoding histidine at amino acid position 291, in the subject sequence starting at base pair 868. This matches up with the deletion shown in the dot plot above.
 
 <p align="center">
 <img width="653" alt="DEL" src="https://user-images.githubusercontent.com/98036665/152701058-ed3fd6b9-17ad-4c9b-a4f0-2337635a928f.png">
@@ -201,6 +201,12 @@ PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 As before, a baseline was created by plotting the unmutated control sequence agaisnt itself. The second dot plot shows the unmutated control COX1 nucleotide sequence on the X-axis and the COX1 sequence mutated by a H290, H291 deletion and a G290, G291 insertion on the Y-axis. Similar to the both previous mutations, flipping back and forth between the two plots reveals differences in their nucleotide sequence around the 850bp mark. Contrasting the two previous mutations, there is no change in the domain or range of the mutated graph compared to the control because INDEL mutations result in a replacement of nucleotides rather than addition or subtraction. Compared to the control, this change is most easily observed by watching how the appearance of the dots around the 850bp mark change between the two graphs.
 
 ![INDEL](https://user-images.githubusercontent.com/98036665/152242496-e104637c-0838-4d8d-8201-2b8d03089255.gif)
+
+Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced an alignment score of 2760 with an identity of 1539/1545(99%) compared to the control COX1 gene. As shown below, there is a mismatch of of 6 nucleotides, caused by deletion of *CACCAC*, encoding two histidine at amino acid positions 290 and 291, and insertion of *GGGGGG*, encoding two glycines at amino acid positions 290 and 291, in the subject sequence starting at base pair 868. This matches up with the INDEL mutation shown in the dot plot above.
+
+<p align="center">
+<img width="653" alt="INDEL" src="https://user-images.githubusercontent.com/98036665/152701414-e457b9f1-e679-40d5-8ae2-8357b2061c9c.png">
+</p>
 
 ## Results & Discussion
 The data gathered in this experiment supports the hypothesis that if there is mutation in the active site of an enzyme, the enzyme's affinity for substrate will decrease or cause loss of function. Though the insertion of P291 still allows ligand binding, SWISS-MODEL active site analysis shows decreased sustrate affinity due to an alpha helix kink that prevents H290's adequate participation in active site stabilization. Likewise, the deletion of H291 eliminates ligand binding due to the removal of an integral active site residue. Alongside, the INDEL mutation, caused by deletion of H290, H291 and insertion of G290, G291 in its place, eliminates recognition of the active site by replacing two integral positively charged residues with hydrophobic glycine residues that lake any electrostatic properties. 
