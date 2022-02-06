@@ -148,7 +148,7 @@ Single amino acid insertion mutations occur when one codon or three contiguous n
 <img src="https://user-images.githubusercontent.com/98036665/151746314-195cc2b9-c203-438f-a71f-044387dc412d.png" width="600" height="600">
 </p>
 
-[BLASTP](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) alignment of the amino acid sequence below yielded the highest alignment score of 1023 with identities of 514/515(99%) compared to the control COX1 translated sequence.
+[BLASTp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) alignment of the amino acid sequence below yielded the highest alignment score of 1023 with identities of 514/515(99%) compared to the control COX1 translated sequence.
 
 <pre>
 Mutated sequence, insertion of P291, translated 5'-3'
@@ -178,7 +178,7 @@ Single amino acid deletion mutations occur when one codon or three contiguous nu
 <img src="https://user-images.githubusercontent.com/98036665/151746630-abef7de7-909d-4c22-a074-f1af242938d7.png" width="600" height="600">
 </p>
 
-[BLASTP](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) alignment of the amino acid sequence below yielded the lowest alignment score of 1020 with identities of 513/514(99%) compared to the control COX1 translated sequence.
+[BLASTp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) alignment of the amino acid sequence below yielded the lowest alignment score of 1020 with identities of 513/514(99%) compared to the control COX1 translated sequence.
 
 <pre>
 Mutated sequence, deletion of H291, translated 5'-3'
@@ -209,7 +209,7 @@ Single amino acid insertion and deletion mutations (INDELS) occur when one codon
 <img src="https://user-images.githubusercontent.com/98036665/151746674-c42968c7-bfd3-4401-9c9b-53f9acd134b4.png" width="600" height="600">
 </p>
 
-[BLASTP](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) alignment of the amino acid sequence below produced an alignment score of 1021 with identities of 512/514(99%) compared to the control COX1 translated sequence.
+[BLASTp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) alignment of the amino acid sequence below produced an alignment score of 1021 with identities of 512/514(99%) compared to the control COX1 translated sequence.
 
 <pre>
 Mutated sequence, deletion of H290 H291, insertion of G290 G291, translated 5'-3'
