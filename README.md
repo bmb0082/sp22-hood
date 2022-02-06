@@ -191,6 +191,8 @@ As before, a baseline was created by plotting the unmutated control sequence aga
 ![INDEL](https://user-images.githubusercontent.com/98036665/152242496-e104637c-0838-4d8d-8201-2b8d03089255.gif)
 
 ## Results
+The data gathered in this experiment supports the hypothesis that if there is mutation in the active site of an enzyme, the enzyme's affinity for substrate will decrease or cause loss of function. Though the insertion of P291 still allows ligand binding, SWISS-MODEL active site analysis shows decreased sustrate affinity due to an alpha helix kink that prevents H290's adequate participation in active site stabilization. Likewise, the deletion of H291 eliminates ligand binding due to the removal of an integral active site residue. 
+
 Discuss your findings. Do they support or reject your hypothesis? Why or why not?
 
 ## Conclusions
