@@ -233,7 +233,7 @@ Nucleotide alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast
 </p>
 
 ### Integrative Genomics Viewer Representation
-Below is a snapshot generated in [IGV](https://software.broadinstitute.org/software/igv/download) of using a BLAST-like alignment tool (BLAT) to create a visual represenation of the three mutated sequences compared to each other and the control.
+Below is a snapshot generated in [IGV](https://software.broadinstitute.org/software/igv/download) of a visual represenation of the three mutated sequences compared to each other and the control using a BLAST-like alignment tool (BLAT).
 
 ![igv-mutations](https://user-images.githubusercontent.com/98036665/152702859-02b9d887-fa20-476f-ace1-0ab1d44ad265.png)
 
