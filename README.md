@@ -148,6 +148,8 @@ Single amino acid insertion mutations occur when one codon or three contiguous n
 <img src="https://user-images.githubusercontent.com/98036665/151746314-195cc2b9-c203-438f-a71f-044387dc412d.png" width="600" height="600">
 </p>
 
+[BLASTP](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) alignment of the amino acid sequence below yielded the highest alignment score of 1023 with identities of 514/515(99%) compared to the control COX1 translated sequence.
+
 <pre>
 Mutated sequence, insertion of P291, translated 5'-3'
 MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLGDDQIYNVIVTAHAFVMIFFMVMPMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSF
@@ -163,7 +165,7 @@ The figure below compares two dot plots. The control dot plot compared the unmut
 <img src="https://user-images.githubusercontent.com/98036665/152700666-b02b93f7-0b49-43ee-a0fb-c5ef9c9a38da.gif" width="60%" height="60%"/>
 </p>
 
-Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced an alignment score of 2777 with an identity of 1545/1548(99%) compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by insertion of of *CCC*, encoding the proline, in the subject sequence after base pair 870. This matches up with the insertion shown in the dot plot above.
+Nucleotide alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced the highest alignment score of 2777 with an identity of 1545/1548(99%) compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by insertion of of *CCC*, encoding the proline, in the subject sequence after base pair 870. This matches up with the insertion shown in the dot plot above.
 
 <p align="center">
 <img width="653" alt="INS" src="https://user-images.githubusercontent.com/98036665/152700341-fe8f4617-6e03-4c4d-a476-8d3f9df519bb.png">
@@ -175,6 +177,8 @@ Single amino acid deletion mutations occur when one codon or three contiguous nu
 <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/151746630-abef7de7-909d-4c22-a074-f1af242938d7.png" width="600" height="600">
 </p>
+
+[BLASTP](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) alignment of the amino acid sequence below yielded the lowest alignment score of 1020 with identities of 513/514(99%) compared to the control COX1 translated sequence.
 
 <pre>
 Mutated sequence, deletion of H291, translated 5'-3'
@@ -192,7 +196,7 @@ As before, a baseline was created by plotting the unmutated control sequence aga
 </p>
 
 
-Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced an alignment score of 2772 with an identity of 1545/1548(99%) compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by deletion of *CAC*, encoding histidine at amino acid position 291, in the subject sequence starting at base pair 868. This matches up with the deletion shown in the dot plot above.
+Nucleotide alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced an alignment score of 2772 with an identity of 1545/1548(99%) compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by deletion of *CAC*, encoding histidine at amino acid position 291, in the subject sequence starting at base pair 868. This matches up with the deletion shown in the dot plot above.
 
 <p align="center">
 <img width="653" alt="DEL" src="https://user-images.githubusercontent.com/98036665/152701058-ed3fd6b9-17ad-4c9b-a4f0-2337635a928f.png">
@@ -204,6 +208,8 @@ Single amino acid insertion and deletion mutations (INDELS) occur when one codon
 <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/151746674-c42968c7-bfd3-4401-9c9b-53f9acd134b4.png" width="600" height="600">
 </p>
+
+[BLASTP](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) alignment of the amino acid sequence below produced an alignment score of 1021 with identities of 512/514(99%) compared to the control COX1 translated sequence.
 
 <pre>
 Mutated sequence, deletion of H290 H291, insertion of G290 G291, translated 5'-3'
@@ -220,7 +226,7 @@ As before, a baseline was created by plotting the unmutated control sequence aga
 <img src="https://user-images.githubusercontent.com/98036665/152242496-e104637c-0838-4d8d-8201-2b8d03089255.gif" width="60%" height="60%"/>
 </p>
 
-Alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced an alignment score of 2760 with an identity of 1539/1545(99%) compared to the control COX1 gene. As shown below, there is a mismatch of of 6 nucleotides, caused by deletion of *CACCAC*, encoding two histidines at amino acid positions 290 and 291, and insertion of *GGGGGG*, encoding two glycines at amino acid positions 290 and 291, in the subject sequence starting at base pair 868. This matches up with the INDEL mutation shown in the dot plot above. Out of the three mutations made, the INDEL has the lowest sequence alignment score.
+Nucleotide alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) produced the lowest alignment score of 2760 with an identity of 1539/1545(99%) compared to the control COX1 gene. As shown below, there is a mismatch of of 6 nucleotides, caused by deletion of *CACCAC*, encoding two histidines at amino acid positions 290 and 291, and insertion of *GGGGGG*, encoding two glycines at amino acid positions 290 and 291, in the subject sequence starting at base pair 868. This matches up with the INDEL mutation shown in the dot plot above.
 
 <p align="center">
 <img width="653" alt="INDEL" src="https://user-images.githubusercontent.com/98036665/152701414-e457b9f1-e679-40d5-8ae2-8357b2061c9c.png">
