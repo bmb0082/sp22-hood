@@ -3,7 +3,7 @@
 <details>
 <summary>Projects</summary>
 
- 1. [Modeling transcript directionality in Mus musculus mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/edit/main/README.md#project-1---modeling-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
+ 1. [Modeling transcript directionality in Mus musculus mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/blob/main/README.md#modeling-transcript-directionality-in-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
  2. [Modeling insertions, deletions, and INDEL mutations in Mus musculus mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/edit/main/README.md#project-2---modeling-mutations-of-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
  
 </details>
