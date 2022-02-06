@@ -148,7 +148,15 @@ MPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 
 The figure below compares two dot plots. The control dot plot compared the unmutated sequence plotted agaisnt itself to create a baseline. The second dot plot shows the unmutated control COX1 nucleotide sequence on the X-axis and the COX1 sequence mutated with a proline codon insertion on the Y-axis. Flipping back and forth between the two plots reveals differences in their nucleotide sequence around the 850bp mark. The mutated graph expands, or gains nucelotides, compared to the control due to the insertion mutation. This change is most easily observed by watching the domain and range of the mutated graph expand compated to the control.
 
-![INS](https://user-images.githubusercontent.com/98036665/152242763-bf09633f-807e-4773-888c-3dc86f7ae85e.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/98036665/152700427-8b1345f9-149b-4776-86a4-1c005b067d22.gif)" alt="animated" />
+</p>
+
+Alignment created by [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast.cgi#alnHdr_Query_458007) produced a 1545/1548(99%) sequence identity score compared to the control COX1 gene. As shown below, there is a gap (-) of 3 nucleotides, caused by insertion of *CCC*, encoding proline, in the subject sequence after base pair 870. This matches up with the insertion shown in the dot plot above.
+
+<p align="center">
+<img width="653" alt="INS" src="https://user-images.githubusercontent.com/98036665/152700341-fe8f4617-6e03-4c4d-a476-8d3f9df519bb.png">
+</p>
 
 ### Deletion of H291
 Single amino acid deletion mutations occur when one codon or three contiguous nucleotides are removed from a gene, resulting in loss of a residue somewhere in the primary sequence of the translated protein. Below, H291 was removed from the wild-type primary sequence, resuling in a new active site with only three residues (H240, V243, H290). I chose to remove one of the contiguous active site histidines in order to see if their combined activity is a significant factor in ligand association. Despite the deletion producing a similar active site to the insertion mutation, [SWISS-MODEL](https://swissmodel.expasy.org/interactive/MqvkuH/models/) analysis of the active site shows that the new active site does not bind the ligand. This difference could be because removing the histidine entirely as opposed to displacing it from the active site also removes the peripheral stabilization of the second histidine.
