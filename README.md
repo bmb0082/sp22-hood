@@ -81,7 +81,7 @@ Hypothesis - If there is mutation in the active site of an enzyme, the enzyme's 
 ## Methodology
 The wild-type gene encoding COX1 was translated in the 5'-3' direction using [ExPASy Translate Tool](https://web.expasy.org/translate/) and modeled based on homology using [SWISS-MODEL](https://swissmodel.expasy.org). Based on the model of the wild-type control COX1 protein, the residues involved in the active site were identified as H240, V243, H290, and H291. I chose to create mutations in these amino acids in order to observe how they would affect ligand binding, as the active site residues are the most indicative of protein function.
 
-An insertion mutation, deletion mutation, and an insertion/deletion mutation respectively were added directly into the translated sequence and modeled as predicted proteins, producing representational models for all three in order to observe physical changes in protein structure. Dotplots comparing nucelotide sequences of each mutation against the control were created using [JDotter](https://4virology.net/virology-ca-tools/jdotter/) in order to view the differences between the sequences and have a visual representation of what occurs for each mutation and where.
+An insertion mutation, deletion mutation, and an insertion/deletion mutation respectively were added directly into the translated sequence and modeled as predicted proteins, producing representational models for all three in order to observe physical changes in protein structure. Dotplots comparing nucelotide sequences of each mutation against the control were created using [EMBOSS](https://www.bioinformatics.nl/cgi-bin/emboss/dotmatcher) in order to view the differences between the sequences through a visual representation of what occurs for each mutation and where it occurs in the nucleotide sequence.
 
 Below is the selected nucleotide reference sequence for the cytochrome c oxidase subunit I, its 5'-3' translated sequence, and the modeled protein prediction that will serve as the control for the mutated proteins.
 
@@ -146,7 +146,7 @@ LHGGNIKWSPAMLWALGFIFLFTVGGLTGIVLSNSSLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGFTLD
 MPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 </pre>
 
-Explanation of INS dot plot changes observed and why.
+The figure below compares two dot plots. The control dot plot compared the unmutated sequence plotted agaisnt itself to create a baseline. The second dot plot shows the unmutated control COX1 nucleotide sequence on the X-axis and the COX1 sequence mutated with a proline codon insertion on the Y-axis. Flipping back and forth between the two plots reveals differences in their nucleotide sequence around the 850bp mark. The mutated graph expands, or gains nucelotides, compared to the control due to the insertion mutation. This change is most easily observed by watching the domain and range of the mutated graph expand compated to the control.
 
 ![INS](https://user-images.githubusercontent.com/98036665/152242763-bf09633f-807e-4773-888c-3dc86f7ae85e.gif)
 
@@ -166,7 +166,7 @@ GGNIKWSPAMLWALGFIFLFTVGGLTGIVLSNSSLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGFTLDDT
 RRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 </pre>
 
-Explanation of DEL dot plot changes observed and why.
+As before, a baseline was created by plotting the unmutated control sequence agaisnt itself. The second dot plot shows the unmutated control COX1 nucleotide sequence on the X-axis and the COX1 sequence mutated by the H291 codon deletion on the Y-axis. Similar to the insertion mutation, flipping back and forth between the two plots reveals differences in their nucleotide sequence around the 850bp mark; however, in this instance, the mutated graph contracts, or loses nucelotides, compared to the control due to the deletion mutation. This change is most easily observed by watching the domain and range of the mutated graph shrink compated to the control.
 
 ![DEL](https://user-images.githubusercontent.com/98036665/152242715-0fda2d53-6f93-4ab9-a6eb-91a48313cdc8.gif)
 
@@ -186,7 +186,7 @@ HGGNIKWSPAMLWALGFIFLFTVGGLTGIVLSNSSLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGFTLDD
 PRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK-
 </pre>
 
-Explanation of INDEL dot plot changes observed and why.
+As before, a baseline was created by plotting the unmutated control sequence agaisnt itself. The second dot plot shows the unmutated control COX1 nucleotide sequence on the X-axis and the COX1 sequence mutated by a H290, H291 deletion and a G290, G291 insertion on the Y-axis. Similar to the both previous mutations, flipping back and forth between the two plots reveals differences in their nucleotide sequence around the 850bp mark. Contrasting the two previous mutations, there is no change in the domain or range of the mutated graph compared to the control because INDEL mutations result in a replacement of nucleotides rather than addition or subtraction. Compared to the control, this change is most easily observed by watching how the appearance of the dots around the 850bp mark change between the two graphs.
 
 ![INDEL](https://user-images.githubusercontent.com/98036665/152242496-e104637c-0838-4d8d-8201-2b8d03089255.gif)
 
