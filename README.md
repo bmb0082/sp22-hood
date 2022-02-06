@@ -235,9 +235,7 @@ Nucleotide alignment created using [BLASTN](https://blast.ncbi.nlm.nih.gov/Blast
 ### Integrative Genomics Viewer Representation
 Below is a snapshot generated in [IGV](https://software.broadinstitute.org/software/igv/download) of using a BLAST-like alignment tool (BLAT) to create a visual represenation of the three mutated sequences compared to each other and the control.
 
-<p align="center">
 ![igv-mutations](https://user-images.githubusercontent.com/98036665/152702859-02b9d887-fa20-476f-ace1-0ab1d44ad265.png)
- </p>
 
 ## Results & Discussion
 The data gathered in this experiment supports the hypothesis that if there is mutation in the active site of an enzyme, the enzyme's affinity for substrate will decrease or cause loss of function. Though the insertion of P291 still allows ligand binding, SWISS-MODEL active site analysis shows decreased sustrate affinity due to an alpha helix kink that prevents H290's adequate participation in active site stabilization. Likewise, the deletion of H291 eliminates ligand binding due to the removal of an integral active site residue. Alongside, the INDEL mutation, caused by deletion of H290, H291 and insertion of G290, G291 in its place, eliminates recognition of the active site by replacing two integral positively charged residues with hydrophobic glycine residues that lake any electrostatic properties.
