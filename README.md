@@ -87,7 +87,8 @@ Mutations do not always have to cause a change in phenotype. These mutations, ca
 In this project, all mutations will be performed at the amino acid level, such as changes, insertions, or deletions of one or more amino acids (or multiples of 3 nucleotides aligned as codons) that may or may not affect the overall function of the protein.
 
 ## Purpose - To investigate the effects of amino acid mutations on predicted protein structure
-Hypothesis - If there is mutation in the active site of an enzyme, the enzyme's affinity for substrate will decrease or cause loss of function.
+Null hypothesis - Mutations in the active site of the enzyme will *not* affect the enzyme's substrate affinity or function.
+Alternative hypothesis - Mutations in the active site of an enzyme will decrease the enzyme's affinity for substrate and affect function.
 
 ## Methodology
 The wild-type gene encoding COX1 was translated in the 5'-3' direction using [ExPASy Translate Tool](https://web.expasy.org/translate/) and modeled based on homology using [SWISS-MODEL](https://swissmodel.expasy.org). Based on the model of the wild-type control COX1 protein, the residues involved in the active site were identified as H240, V243, H290, and H291. I chose to create mutations in these amino acids in order to observe how they would affect ligand binding, as the active site residues are the most indicative of protein function.
