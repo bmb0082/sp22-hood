@@ -245,3 +245,13 @@ In relation to function, the loss of the activity of the catalytic site of COX1 
 
 ## Conclusions
 The deletion mutation and the INDEL mutation both result in active site remodeling and loss of ligand binding. In a model organism such as *Mus musculus*, these mutations would likely result in embryonic reabsorption, as they achieve complete loss of COX1 function. The insertion mutation results in decreased mitochondrial function and could be an interesting mutation to observe in studying mitochondiral disease in a *Mus musculus* model.
+
+# Analyzing SNP transition and transversion ratios in *Mus musculus* cytochrome c oxidase subunit I
+Introduction text
+
+## Purpose - To investigate the the ratio and location of transition and transversion SNPs in a COX1 consensus nucleotide sequence
+
+## Methodology
+
+## Conclusions
+
