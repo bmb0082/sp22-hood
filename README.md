@@ -252,6 +252,9 @@ Introduction text
 ## Purpose - To investigate the the ratio and location of transition and transversion SNPs in a COX1 consensus nucleotide sequence
 
 ## Methodology
+The mitochondrial genome of Mus musculus brain tissue was sequenced and uploaded to [Galaxy](https://usegalaxy.org/), an online workflow platform used for data analysis and bioinformatics, as mutilple FASTQ formatted files. Quality control using the FastQC program was performed for quality assurance of the sequence reads. Each of the read files were mapped to a the built-in mm10 reference genome using BWA-MEM, then merged to a single BAM file using the MergeSamFiles function. The whole genome BAM was constricted down to a select region containing the COX1 gene using the Slice tool set to restrict to nucleotide coordinates 5328..6872, which were obtained from an NCBI reference genome. A Variant Called Format (VCF) file was created from the COX1-restricted BAM in order to perform SNP and INDEL using the bcfTools mpileup program. Lastly, statisitcal analysis using befTools stats was performed to generate overview of specific point mutation SNPs.
+
+A [workflow](https://usegalaxy.org/u/bmb002/w/snp-calling-by-gene--vcf-generation) was created in Galaxy outlining the procedure followed for SNP calling by gene and VCF data file generation.
 
 ## Conclusions
 
