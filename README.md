@@ -247,9 +247,9 @@ In relation to function, the loss of the activity of the catalytic site of COX1 
 The deletion mutation and the INDEL mutation both result in active site remodeling and loss of ligand binding. In a model organism such as *Mus musculus*, these mutations would likely result in embryonic reabsorption, as they achieve complete loss of COX1 function. The insertion mutation results in decreased mitochondrial function and could be an interesting mutation to observe in studying mitochondiral disease in a *Mus musculus* model.
 
 # Analyzing SNP transition and transversion ratios in *Mus musculus* cytochrome c oxidase subunit I
-Transitions (Ts) are SNPs that result from substituion between two purines or two pyrimidines, resulting in a binding affinity that contains the same number of hydrogen bonds between bases as the wild type. Transversion (Tv) mutations result from subtituion between a purine and pyrimidine, creating a variant strand that differs in number of hydrogen bonds from its complimentary strand. Generally, transversions are more likely to alter the amino acid sequence of proteins than transitions due to bucking of the DNA strand that alters interactions with transcription factors.
+Transitions (Ts) are SNPs that result from substitution between two purines or two pyrimidines, resulting in a binding affinity that contains the same number of hydrogen bonds between bases as the wild type. Transversion (Tv) mutations result from substitution between a purine and pyrimidine, creating a variant strand that differs in number of hydrogen bonds from its complimentary strand. Generally, transversions are more likely to alter the amino acid sequence of proteins than transitions due to bucking of the DNA strand that alters interactions with transcription factors.
 
-Due to heteroplasmy of the mitochondira, mtDNA transition/transversion (Ts/Tv) ratios can fall within a wide range. This data can be used to investigate the biological bias that seems to favor transition SNPs over tranversion SNPs, producing a Ts/Tv ratio greater than 1. Therefore, local deviations in the Ts/Tv ratio can be indicative of evolutionary selection on genes.
+Due to heteroplasmy of the mitochondira, mtDNA transition/transversion (Ts/Tv) ratios can fall within a wide range. This data can be used to investigate the biological bias that seems to favor transition SNPs over tranversion SNPs, producing a Ts/Tv ratio greater than 1, due to the increased chance of transversions detrimentally altering protein structure and function. Therefore, local deviations in the Ts/Tv ratio can be indicative of evolutionary selection of genes.
 
 ## Purpose - To investigate the the ratio of transition to transversion mutations in a COX1 nucleotide sequence and map specific SNPs to a COX1 consensus sequence
 
@@ -257,6 +257,23 @@ Due to heteroplasmy of the mitochondira, mtDNA transition/transversion (Ts/Tv) r
 The mitochondrial genome of Mus musculus brain tissue was sequenced and uploaded to [Galaxy](https://usegalaxy.org/), an online workflow platform used for data analysis and bioinformatics, as mutilple FASTQ formatted files. Quality control using the FastQC program was performed for quality assurance of the sequence reads. Each of the read files were mapped to a the built-in mm10 reference genome using BWA-MEM, then merged to a single BAM file using the MergeSamFiles function. The whole genome BAM was constricted down to a select region containing the COX1 gene using the Slice tool set to restrict to nucleotide coordinates 5328..6872, which were obtained from an [NCBI reference genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_005089.1?report=fasta). A Variant Called Format (VCF) file was created from the COX1-restricted BAM in order to perform SNP and INDEL using the bcfTools mpileup program. Lastly, statisitcal analysis using bcfTools stats was performed to generate overview of specific point mutation SNPs.
 
 A [workflow](https://usegalaxy.org/u/bmb002/w/snp-calling-by-gene--vcf-generation) was created in Galaxy outlining the procedure followed for SNP calling by gene and VCF data file generation.
+
+The Ts/Tv ratio for both the whole mitochondrial genome and the COX1 restricted dataset were calculated using excel. The resulting data is shown below.
+
+| **Transitions (Ts)** |    |
+| --- | --- |
+| A-G  | 23.0%  |
+| C-T  | 23.9%  |
+| **Transversions (Tv)** |    |
+| A-T  | 17.2%  |
+| A-C  | 13.8%  |
+| G-T  | 15.7%  |
+| G-C  | 6.4%  |
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## Conclusions
 
