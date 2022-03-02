@@ -260,7 +260,7 @@ Transitions (Ts) are SNPs that result in substitution between two purines or two
 Due to heteroplasmy of the mitochondira, mtDNA transition/transversion (Ts/Tv) ratios can fall within a wide range. This data can be used to investigate the biological bias that seems to favor transition SNPs over tranversion SNPs (Ts/Tv > 1) due to the increased chance of transversions to detrimentally alter protein structure and function. Therefore, local deviations in the Ts/Tv ratio can be indicative of evolutionary selection of genes.
 
 ## Purpose - To determine the the ratio of transition to transversion mutations in a sample COX1 nucleotide sequence
-Hypothesis - The Ts/Tv ratio of COX1 will be greater than 1, favoring milder transition mutations over more drastic transversion mutations.
+Hypothesis - The Ts/Tv ratio of COX1 will be greater than 1, favoring milder transition mutations over more drastic transversion mutations
 
 ## Methodology
 A [workflow](https://usegalaxy.org/u/bmb002/w/snp-calling-by-gene--vcf-generation) was created in [Galaxy](https://usegalaxy.org/), an online platform used for data analysis and bioinformatics, outlining the procedure followed for SNP calling by gene and VCF data file generation.
