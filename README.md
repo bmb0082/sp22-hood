@@ -96,7 +96,7 @@ Mutations do not always have to cause a change in phenotype. These mutations, ca
 In this project, all mutations will be performed at the amino acid level, such as changes, insertions, or deletions of one or more amino acids (or multiples of 3 nucleotides aligned as codons) that may or may not affect the overall function of the protein.
 
 ## Purpose - To investigate the effects of amino acid mutations on predicted protein structure
-Hypothesis - Mutations in the active site of an enzyme will decrease the enzyme's affinity for substrate or cause loss of function.
+Hypothesis - Mutations in the active site of an enzyme will decrease the enzyme's affinity for substrate or cause loss of function
 
 ## Methodology
 The wild-type gene encoding COX1 was translated in the 5'-3' direction using [ExPASy Translate Tool](https://web.expasy.org/translate/) and modeled based on homology using [SWISS-MODEL](https://swissmodel.expasy.org). Based on the model of the wild-type control COX1 protein, the residues involved in the active site were identified as H240, V243, H290, and H291. I chose to create mutations in these amino acids in order to observe how they would affect ligand binding, as the active site residues are the most indicative of protein function.
@@ -260,6 +260,7 @@ Transitions (Ts) are SNPs that result in substitution between two purines or two
 Due to heteroplasmy of the mitochondira, mtDNA transition/transversion (Ts/Tv) ratios can fall within a wide range. This data can be used to investigate the biological bias that seems to favor transition SNPs over tranversion SNPs (Ts/Tv > 1) due to the increased chance of transversions to detrimentally alter protein structure and function. Therefore, local deviations in the Ts/Tv ratio can be indicative of evolutionary selection of genes.
 
 ## Purpose - To determine the the ratio of transition to transversion mutations in a sample COX1 nucleotide sequence
+Hypothesis - The Ts/Tv ratio of COX1 will be greater than 1, favoring milder transition mutations over more drastic transversion mutations.
 
 ## Methodology
 A [workflow](https://usegalaxy.org/u/bmb002/w/snp-calling-by-gene--vcf-generation) was created in [Galaxy](https://usegalaxy.org/), an online platform used for data analysis and bioinformatics, outlining the procedure followed for SNP calling by gene and VCF data file generation.
@@ -293,8 +294,11 @@ COX1:
 | **Ts/Tv ratio** | **0.49** |
 
 ## Results and Discussion
-Both the whole mitochondrial genome and COX1-specific datasets show abnormal Ts/Tv ratios that are less than 1, indicating that transversions are favored over transitions. The COX1 gene region displays a particulaly low Ts/Tv ratio of 0.49, showing that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.2%) and G-T (22.7%) transversions were the most frequent in the COX1-restricted data, and G-C (4.0%) transversions were the least frequent.
+The data gathered in this experiment does not support the prediction that the COX1 Ts/Tv ratio would be greater than 1. Both the whole mitochondrial genome and COX1-specific datasets show abnormal Ts/Tv ratios that are less than 1, indicating that transversions are favored over transitions. The COX1 gene region displays a particulaly low Ts/Tv ratio of 0.49, showing that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.2%) and G-T (22.7%) transversions were the most frequent in the COX1-restricted data, and G-C (4.0%) transversions were the least frequent.
 
 Given the conserved, important function of cytochrome c oxidase subunit 1, the unexpected bias for transversions in this region raises many evolutionary and bioinformatics questions. What specific mutuations are present in this COX1 dataset and where are they in the consensus sequence? Why are these mutations tolerated and how, if at all, do they affect protein structure and function? Why are A-T and G-T transversions so frequent, and by what mechanisms do these mutations arise? Why is the general biologcal bias for transitions not upheld in this dataset, instead favoring transversions that are statistically more likely to cause non-synonymous proteins? Do these results have any relationship to the specific brain tissues sampled?
 
 These questions are subject to further investigation, possibly by creating a COX1 consensus sequence to find specific SNPs and investigate how they may alter protein stucture and function.
+
+## Conclusions
+Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.89 for the whole mitochondiral genome and 0.49 for the mitochondrially-encoded gene COX1. 
