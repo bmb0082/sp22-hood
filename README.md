@@ -285,6 +285,6 @@ COX1:
 | **Ts/Tv ratio** | **0.49** |
 
 ## Conclusions and Discussion
-Both the whole mitochondrial genome and COX1-specific datasets show abnormal Ts/Tv ratios that are less than 1, indicating that transversions are favored over transitions. The COX1 gene region displays a particulaly low Ts/Tv ratio of 0.49, showing that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1.
+Both the whole mitochondrial genome and COX1-specific datasets show abnormal Ts/Tv ratios that are less than 1, indicating that transversions are favored over transitions. The COX1 gene region displays a particulaly low Ts/Tv ratio of 0.49, showing that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T and G-T mutations were the most frequent in the COX1-restricted data.
 
 Given the conserved, important function of cytochrome c oxidase subunit 1, the unexpected bias for transversions in this region raises many evolutionary and bioinformatics questions. What specific mutuations are present in this COX1 dataset and where are they in the consensus sequence? Why are these mutations tolerated and how, if at all, do they affect protein structure and function? Why is the general biologcal bias for transitions ignored in this dataset, favored for transversions that are more likely to cause non-synonymous proteins? Do these results have any relationship to the specific brain tissues sampled?
