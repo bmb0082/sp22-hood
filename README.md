@@ -251,7 +251,7 @@ Transitions (Ts) are SNPs that result from substitution between two purines or t
 
 Due to heteroplasmy of the mitochondira, mtDNA transition/transversion (Ts/Tv) ratios can fall within a wide range. This data can be used to investigate the biological bias that seems to favor transition SNPs over tranversion SNPs, producing a Ts/Tv ratio greater than 1, due to the increased chance of transversions detrimentally altering protein structure and function. Therefore, local deviations in the Ts/Tv ratio can be indicative of evolutionary selection of genes.
 
-## Purpose - To investigate the the ratio of transition to transversion mutations in a COX1 nucleotide sequence and map specific SNPs to a COX1 consensus sequence
+## Purpose - To determine the the ratio of transition to transversion mutations in a COX1 nucleotide sequence
 
 ## Methodology
 The mitochondrial genome of Mus musculus brain tissue was sequenced and uploaded to [Galaxy](https://usegalaxy.org/), an online workflow platform used for data analysis and bioinformatics, as mutilple FASTQ formatted files. Quality control using the FastQC program was performed for quality assurance of the sequence reads. Each of the read files were mapped to a the built-in mm10 reference genome using BWA-MEM, then merged to a single BAM file using the MergeSamFiles function. The whole genome BAM was constricted down to a select region containing the COX1 gene using the Slice tool set to restrict to nucleotide coordinates 5328..6872, which were obtained from an [NCBI reference genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_005089.1?report=fasta). A Variant Called Format (VCF) file was created from the COX1-restricted BAM in order to perform SNP and INDEL using the bcfTools mpileup program. Lastly, statisitcal analysis using bcfTools stats was performed to generate overview of specific point mutation SNPs.
@@ -260,6 +260,7 @@ A [workflow](https://usegalaxy.org/u/bmb002/w/snp-calling-by-gene--vcf-generatio
 
 The Ts/Tv ratio for both the whole mitochondrial genome and the COX1 restricted dataset were calculated using excel. The resulting data is shown below.
 
+Whole genome:
 | **Transitions (Ts)** |    |
 | --- | --- |
 | A-G  | 23.0%  |
@@ -269,11 +270,21 @@ The Ts/Tv ratio for both the whole mitochondrial genome and the COX1 restricted 
 | A-C  | 13.8%  |
 | G-T  | 15.7%  |
 | G-C  | 6.4%  |
+| **Ts/Tv ratio** | **0.89** |
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+COX1:
+| **Transitions (Ts)** |    |
+| --- | --- |
+| A-G  | 16.3%  |
+| C-T  | 16.8%  |
+| **Transversions (Tv)** |    |
+| A-T  | 24.2%  |
+| A-C  | 15.9%  |
+| G-T  | 22.7%  |
+| G-C  | 4.0%  |
+| **Ts/Tv ratio** | **0.49** |
 
-## Conclusions
+## Conclusions and Discussion
+Both the whole mitochondrial genome and COX1-specific datasets show abnormal Ts/Tv ratios that are less than 1, indicating that transversions are favored over transitions. The COX1 gene region displays a particulaly low Ts/Tv ratio of 0.49, showing that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1.
 
+Given the conserved, important function of cytochrome c oxidase subunit 1, the unexpected bias for transversions in this region raises many evolutionary and bioinformatics questions. What specific mutuations are present in this COX1 dataset and where are they in the consensus sequence? Why are these mutations tolerated and how, if at all, do they affect protein structure and function? Why is the general biologcal bias for transitions ignored in this dataset, favored for transversions that are more likely to cause non-synonymous proteins? Do these results have any relationship to the specific brain tissues sampled?
