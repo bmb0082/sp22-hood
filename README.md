@@ -290,4 +290,4 @@ Given the conserved, important function of cytochrome c oxidase subunit 1, the u
 These questions are subject to further investigation, possibly by creating a COX1 consensus sequence to find specific SNPs and investigate how they may alter protein stucture and function.
 
 ## Conclusions
-Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.89 for the whole mitochondiral genome and 0.49 for the mitochondrially-encoded gene COX1. 
+Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.49 for the mitochondrially-encoded gene COX1. 
