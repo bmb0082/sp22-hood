@@ -15,7 +15,7 @@ Mitochrondrial cytochrome c oxidase I (COX1), encoded by the mt-Co1 gene, is a s
 Cytochrome c oxidase deficiency causes many problems, such as increased ROS production and possible activation of controlled cell death. However, it is possible for organisms to manage these outcomes. Mutations that affect COX1 are one of the most common causes of genetic mitochondiral disorders, presenting as multi-organ, heterogeneous symptoms depending on the level of mitochondiral efficiency.
 
 ## Purpose - To understand the importance of direction when modeling proteins from translated sequences
-Hypothesis - Changing the direction that the mRNA transcript is read will alter protein structure and function
+**Hypothesis - Changing the direction that the mRNA transcript is read will alter protein structure and function**
 
 ## Methodology
 Below is the selected reference for the mitochondiral gene encoding subunit I of cytochrome c oxidase. I chose this gene because COX1 contains the catalytic unit of cytochrome c oxidase; therefore, it's correct stucture and function are vital for the enzyme's overall activity. I wanted to see how differently the protein would fold depending on the directionality of the translated sequence.
@@ -96,7 +96,7 @@ Mutations do not always have to cause a change in phenotype. These mutations, ca
 In this project, all mutations will be performed at the amino acid level, such as changes, insertions, or deletions of one or more amino acids (or multiples of 3 nucleotides aligned as codons) that may or may not affect the overall function of the protein.
 
 ## Purpose - To investigate the effects of amino acid mutations on predicted protein structure
-Hypothesis - Mutations in the active site of an enzyme will decrease the enzyme's affinity for substrate or cause loss of function
+**Hypothesis - Mutations in the active site of an enzyme will decrease the enzyme's affinity for substrate or cause loss of function**
 
 ## Methodology
 The wild-type gene encoding COX1 was translated in the 5'-3' direction using [ExPASy Translate Tool](https://web.expasy.org/translate/) and modeled based on homology using [SWISS-MODEL](https://swissmodel.expasy.org). Based on the model of the wild-type control COX1 protein, the residues involved in the active site were identified as H240, V243, H290, and H291. I chose to create mutations in these amino acids in order to observe how they would affect ligand binding, as the active site residues are the most indicative of protein function.
@@ -260,7 +260,7 @@ Transitions (Ts) are SNPs that result in substitution between two purines or two
 Due to heteroplasmy of the mitochondira, mtDNA transition/transversion (Ts/Tv) ratios can fall within a wide range. This data can be used to investigate the biological bias that seems to favor transition SNPs over tranversion SNPs (Ts/Tv > 1) due to the increased chance of transversions to detrimentally alter protein structure and function. Therefore, local deviations in the Ts/Tv ratio can be indicative of evolutionary selection of genes.
 
 ## Purpose - To determine the the ratio of transition to transversion mutations in a sample COX1 nucleotide sequence
-Hypothesis - The Ts/Tv ratio of COX1 will be greater than 1, favoring milder transition mutations over more drastic transversion mutations
+**Hypothesis - The Ts/Tv ratio of COX1 will be greater than 1, favoring milder transition mutations over more drastic transversion mutations**
 
 ## Methodology
 A [workflow](https://usegalaxy.org/u/bmb002/w/snp-calling-by-gene--vcf-generation) was created in [Galaxy](https://usegalaxy.org/), an online platform used for data analysis and bioinformatics, outlining the procedure followed for SNP calling by gene and VCF data file generation.
