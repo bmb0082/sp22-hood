@@ -260,14 +260,15 @@ Transitions (Ts) are SNPs that result in substitution between two purines or two
 Due to heteroplasmy of the mitochondira, mtDNA transition/transversion (Ts/Tv) ratios can fall within a wide range. This data can be used to investigate the biological bias that seems to favor transition SNPs over tranversion SNPs (Ts/Tv > 1) due to the increased chance of transversions to detrimentally alter protein structure and function. Therefore, local deviations in the Ts/Tv ratio can be indicative of evolutionary selection of genes.
 
 ## Purpose - To determine the the ratio of transition to transversion mutations in a sample COX1 nucleotide sequence
-**Hypothesis - The Ts/Tv ratio of COX1 will be greater than 1, favoring milder transition mutations over more drastic transversion mutations**
+**Hypothesis - The Ts/Tv ratio of conserved mitochondrially encoded genes will be greater than 1, favoring milder transition mutations over more drastic transversion mutations**
 
 ## Methodology
 A [workflow](https://usegalaxy.org/u/bmb002/w/snp-calling-by-gene--vcf-generation) was created in [Galaxy](https://usegalaxy.org/), an online platform used for data analysis and bioinformatics, outlining the procedure followed for SNP calling by gene and VCF data file generation.
 
 The mitochondrial genome of brain tissue from *Mus musculus* was sequenced and uploaded to Galaxy as mutilple reads in FASTQ formatted files. Quality control using the FastQC program was performed for quality assurance of the sequence reads. Each of the read files were mapped to a the built-in mm10 reference genome using BWA-MEM, then merged to a single BAM file using the MergeSamFiles function. The whole genome BAM was constricted down to a select region containing the COX1 gene using the Slice tool set to restrict to nucleotide coordinates 5328..6872, which were obtained from an [NCBI reference genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_005089.1?report=fasta). Using the bcfTools mpileup program, a Variant Called Format (VCF) file was created from the COX1-restricted BAM in order to perform SNP and INDEL calling. Lastly, statisitcal analysis using the bcfTools Stats program was performed to generate an overview of the specific point mutation SNPs recognized in the dataset.
 
-Using the SNP frequencies determined in the VCF, the Ts/Tv ratio for the COX1-restricted dataset were calculated in Excel and graphed using RStudio. The resulting data is shown below.
+### Cytochrome c oxidase subunit I (COX1)
+COX1 is the mitochondirally-encoded subunit 1 of cytochrome c oxidase, also known as respiratory complex IV. It participates in reduction of peroxide ions to water in terminal electron acceptance. Using the SNP frequencies determined in the VCF, the Ts/Tv ratio for the COX1-restricted dataset were calculated in Excel and graphed using RStudio. The resulting data is shown below.
 
 | **Transitions (Ts)** |  |  |
 | --- | --- | --- |
@@ -281,6 +282,22 @@ Using the SNP frequencies determined in the VCF, the Ts/Tv ratio for the COX1-re
 | **Ts/Tv ratio** | | **0.49** |
 
 ![COX1-SNPS-by-type](https://user-images.githubusercontent.com/98036665/156464026-425c1feb-fe45-4913-b87f-24369a3a9881.png)
+
+### Cytochrome b subunit (Cyt-b)
+Cyt-b is the only mitochondrially encoded subunit of the cytochrome bc1 complex, also known as respiratory complex III in the electron transport chain. Its two heme groups participate in electron bifurcation in the lower half of the Q cycle. Using the SNP frequencies determined in the Cyt-b VCF, the Ts/Tv ratio for the Cyt-b-restricted dataset were calculated in Excel and graphed using RStudio. The resulting data is shown below.
+
+| **Transitions (Ts)** |  |  |
+| --- | --- | --- |
+| A-G  | 13.2%  | 58 |
+| C-T  | 17.6%  | 77 |
+| **Transversions (Tv)** |  |  |
+| A-T  | 28.3%  | 124 |
+| A-C  | 18.3%  |  80 |
+| G-T  | 20.5%  | 90 |
+| G-C  | 2.1%  | 9 |
+| **Ts/Tv ratio** | | **0.45** |
+
+IMAGE
 
 ## Results and Discussion
 The data gathered in this experiment does not support the prediction that the COX1 Ts/Tv ratio would be greater than 1. The COX1-specific datasets show an abnormal Ts/Tv ratio of 0.49, which is less than 1, indicating that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.2%) and G-T (22.7%) transversions were the most frequent in the COX1-restricted data, and G-C (4.0%) transversions were the least frequent.
