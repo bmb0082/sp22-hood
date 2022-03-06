@@ -281,7 +281,7 @@ COX1 is the mitochondirally-encoded subunit 1 of cytochrome c oxidase, also know
 | G-C  | 4.0%  | 24 |
 | **Ts/Tv ratio** | | **0.49** |
 
-![COX1-SNPS-by-type](https://user-images.githubusercontent.com/98036665/156464026-425c1feb-fe45-4913-b87f-24369a3a9881.png)
+![COX1-SNPs-by-type](https://user-images.githubusercontent.com/98036665/156938713-25d5ff8f-5efe-44ef-a827-5bd02dc0bd77.png)
 
 ### Cytochrome b subunit (Cyt-b)
 Cyt-b is the only mitochondrially encoded subunit of the cytochrome bc1 complex, also known as respiratory complex III in the electron transport chain. Its two heme groups participate in electron bifurcation in the lower half of the Q cycle. Using the SNP frequencies determined in the Cyt-b VCF, the Ts/Tv ratio for the Cyt-b-restricted dataset were calculated in Excel and graphed using RStudio. The resulting data is shown below.
@@ -297,14 +297,14 @@ Cyt-b is the only mitochondrially encoded subunit of the cytochrome bc1 complex,
 | G-C  | 2.1%  | 9 |
 | **Ts/Tv ratio** | | **0.45** |
 
-IMAGE
+![CytB-SNPs-by-type](https://user-images.githubusercontent.com/98036665/156938718-1e0c5189-f035-4978-8858-d18a909ea263.png)
 
 ## Results and Discussion
-The data gathered in this experiment does not support the prediction that the COX1 Ts/Tv ratio would be greater than 1. The COX1-specific datasets show an abnormal Ts/Tv ratio of 0.49, which is less than 1, indicating that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.2%) and G-T (22.7%) transversions were the most frequent in the COX1-restricted data, and G-C (4.0%) transversions were the least frequent.
+The data gathered in this experiment does not support the prediction that the Ts/Tv ratio would be greater than 1. The COX1-specific datasets show an abnormal Ts/Tv ratio of 0.49, which is less than 1, indicating that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.2%) and G-T (22.7%) transversions were the most frequent in the COX1-restricted data, and G-C (4.0%) transversions were the least frequent. Likewise, the Cyt-b-restricted dataset showned an abnormal Ts/Tv of 0.45, indicating an even greater favor of transversions over transitions. Looking at the specific nucelotides involved, A-T (28.3%) and G-T (20.5%) transversions were the most frequent in the COX1-restricted data, and G-C (2.1%) transversions were the least frequent.
 
-Given the conserved, important function of cytochrome c oxidase subunit 1, the unexpected bias for transversions in this region raises many evolutionary and bioinformatics questions. What specific mutuations are present in this COX1 dataset and where are they in the consensus sequence? Why are these mutations tolerated and how, if at all, do they affect protein structure and function? Why are A-T and G-T transversions so frequent, and by what mechanisms do these mutations arise? Why is the general biologcal bias for transitions not upheld in this dataset, instead favoring transversions that are statistically more likely to cause non-synonymous proteins? Do these results have any relationship to the specific brain tissues sampled?
+Given the conserved, important function of both cytochrome c oxidase subunit 1 and cytochrome b in their respective respiratory complexes, the unexpected bias for transversions in these regions raises many evolutionary and bioinformatics questions. What specific mutuations are present in the datasets and where are they in the consensus sequences? Why are these mutations tolerated and how, if at all, do they affect protein structure and function? Why are A-T and G-T transversions so frequent, and by what mechanisms do these mutations arise? Why is the general biologcal bias for transitions not upheld in this dataset, instead favoring transversions that are statistically more likely to cause non-synonymous proteins? Do these results have any relationship to the specific brain tissues sampled?
 
-These questions are subject to further investigation, possibly by creating a COX1 consensus sequence to find specific SNPs and investigate how they may alter protein stucture and function.
+These questions are subject to further investigation, possibly by creating COX1 and Cyt-B consensus sequences to find specific SNPs and investigate how they may alter protein stucture and function.
 
 ## Conclusions
-Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.49 for the mitochondrially-encoded gene COX1. 
+Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.49 for the mitochondrially-encoded gene COX1 and 0.45 for mitochonrdirally-encoded Cyt-b. 
