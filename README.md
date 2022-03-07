@@ -5,7 +5,7 @@
 
  1. [Modeling transcript directionality in *Mus musculus* mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/blob/main/README.md#modeling-transcript-directionality-in-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
  2. [Modeling insertions, deletions, and INDEL mutations in *Mus musculus* mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/blob/main/README.md#modeling-insertions-deletions-and-indel-mutations-in-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
- 3. [Analyzing SNP transition and transversion ratios in two *Mus musculus* mitochondiral genes, cytochrome c oxidase subunit I and cytochrome b subunit](https://github.com/bmb0082/lab-project/blob/main/README.md#analyzing-snp-transition-and-transversion-ratios-in-two-mus-musculus-mitochondiral-genes-cytochrome-c-oxidase-subunit-i-and-cytochrome-b-subunit)
+ 3. [Analyzing SNP transition and transversion ratios in two *Mus musculus* mitochondrial genes, cytochrome c oxidase subunit I and cytochrome b subunit](https://github.com/bmb0082/lab-project/blob/main/README.md#analyzing-snp-transition-and-transversion-ratios-in-two-mus-musculus-mitochondiral-genes-cytochrome-c-oxidase-subunit-i-and-cytochrome-b-subunit)
  
 </details>
 
@@ -254,7 +254,7 @@ In relation to function, the loss of the activity of the catalytic site of COX1 
 ## Conclusions
 The deletion mutation and the INDEL mutation both result in active site remodeling and loss of ligand binding. In a model organism such as *Mus musculus*, these mutations would likely result in embryonic reabsorption, as they achieve complete loss of COX1 function. The insertion mutation results in decreased mitochondrial function and could be an interesting mutation to observe in a *Mus musculus* model to study mitochondiral diseases that have decreasd COX activity.
 
-# Analyzing SNP transition and transversion ratios in two *Mus musculus* mitochondiral genes, cytochrome c oxidase subunit I and cytochrome b subunit
+# Analyzing SNP transition and transversion ratios in two *Mus musculus* mitochondrial genes, cytochrome c oxidase subunit I and cytochrome b subunit
 Transitions (Ts) are SNPs that result in substitution between two purines or two pyrimidines, producing in a binding affinity that contains the same number of hydrogen bonds between bases as the wild type. Transversion (Tv) mutations result from substitution between a purine and pyrimidine, creating a variant strand that differs in number of hydrogen bonds from its complimentary strand. Generally, transversions are more likely to alter the amino acid sequence of proteins than transitions due to bucking of the DNA strand that alters interactions with transcription factors.
 
 Due to heteroplasmy of the mitochondira, mtDNA transition/transversion (Ts/Tv) ratios can fall within a wide range. This data can be used to investigate the biological bias that seems to favor transition SNPs over tranversion SNPs (Ts/Tv > 1) due to the increased chance of transversions to detrimentally alter protein structure and function. Therefore, local deviations in the Ts/Tv ratio can be indicative of evolutionary selection of genes.
