@@ -268,7 +268,7 @@ A [workflow](https://usegalaxy.org/u/bmb002/w/snp-calling-by-gene--vcf-generatio
 The mitochondrial genome of brain tissue from *Mus musculus* was sequenced and uploaded to Galaxy as mutilple reads in FASTQ formatted files. Quality control using the FastQC program was performed for quality assurance of the sequence reads. Each of the read files were mapped to a the built-in mm10 reference genome using BWA-MEM, then merged to a single BAM file using the MergeSamFiles function. The whole genome BAM was constricted down to a select region containing the COX1 gene using the Slice tool set to restrict to nucleotide coordinates 5328..6872, which were obtained from an [NCBI reference genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_005089.1?report=fasta). Using the bcfTools mpileup program, a Variant Called Format (VCF) file was created from the COX1-restricted BAM in order to perform SNP and INDEL calling. Lastly, statisitcal analysis using the bcfTools Stats program was performed to generate an overview of the specific point mutation SNPs recognized in the dataset. The same procedure was followed to generate a Cyt-b dataset restricted to the mitochondrial coordinates 14145..15288.
 
 ### Cytochrome c oxidase subunit I (COX1)
-COX1 is the mitochondirally-encoded subunit 1 of cytochrome c oxidase, also known as respiratory complex IV. It participates in reduction of peroxide ions to water in terminal electron acceptance. Using the SNP frequencies determined in the VCF, the Ts/Tv ratio for the COX1-restricted dataset were calculated in Excel and graphed using RStudio. The resulting data is shown below.
+COX1 is the mitochondirally-encoded subunit 1 of cytochrome c oxidase, also known as respiratory complex IV. It participates in reduction of peroxide ions to water in terminal electron acceptance. Using the SNP frequencies determined in the VCF, the Ts/Tv ratio for the COX1-restricted dataset was calculated in Excel and graphed using RStudio. The resulting data is shown below.
 
 | **Transitions (Ts)** |  |  |
 | --- | --- | --- |
@@ -284,7 +284,7 @@ COX1 is the mitochondirally-encoded subunit 1 of cytochrome c oxidase, also know
 ![COX1-SNPs-by-type](https://user-images.githubusercontent.com/98036665/156938713-25d5ff8f-5efe-44ef-a827-5bd02dc0bd77.png)
 
 ### Cytochrome b subunit (Cyt-b)
-Cyt-b is the only mitochondrially encoded subunit of the cytochrome bc1 complex, also known as respiratory complex III in the electron transport chain. Its two heme groups participate in electron bifurcation in the lower half of the Q cycle. Using the SNP frequencies determined in the Cyt-b VCF, the Ts/Tv ratio for the Cyt-b-restricted dataset were calculated in Excel and graphed using RStudio. The resulting data is shown below.
+Cyt-b is the only mitochondrially encoded subunit of the cytochrome bc1 complex, also known as respiratory complex III in the electron transport chain. Its two heme groups participate in electron bifurcation in the lower half of the Q cycle. Using the SNP frequencies determined in the Cyt-b VCF, the Ts/Tv ratio for the Cyt-b-restricted dataset was calculated in Excel and graphed using RStudio. The resulting data is shown below.
 
 | **Transitions (Ts)** |  |  |
 | --- | --- | --- |
