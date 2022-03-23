@@ -300,7 +300,7 @@ Cyt-b is the only mitochondrially encoded subunit of the cytochrome bc1 complex,
 
 ![cytb-SNPs-by-type](https://user-images.githubusercontent.com/98036665/159791608-2e523b46-f611-4add-a2d9-cd5422f40fda.png)
 
-### D-loop
+### D-loop control region
 In the mitochondria, the The D-loop is a non-coding region that acts as a promoter for both the heavy and light strands of the mtDNA. It contains essential transcription and replication elements. Using the SNP frequencies determined in the D-loop VCF, the Ts/Tv ratio for the D-loop-restricted dataset was calculated in Excel and graphed using RStudio. The resulting data is shown below.
 
 | **Transitions (Ts)** |  |  |
@@ -325,3 +325,20 @@ These questions are subject to further investigation, possibly by creating COX1,
 
 ## Conclusions
 Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.49 for the mitochondrially-encoded gene COX1, 0.45 for mitochonrdirally-encoded Cyt-b, and 0.51 for the mitochondrial D-loop promoter region.
+
+# Investigating the origin of SNPs by type in three *Mus musculus* mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
+
+## Purpose - 
+**Hypothesis - 
+
+## Methodology
+
+### Cytochrome c oxidase subunit I (COX1)
+
+### Cytochrome b subunit (Cyt-b)
+
+### D-loop control region
+
+## Results and Discussion
+
+## Conclusions
