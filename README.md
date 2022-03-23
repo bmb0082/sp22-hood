@@ -281,7 +281,7 @@ COX1 is the mitochondirally-encoded subunit 1 of cytochrome c oxidase, also know
 | G-C  | 4.0%  | 24 |
 | **Ts/Tv ratio** | | **0.49** |
 
-![COX1-SNPs-by-type](https://user-images.githubusercontent.com/98036665/156938713-25d5ff8f-5efe-44ef-a827-5bd02dc0bd77.png)
+![COX1-SNPs-by-type](https://user-images.githubusercontent.com/98036665/159791580-14065c71-73d8-428b-8521-8fae109ac02e.png)
 
 ### Cytochrome b subunit (Cyt-b)
 Cyt-b is the only mitochondrially encoded subunit of the cytochrome bc1 complex, also known as respiratory complex III in the electron transport chain. Its two heme groups participate in electron bifurcation in the lower half of the Q cycle. Using the SNP frequencies determined in the Cyt-b VCF, the Ts/Tv ratio for the Cyt-b-restricted dataset was calculated in Excel and graphed using RStudio. The resulting data is shown below.
@@ -297,7 +297,9 @@ Cyt-b is the only mitochondrially encoded subunit of the cytochrome bc1 complex,
 | G-C  | 2.1%  | 9 |
 | **Ts/Tv ratio** | | **0.45** |
 
-![CytB-SNPs-by-type](https://user-images.githubusercontent.com/98036665/156938718-1e0c5189-f035-4978-8858-d18a909ea263.png)
+![cytb-SNPs-by-type](https://user-images.githubusercontent.com/98036665/159791608-2e523b46-f611-4add-a2d9-cd5422f40fda.png)
+
+### D-loop
 
 ## Results and Discussion
 The data gathered in this experiment does not support the prediction that the Ts/Tv ratio would be greater than 1. The COX1-specific dataset shows an abnormal Ts/Tv ratio of 0.49, which is less than 1, indicating that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.2%) and G-T (22.7%) transversions were the most frequent in the COX1-restricted data, and G-C (4.0%) transversions were the least frequent. Likewise, the Cyt-b-restricted dataset showed an abnormal Ts/Tv of 0.45, indicating an even greater favor of transversions over transitions. Looking at the specific nucelotides involved, A-T (28.3%) and G-T (20.5%) transversions were the most frequent in the Cyt-b-restricted data, and G-C (2.1%) transversions were the least frequent.
