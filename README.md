@@ -265,7 +265,7 @@ Due to heteroplasmy of the mitochondira, mtDNA transition/transversion (Ts/Tv) r
 ## Methodology
 A [workflow](https://usegalaxy.org/u/bmb002/w/snp-calling-by-gene--vcf-generation) was created in [Galaxy](https://usegalaxy.org/), an online platform used for data analysis and bioinformatics, outlining the procedure followed for SNP calling by gene and VCF data file generation.
 
-The mitochondrial genome of brain tissue from *Mus musculus* was sequenced and uploaded to Galaxy as mutilple reads in FASTQ formatted files. Quality control using the FastQC program was performed for quality assurance of the sequence reads. Each of the read files were mapped to a the built-in mm10 reference genome using BWA-MEM, then merged to a single BAM file using the MergeSamFiles function. The whole genome BAM was constricted down to a select region containing the COX1 gene using the Slice tool set to restrict to nucleotide coordinates 5328..6872, which were obtained from an [NCBI reference genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_005089.1?report=fasta). Using the bcfTools mpileup program, a Variant Called Format (VCF) file was created from the COX1-restricted BAM in order to perform SNP and INDEL calling. Lastly, statisitcal analysis using the bcfTools Stats program was performed to generate an overview of the specific point mutation SNPs recognized in the dataset. The same procedure was followed to generate a Cyt-b dataset restricted to the mitochondrial coordinates 14145..15288.
+The mitochondrial genome of brain tissue from *Mus musculus* was sequenced and uploaded to Galaxy as mutilple reads in FASTQ formatted files. Quality control using the FastQC program was performed for quality assurance of the sequence reads. Each of the read files were mapped to a the built-in mm10 reference genome using BWA-MEM, then merged to a single BAM file using the MergeSamFiles function. The whole genome BAM was constricted down to a select region containing the COX1 gene using the Slice tool set to restrict to nucleotide coordinates 5328..6872, which were obtained from an [NCBI reference genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_005089.1?report=fasta). Using the bcfTools mpileup program, a Variant Called Format (VCF) file was created from the COX1-restricted BAM in order to perform SNP and INDEL calling. Lastly, statisitcal analysis using the bcfTools Stats program was performed to generate an overview of the specific point mutation SNPs recognized in the dataset. The same procedure was followed to generate a Cyt-b dataset restricted to the mitochondrial coordinates 14145..15288, and a D-loop dataset restricted to the mitochondrial coordinates 1..877.
 
 ### Cytochrome c oxidase subunit I (COX1)
 COX1 is the mitochondirally-encoded subunit 1 of cytochrome c oxidase, also known as respiratory complex IV. It participates in reduction of peroxide ions to water in terminal electron acceptance. Using the SNP frequencies determined in the VCF, the Ts/Tv ratio for the COX1-restricted dataset was calculated in Excel and graphed using RStudio. The resulting data is shown below.
@@ -300,13 +300,27 @@ Cyt-b is the only mitochondrially encoded subunit of the cytochrome bc1 complex,
 ![cytb-SNPs-by-type](https://user-images.githubusercontent.com/98036665/159791608-2e523b46-f611-4add-a2d9-cd5422f40fda.png)
 
 ### D-loop
+In the mitochondria, the The D-loop is a non-coding region that acts as a promoter for both the heavy and light strands of the mtDNA. It contains essential transcription and replication elements. Using the SNP frequencies determined in the D-loop VCF, the Ts/Tv ratio for the D-loop-restricted dataset was calculated in Excel and graphed using RStudio. The resulting data is shown below.
+
+| **Transitions (Ts)** |  |  |
+| --- | --- | --- |
+| A-G  | 13.2%  | 48 |
+| C-T  | 17.6%  | 49 |
+| **Transversions (Tv)** |  |  |
+| A-T  | 28.3%  | 71 |
+| A-C  | 18.3%  |  53 |
+| G-T  | 20.5%  | 54 |
+| G-C  | 2.1%  | 13 |
+| **Ts/Tv ratio** | | **0.51** |
+
+![D-loop-SNPs-by-type](https://user-images.githubusercontent.com/98036665/159810003-af8fd516-b13c-4efc-8eac-a1cbf9e47da1.png)
 
 ## Results and Discussion
-The data gathered in this experiment does not support the prediction that the Ts/Tv ratio would be greater than 1. The COX1-specific dataset shows an abnormal Ts/Tv ratio of 0.49, which is less than 1, indicating that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.2%) and G-T (22.7%) transversions were the most frequent in the COX1-restricted data, and G-C (4.0%) transversions were the least frequent. Likewise, the Cyt-b-restricted dataset showed an abnormal Ts/Tv of 0.45, indicating an even greater favor of transversions over transitions. Looking at the specific nucelotides involved, A-T (28.3%) and G-T (20.5%) transversions were the most frequent in the Cyt-b-restricted data, and G-C (2.1%) transversions were the least frequent.
+The data gathered in this experiment does not support the prediction that the Ts/Tv ratio would be greater than 1. The COX1-specific dataset shows an abnormal Ts/Tv ratio of 0.49, which is less than 1, indicating that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.2%) and G-T (22.7%) transversions were the most frequent in the COX1-restricted data, and G-C (4.0%) transversions were the least frequent. Likewise, the Cyt-b-restricted dataset showed an abnormal Ts/Tv of 0.45, indicating an even greater favor of transversions over transitions. Looking at the specific nucelotides involved, A-T (28.3%) and G-T (20.5%) transversions were the most frequent in the Cyt-b-restricted data, and G-C (2.1%) transversions were the least frequent. Additionally, the D-loop-specific dataset showed an abnormal Ts/Tv ratio of 0.51. Similar to COX1, this indicates that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1.
 
 Given the conserved, important function of both cytochrome c oxidase subunit 1 and cytochrome b in their respective respiratory complexes, the unexpected bias for transversions raises many evolutionary and bioinformatics questions. What specific mutuations are present in the datasets and where are they in the consensus sequences? Why are these mutations tolerated and how, if at all, do they affect protein structure and function? Why are A-T and G-T transversions so frequent, and by what mechanisms do these mutations arise? Why is the general biologcal bias for transitions not upheld in this dataset, instead favoring transversions that are statistically more likely to cause non-synonymous proteins? Do these results have any relationship to the specific brain tissues sampled?
 
-These questions are subject to further investigation, possibly by creating COX1 and Cyt-b consensus sequences to find specific SNPs and investigate how they may alter protein stucture and function.
+These questions are subject to further investigation, possibly by creating COX1, Cyt-b, and D-loop consensus sequences to find specific SNPs and investigate how they may alter protein stucture and function.
 
 ## Conclusions
-Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.49 for the mitochondrially-encoded gene COX1 and 0.45 for mitochonrdirally-encoded Cyt-b. 
+Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.49 for the mitochondrially-encoded gene COX1, 0.45 for mitochonrdirally-encoded Cyt-b, and 0.51 for the mitochondrial D-loop promoter region.
