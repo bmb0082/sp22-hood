@@ -304,19 +304,19 @@ In the mitochondria, the The D-loop is a non-coding region that acts as a promot
 
 | **Transitions (Ts)** |  |  |
 | --- | --- | --- |
-| A-G  | 13.2%  | 48 |
-| C-T  | 17.6%  | 49 |
+| A-G  | 16.7%  | 48 |
+| C-T  | 17.0%  | 49 |
 | **Transversions (Tv)** |  |  |
-| A-T  | 28.3%  | 71 |
-| A-C  | 18.3%  |  53 |
-| G-T  | 20.5%  | 54 |
-| G-C  | 2.1%  | 13 |
+| A-T  | 24.7%  | 71 |
+| A-C  | 18.4%  |  53 |
+| G-T  | 18.8%  | 54 |
+| G-C  | 4.5%  | 13 |
 | **Ts/Tv ratio** | | **0.51** |
 
 ![D-loop-SNPs-by-type](https://user-images.githubusercontent.com/98036665/159810003-af8fd516-b13c-4efc-8eac-a1cbf9e47da1.png)
 
 ## Results and Discussion
-The data gathered in this experiment does not support the prediction that the Ts/Tv ratio would be greater than 1. The COX1-specific dataset shows an abnormal Ts/Tv ratio of 0.49, which is less than 1, indicating that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.2%) and G-T (22.7%) transversions were the most frequent in the COX1-restricted data, and G-C (4.0%) transversions were the least frequent. Likewise, the Cyt-b-restricted dataset showed an abnormal Ts/Tv of 0.45, indicating an even greater favor of transversions over transitions. Looking at the specific nucelotides involved, A-T (28.3%) and G-T (20.5%) transversions were the most frequent in the Cyt-b-restricted data, and G-C (2.1%) transversions were the least frequent. Additionally, the D-loop-specific dataset showed an abnormal Ts/Tv ratio of 0.51. Similar to COX1, this indicates that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1.
+The data gathered in this experiment does not support the prediction that the Ts/Tv ratio would be greater than 1. The COX1-specific dataset shows an abnormal Ts/Tv ratio of 0.49, which is less than 1, indicating that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.2%) transversions were the most frequent in the COX1-restricted data, and G-C (4.0%) transversions were the least frequent. Likewise, the Cyt-b-restricted dataset showed an abnormal Ts/Tv of 0.45, indicating an even greater favor of transversions over transitions. Looking at the specific nucelotides involved, A-T (28.3%) transversions were the most frequent in the Cyt-b-restricted data, and G-C (2.1%) transversions were the least frequent. Additionally, the D-loop-specific dataset showed an abnormal Ts/Tv ratio of 0.51. Similar to COX1, this indicates that transversions are favored over transitions at a ratio that is almost exactly equal to 2:1. Looking at the specific nucelotides involved, A-T (24.7%) transversions were the most frequent in the COX1-restricted data, and G-C (4.5%) transversions were the least frequent.
 
 Given the conserved, important function of both cytochrome c oxidase subunit 1 and cytochrome b in their respective respiratory complexes, the unexpected bias for transversions raises many evolutionary and bioinformatics questions. What specific mutuations are present in the datasets and where are they in the consensus sequences? Why are these mutations tolerated and how, if at all, do they affect protein structure and function? Why are A-T and G-T transversions so frequent, and by what mechanisms do these mutations arise? Why is the general biologcal bias for transitions not upheld in this dataset, instead favoring transversions that are statistically more likely to cause non-synonymous proteins? Do these results have any relationship to the specific brain tissues sampled?
 
