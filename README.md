@@ -327,11 +327,23 @@ These questions are subject to further investigation, possibly by exploring thes
 Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.49 for the mitochondrially-encoded gene COX1, 0.45 for mitochonrdirally-encoded Cyt-b, and 0.51 for the mitochondrial D-loop promoter region.
 
 # Investigating the origins of SNPs by type in three *Mus musculus* mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
+In general, mitochondrial DNA has a 10x greater rate of mutation than nuclear DNA due to less efficient DNA repair, a more mutagenic environment, and higher load of replications per cell division.
 
-## Purpose - 
-**Hypothesis - 
+The nuclear genome has five main mechanisms of DNA repair mechanisms: base excision repair (BER), nucleotide excision repair (NER), mismatch repair (MMR), homologous recombination (HR) and non-homologous end joining (NHEJ). Mitochondrial BER machinery shares some overlap with that of the nucleus, but there are still not a clear consensus regarding mitochondrial double-strand break repair. Current research shows that a majority of mitochondrial DNA repair is not repair at all, and instead comes from genome sharing in thefusion injured mitochondria with a healthy one. This heterplasmy of mitochondrial DNA variants contributes greatly to the increased mutation frequency observed in mtDNA.
+
+Additionally, the more mutagenic local environment of the mitochondria is directly linked to the formation of oxidative radicals (ROS) in the electron transport system. Electron transport in the inner membrane is a complex system that was selected for not because it is the most safe and efficient method, but because it works well enough. There are many ways that this complex system can go wrong and result in production of ROS in the matrix that can easily interact with nearby mtDNA. Notably, C>A and G>T transversions originate from the ROS-mediated oxidation of guanine (G) to 8-oxoguainine (G`), which pairs with adenine (A) instead of cytosine (C) in the first round of replication. In the second round of replication, adenine will correctly pair with thymine, resulting in a GC>TA transversion. Therefore, any detected C>A and G>T SNPS in the dataset are determined to be ROS-mediated in origin.
+
+![Mutagenic-ROS-med-mtDNA-damage](https://user-images.githubusercontent.com/98036665/160877320-1be47e9c-6d82-495a-8426-09c1a0969d8f.png)
+
+Lastly, the mitochondria has an increased number of required replications per cell division than the nuclear genome. As a result, increased replication speed often increases the instances of DNA polymerase read errors that present genotypically as transition SNPs.
+
+A combination of all these factors contributes to an increased mutation rate in the mitochondrial genome. The main origins of mutation that will be investigated in this experiment are ROS-mediated transversions and polymerase read error-meditated transitions.
+
+## Purpose - To determine the statistical relationships between ROS-mediated SNPs, polymerase read error SNPs, and other SNP origins
+**Hypothesis - ROS-mediated SNPs are the most frequent in mitochondrial genes**
 
 ## Methodology
+Using the data generated in the sliced VCF for each gene from project 3, a purine/pyrimidine chart was created in Excel to determine the origins of each SNP type. Per mutagenic ROS-mediated mtDNA damage, C>A and G>T transversions originate from ROS-mediated oxidation. Therefore, any detected C>A and G>T SNPS in the dataset were determined to be ROS-mediated in origin. Transition SNPS, or mutations from purine to purine or pyrimidine to pyrimidine, are due to mitochondrial DNA polymerase gamma read errors. Therefore, any detected A<>G, C<>T SNPs in the dataset were determined to be DNA polymerase read error-mediated in origin.
 
 ### Cytochrome c oxidase subunit I (COX1)
 
