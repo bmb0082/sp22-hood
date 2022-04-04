@@ -366,6 +366,8 @@ For each gene, the purine/pyrimidine origin frequences for ROS, read error, and 
 
 ![ROS-COX1](https://user-images.githubusercontent.com/98036665/161463337-75658a1a-82d1-4225-a026-f09c9eed25b2.png)
 
+Linear regression of the above COX1 data with the ROS group set as the origin of reference produced a p-value of 0.3842, meaning that despite the visual difference in frequencies represented graphically, there is not a statistically significant difference between the mean frequencies of each origin of mutation.
+
 ### Cytochrome b subunit (Cyt-b)
 
 | SNP | Count | TsTv | Type | Origin |
@@ -385,6 +387,8 @@ For each gene, the purine/pyrimidine origin frequences for ROS, read error, and 
 
 ![ROS-CytB](https://user-images.githubusercontent.com/98036665/161463349-fea3ca6e-bc8a-4f06-aa13-1823c3b59040.png)
 
+Linear regression of the above Cyt-b data with the ROS group set as the origin of reference produced a p-value of 0.4855, meaning that despite the visual difference in frequencies represented graphically, there is not a statistically significant difference between the mean frequencies of each origin of mutation.
+
 ### D-loop control region
 
 | SNP | Count | TsTv | Type | Origin |
@@ -403,6 +407,8 @@ For each gene, the purine/pyrimidine origin frequences for ROS, read error, and 
 | T>G | 9 | Tv | Pyr>Pur | Other |
 
 ![ROS-D-loop](https://user-images.githubusercontent.com/98036665/161464449-f46a1315-d28f-4e4f-b80a-5a73d41ebeb3.png)
+
+Linear regression of the above D-loop data with the ROS group set as the origin of reference produced a p-value of 0.3808, meaning that despite the visual difference in frequencies represented graphically, there is not a statistically significant difference between the mean frequencies of each origin of mutation.
 
 ## Results and Discussion
 
