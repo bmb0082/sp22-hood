@@ -324,7 +324,7 @@ Given the conserved, important function of both cytochrome c oxidase subunit 1 a
 These questions are subject to further investigation, possibly by exploring these SNPs grouped by their origins. Creation of COX1, Cyt-b, and D-loop consensus sequences may be helpful to elucidate specific SNPs for further investigation of how they may alter protein stucture and function.
 
 ## Conclusions
-Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.49 for the mitochondrially-encoded gene COX1, 0.45 for mitochonrdirally-encoded Cyt-b, and 0.51 for the mitochondrial D-loop promoter region.
+Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.49 for the mitochondrially-encoded gene COX1, 0.45 for mitochondrially-encoded Cyt-b, and 0.51 for the mitochondrial D-loop promoter region.
 
 # Investigating the origins of SNPs by type in three *Mus musculus* mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
 In general, mitochondrial DNA has a 10x greater rate of mutation than nuclear DNA due to less efficient DNA repair, a more mutagenic environment, and higher load of replications per cell division.
