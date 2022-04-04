@@ -364,6 +364,8 @@ For each gene, the purine/pyrimidine origin frequences for ROS, read error, and 
 | T>C | 53 | Ts | Pyr>Pyr | Read Error |
 | T>G | 45 | Tv | Pyr>Pur | Other |
 
+![ROS-COX1](https://user-images.githubusercontent.com/98036665/161463337-75658a1a-82d1-4225-a026-f09c9eed25b2.png)
+
 ### Cytochrome b subunit (Cyt-b)
 
 | SNP | Count | TsTv | Type | Origin |
@@ -381,6 +383,8 @@ For each gene, the purine/pyrimidine origin frequences for ROS, read error, and 
 | T>C | 41 | Ts | Pyr>Pyr | Read Error |
 | T>G | 28 | Tv | Pyr>Pur | Other |
 
+![ROS-CytB](https://user-images.githubusercontent.com/98036665/161463349-fea3ca6e-bc8a-4f06-aa13-1823c3b59040.png)
+
 ### D-loop control region
 
 | SNP | Count | TsTv | Type | Origin |
@@ -397,6 +401,8 @@ For each gene, the purine/pyrimidine origin frequences for ROS, read error, and 
 | T>A | 49 | Tv | Pyr>Pur | Other |
 | T>C | 19 | Ts | Pyr>Pyr | Read Error |
 | T>G | 9 | Tv | Pyr>Pur | Other |
+
+![ROS-D-loop](https://user-images.githubusercontent.com/98036665/161464449-f46a1315-d28f-4e4f-b80a-5a73d41ebeb3.png)
 
 ## Results and Discussion
 
