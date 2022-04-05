@@ -428,3 +428,12 @@ There is not a statistically significant difference between the frequencies of R
 [Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
 
 # Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
+
+## Purpose - To determine the the ratio of transition to transversion mutations in two sample mitochondrial genes, COX1 and Cyt-b
+**Hypothesis -**
+
+## Methodology
+
+## Results and Discussion
+
+## Conclusions
