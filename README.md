@@ -7,7 +7,7 @@
  2. [Modeling insertions, deletions, and INDEL mutations in *Mus musculus* mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/blob/main/README.md#modeling-insertions-deletions-and-indel-mutations-in-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
  3. [Analyzing SNP transition and transversion ratios in three *Mus musculus* mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region](https://github.com/bmb0082/lab-project/blob/main/README.md#analyzing-snp-transition-and-transversion-ratios-in-three-mus-musculus-mitochondrial-genes-cytochrome-c-oxidase-subunit-i-cytochrome-b-subunit-and-the-d-loop-control-region)
  4. [Investigating the origin of SNPs by type in three *Mus musculus* mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region](https://github.com/bmb0082/lab-project/blob/main/README.md#investigating-the-origins-of-snps-by-type-in-three-mus-musculus-mitochondrial-genes-cytochrome-c-oxidase-subunit-i-cytochrome-b-subunit-and-the-d-loop-control-region)
- 5. Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
+ 5. [Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region](https://github.com/bmb0082/lab-project/blob/main/README.md#modeling-the-effects-of-snps-from-mus-musculus-consensus-read-data-in-three-mitochondrial-genes-cytochrome-c-oxidase-subunit-i-cytochrome-b-subunit-and-the-d-loop-control-region)
  
 </details>
 
