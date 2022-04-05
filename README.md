@@ -470,8 +470,8 @@ AATAA
 ```
 
 ```
-Colony sequence of mt-co1, presented in the 5'-3' direction:
-IVAR consensus read, restricted to nucleotide coordinates 5328..6872
+Colony sequence read data of mt-Co1, presented in the 5'-3' direction:
+Sliced IVAR consensus read, restricted to nucleotide coordinates 5328..6872
 
 ATGTTCATTAATCGTTGATTATTCTCAACCAATCACAAAGATATCGGAACCCTCTATCTACTATTCGGAG
 CCTGAGCGGGAATAGTGGGTACTGCACTAAGTATTTTAATTCGAGCAGAATTAGGTCAACCAGGTGCACT
@@ -502,7 +502,7 @@ AATAA
 Cyt-b is the only mitochondrially encoded subunit of the cytochrome c reductase complex, also known as respiratory complex III in the electron transport chain. Its two heme groups, Cyt-bL and Cyt-bH, participate in electron bifurcation in the lower half of the Q cycle. It contains 11 subunits, cytochrome b, cytochrome c1, the Rieske protein, plus two core proteins and 6 low molecular weight proteins. Interestingly, the mitochondrial Cyt-b gene is ideal for phylogenetic studies and species identification, as it shows limited variability within species, and much greater variation between species.
 
 ```
-Reference genome source of mt-cyt-b gene, presented in the 5'-3' direction:
+Reference genome source of mt-Cyt-b gene, presented in the 5'-3' direction:
 Mus musculus mitochondrion, complete genome
 NCBI Reference Sequence: NC_005089.1
 
@@ -528,8 +528,8 @@ ACAAAATACTAAAATTATATCCAT
 ```
 
 ```
-Colony sequence of mt-cyt-b, presented in the 5'-3' direction:
-IVAR consensus read, restricted to nucleotide coordinates 14145..15288
+Colony sequence read data of mt-Cyt-b, presented in the 5'-3' direction:
+Sliced IVAR consensus read, restricted to nucleotide coordinates 14145..15288
 
 ATGACAAACATACGAAAAACACACCCATTATTTAAAATTATTAACCACTCATTCATTGACCTACCTGCCC
 CATCCAACATTTCATCATGATGAAACTTTGGGTCCCTTCTAGGAGTCTGCCTAATAGTCCAAATCATTAC
@@ -575,8 +575,8 @@ ATGGGAAGAAATGGGCTACATTTTCTTATAAAAGAACATTACTATACCCTTTATGAAACTAAAGGACTAA
 GGAGGATTTAGTAGTAAATTAAGAATAGAGAGCTTAA
 
 ```
-Colony sequence of mt-D-loop, presented in the 5'-3' direction:
-IVAR consensus read, restricted to nucleotide coordinates 1..877
+Colony sequence read data of mt-D-loop, presented in the 5'-3' direction:
+Sliced IVAR consensus read, restricted to nucleotide coordinates 1..877
 
 GTTAATGTAGCTTAATAACAAAGCAAAGCACTGAAAATGCTTAGATGGATAGTTATATCCCATAAACACA
 AAGGTTTGGTCCTGGCCTTATAATTAATTAGAGGTAAAATTACACATGCAAACCTCCATAGACCGGTGTA
