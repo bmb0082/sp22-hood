@@ -306,7 +306,7 @@ Cyt-b is the only mitochondrially encoded subunit of the cytochrome bc1 complex,
 ![cytb-SNPs-by-type](https://user-images.githubusercontent.com/98036665/159791608-2e523b46-f611-4add-a2d9-cd5422f40fda.png)
 
 ### D-loop control region
-In the mitochondria, the The D-loop is a non-coding region that acts as a promoter for both the heavy and light strands of the mtDNA. It contains essential transcription and replication elements. Using the SNP frequencies determined in the D-loop VCF, the Ts/Tv ratio for the D-loop-restricted dataset was calculated in Excel and graphed using RStudio. The resulting data is shown below.
+In the mitochondria, the The D-loop is not a gene, but a non-coding region that acts as a promoter for both the heavy and light strands of the mtDNA. It contains essential transcription and replication elements. Using the SNP frequencies determined in the D-loop VCF, the Ts/Tv ratio for the D-loop-restricted dataset was calculated in Excel and graphed using RStudio. The resulting data is shown below.
 
 | **Transitions (Ts)** |  |  |
 | --- | --- | --- |
@@ -430,7 +430,7 @@ There is no statistically significant difference between the frequencies of ROS-
 # Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
 
 ## Purpose - To determine how identified SNPs in collected consensus read data effect protein structure and function
-**Hypothesis -**
+**Hypothesis - The SNPs identified in the colony mice read data will have little to no effect on protein structure and function**
 
 ## Methodology
 
