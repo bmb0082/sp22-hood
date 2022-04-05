@@ -274,7 +274,7 @@ A [workflow](https://usegalaxy.org/u/bmb002/w/snp-calling-by-gene--vcf-generatio
 The mitochondrial genome of brain tissue from *Mus musculus* was sequenced and uploaded to Galaxy as mutilple reads in FASTQ formatted files. Quality control using the FastQC program was performed for quality assurance of the sequence reads. Each of the read files were mapped to a the built-in mm10 reference genome using BWA-MEM, then merged to a single BAM file using the MergeSamFiles function. The whole genome BAM was constricted down to a select region containing the COX1 gene using the Slice tool set to restrict to nucleotide coordinates 5328..6872, which were obtained from an [NCBI reference genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_005089.1?report=fasta). Using the bcfTools mpileup program, a Variant Called Format (VCF) file was created from the COX1-restricted BAM in order to perform SNP and INDEL calling. Lastly, statisitcal analysis using the bcfTools Stats program was performed to generate an overview of the specific point mutation SNPs recognized in the dataset. The same procedure was followed to generate a Cyt-b dataset restricted to the mitochondrial coordinates 14145..15288, and a D-loop dataset restricted to the mitochondrial coordinates 1..877.
 
 ### Cytochrome c oxidase subunit I (COX1)
-COX1 is the mitochondirally-encoded subunit 1 of cytochrome c oxidase, also known as respiratory complex IV. It participates in reduction of peroxide ions to water in terminal electron acceptance. Using the SNP frequencies determined in the VCF, the Ts/Tv ratio for the COX1-restricted dataset was calculated in Excel and graphed using RStudio. The resulting data is shown below.
+COX1 is the mitochondrially-encoded subunit 1 of cytochrome c oxidase, also known as respiratory complex IV. It participates in reduction of peroxide ions to water in terminal electron acceptance. Using the SNP frequencies determined in the VCF, the Ts/Tv ratio for the COX1-restricted dataset was calculated in Excel and graphed using RStudio. The resulting data is shown below.
 
 | **Transitions (Ts)** |  |  |
 | --- | --- | --- |
@@ -429,10 +429,80 @@ There is no statistically significant difference between the frequencies of ROS-
 
 # Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
 
-## Purpose - To determine how identified SNPs in collected consensus read data effect protein structure and function
+## Purpose - To determine through sequence analysis how identified SNPs in collected consensus read data effect protein structure and function
 **Hypothesis - The SNPs identified in the colony mice read data will have little to no effect on protein structure and function**
 
 ## Methodology
+
+### Cytochrome c oxidase subunit I (COX1)
+COX1 is the mitochondrially-encoded subunit 1 of cytochrome c oxidase, also known as respiratory complex IV. COX is a multimeric enzyme with intricate and highly regulated assembly that involves multiple cofactors and associated assmebly proteins. It contains 13 subunits, where the three catalytic subunits (I-III) are mitochondrial coded, and the other 10 are nuclear coded. As a unit, COX is a directly redox-linked proton pump that facilitates the reduction of peroxide ions to water in terminal electron acceptance. Due the essential function of COX1 and its binding of heme-a and heme-a3-CuB, COX1's active sites have conserved structure and function across eukaryotic taxa. However, other regions of the gene are more variable. The MT-CO1 gene is often used as a DNA barcode to identify animal species because its sequence is conserved among conspecifics, but the mutation rate of non-conserved areas is often fast enough to distinguish closely related species.
+
+```
+Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
+Mus musculus mitochondrion, complete genome
+NCBI Reference Sequence: NC_005089.1
+
+GenBank Graphics
+>NC_005089.1:5328-6872 Mus musculus mitochondrion, complete genome
+ATGTTCATTAATCGTTGATTATTCTCAACCAATCACAAAGATATCGGAACCCTCTATCTACTATTCGGAG
+CCTGAGCGGGAATAGTGGGTACTGCACTAAGTATTTTAATTCGAGCAGAATTAGGTCAACCAGGTGCACT
+TTTAGGAGATGACCAAATTTACAATGTTATCGTAACTGCCCATGCTTTTGTTATAATTTTCTTCATAGTA
+ATACCAATAATAATTGGAGGCTTTGGAAACTGACTTGTCCCACTAATAATCGGAGCCCCAGATATAGCAT
+TCCCACGAATAAATAATATAAGTTTTTGACTCCTACCACCATCATTTCTCCTTCTCCTAGCATCATCAAT
+AGTAGAAGCAGGAGCAGGAACAGGATGAACAGTCTACCCACCTCTAGCCGGAAATCTAGCCCATGCAGGA
+GCATCAGTAGACCTAACAATTTTCTCCCTTCATTTAGCTGGAGTGTCATCTATTTTAGGTGCAATTAATT
+TTATTACCACTATTATCAACATGAAACCCCCAGCCATAACACAGTATCAAACTCCACTATTTGTCTGATC
+CGTACTTATTACAGCCGTACTGCTCCTATTATCACTACCAGTGCTAGCCGCAGGCATTACTATACTACTA
+ACAGACCGCAACCTAAACACAACTTTCTTTGATCCCGCTGGAGGAGGGGACCCAATTCTCTACCAGCATC
+TGTTCTGATTCTTTGGGCACCCAGAAGTTTATATTCTTATCCTCCCAGGATTTGGAATTATTTCACATGT
+AGTTACTTACTACTCCGGAAAAAAAGAACCTTTCGGCTATATAGGAATAGTATGAGCAATAATGTCTATT
+GGCTTTCTAGGCTTTATTGTATGAGCCCACCACATATTCACAGTAGGATTAGATGTAGACACACGAGCTT
+ACTTTACATCAGCCACTATAATTATCGCAATTCCTACCGGTGTCAAAGTATTTAGCTGACTTGCAACCCT
+ACACGGAGGTAATATTAAATGATCTCCAGCTATACTATGAGCCTTAGGCTTTATTTTCTTATTTACAGTT
+GGTGGTCTAACCGGAATTGTTTTATCCAACTCATCCCTTGACATCGTGCTTCACGATACATACTATGTAG
+TAGCCCATTTCCACTATGTTCTATCAATGGGAGCAGTGTTTGCTATCATAGCAGGATTTGTTCACTGATT
+CCCATTATTTTCAGGCTTCACCCTAGATGACACATGAGCAAAAGCCCACTTCGCCATCATATTCGTAGGA
+GTAAACATAACATTCTTCCCTCAACATTTCCTGGGCCTTTCAGGAATACCACGACGCTACTCAGACTACC
+CAGATGCTTACACCACATGAAACACTGTCTCTTCTATAGGATCATTTATTTCACTAACAGCTGTTCTCAT
+CATGATCTTTATAATTTGAGAGGCCTTTGCTTCAAAACGAGAAGTAATATCAGTATCGTATGCTTCAACA
+AATTTAGAATGACTTCATGGCTGCCCTCCACCATATCACACATTCGAGGAACCAACCTATGTAAAAGTAA
+AATAA
+```
+
+```
+Colony sequence of mt-co1, presented in the 5'-3' direction:
+
+Consensus read data, restricted to nucleotide coordinates 5328..6872
+ATGTTCATTAATCGTTGATTATTCTCAACCAATCACAAAGATATCGGAACCCTCTATCTACTATTCGGAG
+CCTGAGCGGGAATAGTGGGTACTGCACTAAGTATTTTAATTCGAGCAGAATTAGGTCAACCAGGTGCACT
+TTTAGGAGATGACCAAATTTACAATGTTATCGTAACTGCCCATGCTTTTGTTATAATTTTCTTCATAGTA
+ATACCAATAATAATCGGAGGCTTTGGAAACTGACTTGTCCCACTAATAATCGGAGCCCCAGATATAGCAT
+TCCCACGAATAAATAATATAAGTTTTTGACTCCTACCACCATCATTTCTCCTTCTCCTAGCATCATCAAT
+AGTAGAAGCAGGAGCAGGAACAGGATGAACAGTCTACCCACCTCTAGCCGGAAATCTAGCCCATGCAGGA
+GCATCAGTAGACCTAACAATTTTCTCCCTTCATTTAGCTGGAGTGTCATCTATTTTAGGTGCAATTAATT
+TTATTACCACTATTATCAACATGAAGCCCCCAGCCATAACACAGTATCAAACTCCACTATTTGTCTGATC
+CGTACTTATTACAGCCGTACTGCTCCTATTATCACTACCAGTACTAGCCGCAGGCATTACTATACTACTA
+ACAGACCGCAACCTAAACACAACTTTCTTTGATCCCGCTGGAGGAGGGGACCCAATTCTCTACCAGCATC
+TGTTCTGATTCTTTGGACACCCAGAAGTTTATATTCTTATCCTCCCAGGATTTGGAATTATTTCACATGT
+AGTTACTTACTACTCCGGAAAAAAAGAACCTTTCGGCTATATAGGAATAGTATGAGCAATAATGTCTATT
+GGCTTTCTAGGCTTTATTGTATGAGCCCACCACATATTCACAGTAGGATTAGATGTAGACACACGAGCTT
+ACTTTACATCAGCCACTATAATTATCGCAATTCCTACCGGTGTCAAAGTATTTAGCTGACTTGCAACCCT
+ACACGGAGGTAATATTAAATGATCTCCAGCTATACTATGAGCCTTAGGCTTTATTTTCTTATTTACAGTT
+GGTGGTCTAACCGGAATTGTTTTATCCAACTCATCCCTTGACATCGTGCTTCACGATACATACTATGTAG
+TAGCCCATTTCCACTATGTTCTATCAATGGGAGCAGTGTTTGCTATCATAGCAGGATTTGTTCACTGATT
+CCCATTATTTTCAGGCTTCACCCTAGATGACACATGAGCAAAAGCCCACTTCGCCATCATATTCGTAGGA
+GTAAACATAACATTCTTCCCTCAACATTTCCTGGGCCTTTCAGGAATACCACGACGCTACTCAGACTACC
+CAGATGCTTACACCACATGAAACACTGTCTCTTCTATAGGATCATTTATTTCACTAACAGCTGTTCTCAT
+CATGATCTTTATAATTTGAGAGGCCTTTGCTTCAAAACGAGAAGTAATATCAGTATCGTATGCTTCAACA
+AATTTAGAATGACTTCATGGCTGCCCTCCACCATATCACACATTCGAGGAACCAACCTATGTAAAAGTAA
+AATAA
+```
+
+### Cytochrome b subunit (Cyt-b)
+Cyt-b is the only mitochondrially encoded subunit of the cytochrome c reductase complex, also known as respiratory complex III in the electron transport chain. Its two heme groups, Cyt-bL and Cyt-bH, participate in electron bifurcation in the lower half of the Q cycle. It contains 11 subunits, cytochrome b, cytochrome c1, the Rieske protein, plus two core proteins and 6 low molecular weight proteins. Interestingly, the mitochondrial Cyt-b gene is ideal for phylogenetic studies and species identification, as it shows limited variability within species, and much greater variation between species.
+
+### D-loop control region
+The D-loop is technically not a gene, but rather, a non-coding region of mtDNA that acts as a promoter for both the heavy and light strands of the circular mitochondrial genome. As such, it contains essential transcription and replication elements. Mutations in this region may serve as potential indicators of cellular DNA damage, and according to the recent literature, increased rates of D-loop mutation have also been linked to the pathogenesis of many types of cancer.
 
 ## Results and Discussion
 
