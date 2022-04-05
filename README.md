@@ -90,6 +90,8 @@ The data gathered in this experiment supports the idea that directionality of tr
 ## Conclusions
 Reading the mt-CO1 gene transcript in 5'-3' direction produces a functional protein that is able to bind its necessary prothetic groups and participate in the safe acceptance of electrons. Consequently, the 3'-5' direction lacks a functional active site and would result likely result in a phenotype of mitochondrial disease.
 
+[Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
+
 # Modeling insertions, deletions, and INDEL mutations in *Mus musculus* mitochondrial cytochrome c oxidase subunit I
 Mutations are changes in DNA sequence that result in a variant form that can be passed down to subsequent generations. Most commonly, alterations in the structure of a gene are caused by single nucleotide transition or transversion mutations called single nucleotide polymorphisms (SNPs). However, mutations can also arise from insersion, deletion, or rearrangement of sections of a gene or chromosome.
 
@@ -256,6 +258,8 @@ In relation to function, the loss of the activity of the catalytic site of COX1 
 ## Conclusions
 The deletion mutation and the INDEL mutation both result in active site remodeling and loss of ligand binding. In a model organism such as *Mus musculus*, these mutations would likely result in embryonic reabsorption, as they achieve complete loss of COX1 function. The insertion mutation results in decreased mitochondrial function and could be an interesting mutation to observe in a *Mus musculus* model to study mitochondiral diseases that have decreasd COX activity.
 
+[Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
+
 # Analyzing SNP transition and transversion ratios in three *Mus musculus* mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
 Transitions (Ts) are SNPs that result in substitution between two purines or two pyrimidines, producing in a binding affinity that contains the same number of hydrogen bonds between bases as the wild type. Transversion (Tv) mutations result from substitution between a purine and pyrimidine, creating a variant strand that differs in number of hydrogen bonds from its complimentary strand. Generally, transversions are more likely to alter the amino acid sequence of proteins than transitions due to bucking of the DNA strand that alters interactions with transcription factors.
 
@@ -326,6 +330,8 @@ These questions are subject to further investigation, possibly by exploring thes
 
 ## Conclusions
 Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a Ts/Tv ratio of 0.49 for the mitochondrially-encoded gene COX1, 0.45 for mitochondrially-encoded Cyt-b, and 0.51 for the mitochondrial D-loop promoter region.
+
+[Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
 
 # Investigating the origins of SNPs by type in three *Mus musculus* mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
 In general, mitochondrial DNA has a 10x greater rate of mutation than nuclear DNA due to less efficient DNA repair, a more mutagenic environment, and higher load of replications per cell division.
@@ -418,5 +424,7 @@ In each gene, the "other" category of transversion origins is the most frequent.
 
 ## Conclusions
 There is not a statistically significant difference between the frequencies of ROS-mediated mutations, read error-mediated mutations, and other types of mutations.
+
+[Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
 
 # Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
