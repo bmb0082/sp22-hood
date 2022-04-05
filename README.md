@@ -423,13 +423,13 @@ Though differences in the frequencies of mutation origins were observed, linear 
 In each gene, the "other" category of transversion origins is the most frequent. This raises further questions that could be of biological relevance. Is this group composed of many small origins that add up to a large number? Or is something big missing in this picture? What are other mechanisms by which transversions can arise, and how can we elucidate our understanding? These questions are subject to further investigation and research into other origins of mutagenesis, both spontaneous and induced.
 
 ## Conclusions
-There is not a statistically significant difference between the frequencies of ROS-mediated mutations, read error-mediated mutations, and other types of mutations.
+There is no statistically significant difference between the frequencies of ROS-mediated mutations, read error-mediated mutations, and other types of mutations.
 
 [Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
 
 # Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
 
-## Purpose - To determine the the ratio of transition to transversion mutations in two sample mitochondrial genes, COX1 and Cyt-b
+## Purpose - To determine how identified SNPs in collected consensus read data effect protein structure and function
 **Hypothesis -**
 
 ## Methodology
