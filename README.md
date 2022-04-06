@@ -434,6 +434,8 @@ There is no statistically significant difference between the frequencies of ROS-
 
 ## Methodology
 
+
+
 ### Cytochrome c oxidase subunit I (COX1)
 COX1 is the mitochondrially-encoded subunit 1 of cytochrome c oxidase, also known as respiratory complex IV. COX is a multimeric enzyme with intricate and highly regulated assembly that involves multiple cofactors and associated assmebly proteins. It contains 13 subunits, where the three catalytic subunits (I-III) are mitochondrial coded, and the other 10 are nuclear coded. As a unit, COX is a directly redox-linked proton pump that facilitates the reduction of peroxide ions to water in terminal electron acceptance. Due the essential function of COX1 and its binding of heme-a and heme-a3-CuB, COX1's active sites have conserved structure and function across eukaryotic taxa. However, other regions of the gene are more variable. The MT-CO1 gene is often used as a DNA barcode to identify animal species because its sequence is conserved among conspecifics, but the mutation rate of non-conserved areas is often fast enough to distinguish closely related species.
 
@@ -496,6 +498,32 @@ CAGATGCTTACACCACATGAAACACTGTCTCTTCTATAGGATCATTTATTTCACTAACAGCTGTTCTCAT
 CATGATCTTTATAATTTGAGAGGCCTTTGCTTCAAAACGAGAAGTAATATCAGTATCGTATGCTTCAACA
 AATTTAGAATGACTTCATGGCTGCCCTCCACCATATCACACATTCGAGGAACCAACCTATGTAAAAGTAA
 AATAA
+```
+
+Below are the translated amino acid sequences generated using [ExPASy Translate Tool](https://web.expasy.org/translate/) for the control COX1 and restricted read data.
+
+```
+COX1 control, open reading frame 1 sequence, translated 5'-3':
+MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLGDDQIYNVIVTAHAFVMIFFMVM
+PMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSMVEAGAGTGWTVYPPLAGNLAHAGAS
+VDLTIFSLHLAGVSSILGAINFITTIINMKPPAMTQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDR
+NLNTTFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLG
+FIVWAHHMFTVGLDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGGNIKWSPAMLWALGFIFLFTVGGLTG
+IVLSNSSLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGFTLDDTWAKAHFAIMFVGVNMTFF
+PQHFLGLSGMPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHG
+CPPPYHTFEEPTYVKVK-
+```
+
+```
+COX1 read data, open reading frame 1 sequence, translated 5'-3':
+MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLGDDQIYNVIVTAHAFVMIFFMVM
+PMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSMVEAGAGTGWTVYPPLAGNLAHAGAS
+VDLTIFSLHLAGVSSILGAINFITTIINMKPPAMTQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDR
+NLNTTFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFLG
+FIVWAHHMFTVGLDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGGNIKWSPAMLWALGFIFLFTVGGLTG
+IVLSNSSLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGFTLDDTWAKAHFAIMFVGVNMTFF
+PQHFLGLSGMPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHG
+CPPPYHTFEEPTYVKVK-
 ```
 
 ### Cytochrome b subunit (Cyt-b)
