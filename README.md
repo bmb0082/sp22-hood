@@ -536,8 +536,10 @@ CPPPYHTFEEPTYVKVK-
 
 Finally, BLASTp was performed in order to determine if the identified SNPs result in downstream mutations in primary amino acid structure, and therefore protein folding and function. Shown below is the basic amino acid local alignment of the control (query) vs the read sequence data (subject) for COX1.
 
+<p align="center">
 <img width="717" alt="COX1-BLASTp" src="https://user-images.githubusercontent.com/98036665/162488655-681aa5fb-b55d-4a15-a436-a1deb3edafe0.png">
-
+</p>
+ 
 BLASTp of colony consensus COX1 vs the control shows 100% amino acid sequence identity despite the presence of 4 mismatch SNPs, thus maintaining the same protein structure and function. A model of COX1 made with [SWISS-MODEL](https://swissmodel.expasy.org/interactive) is shown below.
 
 
@@ -600,7 +602,9 @@ ACAAAATACTAAAATTATATCCAT
 
 Basic nucleotide local alignment of the above control sequence (query) vs the consenus sequence (subject) was performed using BLASTn to locate SNPs in the consensus read data, shown below.
 
+<p align="center">
 <img width="368" alt="Cyt-b-BLASTn" src="https://user-images.githubusercontent.com/98036665/162497882-caaba962-dfcf-4b51-a01c-4f1fd9ad9184.png">
+</p>
 
 The results of the BLASTp in Cyt-b identified 2 mismatch SNPs: 525G>A, 594C>T. As shown in the table below, all of the SNPs identified in Cyt-b are transitions due to polymerase read error.
 
@@ -633,8 +637,10 @@ GQLASISYFSIILILMPISGIIEDKMLKLYP
 
 Finally, BLASTp was performed in order to determine if the identified SNPs result in downstream mutations in primary amino acid structure, and therefore protein folding and function. Shown below is the basic amino acid local alignment of the control (query) vs the read sequence data (subject) for Cyt-b.
 
+<p align="center">
 <img width="717" alt="Cyt-b-BLASTp" src="https://user-images.githubusercontent.com/98036665/162488789-e9dff98d-1916-4ef7-8a88-b1722f948b9e.png">
-
+</p>
+ 
 BLASTp of colony consensus Cyt-b vs the control shows 100% amino acid sequence identity despite the presence of 2 mismatch SNPs, thus maintaining the same protein structure and function. A model of Cyt-b made with [SWISS-MODEL](https://swissmodel.expasy.org/interactive) is shown below.
 
 
