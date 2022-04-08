@@ -652,10 +652,9 @@ CGTCACCCTCCTCAAATTAAATTAAACTTAACATAATTAATTTCTAGACATCCGTTTATGAGAGGAGATA
 AGTCGTAACAAGGTAAGCATACTGGAAAGTGTGCTTGGAATAATCMT
 ```
 
-Since the D-loop is a regulatory region that is not transcribed or translated, BLASTp cannot be used. Therefore, only basic nucleotide local alignment with BLASTn was performed, as shown below.
+Since the D-loop is a regulatory region that is not transcribed or translated, BLASTp cannot be used. Therefore, only basic nucleotide local alignment (BLASTn) of the control vs the consensus read sequence data for the D-loop was performed, as shown below.
 
-
-
+<img width="491" alt="D-loop-BLASTn" src="https://user-images.githubusercontent.com/98036665/162489804-8118e400-ef6f-4a73-a7b1-433de92570af.png">
 
 ## Results and Discussion
 
