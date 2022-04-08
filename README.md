@@ -423,7 +423,7 @@ Though differences in the frequencies of mutation origins were observed, linear 
 In each gene, the "other" category of transversion origins is the most frequent. This raises further questions that could be of biological relevance. Is this group composed of many small origins that add up to a large number? Or is something big missing in this picture? What are other mechanisms by which transversions can arise, and how can we elucidate our understanding? These questions are subject to further investigation and research into other origins of mutagenesis, both spontaneous and induced.
 
 ## Conclusions
-There is no statistically significant difference between the frequencies of ROS-mediated mutations, read error-mediated mutations, and other types of mutations.
+There is no statistically significant difference between the frequencies of ROS-mediated mutations, read error-mediated mutations, and other types of mutations. Though many mutations were identified in the aligned read data, this number is drastically reduced during the creation of a consensus sequence. 
 
 [Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
 
@@ -433,6 +433,7 @@ There is no statistically significant difference between the frequencies of ROS-
 **Hypothesis - The SNPs identified in the colony mice read data will have little to no effect on protein structure and function**
 
 ## Methodology
+Though there were many mutations identified in the variant called format (VCF) read data, this number is drastically reduced when a consensus sequence is formed. Consensus sequence data shows us the mutations that most accurately characterize the mice in our colony at a given time by condensing reads down to the most frequent nucleotide observed at each position. In this experiment, consensus sequences for each gene (COX1, Cyt-b) and the D-loop were creating using the UseGalaxy IVAR consensus tool from their respective coordinate-restriced BAMs from project 3. Then, BLASTn was run on each sample, comparing the consensus reads to the mm10 reference genome from NCBI in order to identify SNPs in the consensus sequence. These SNPs were then classified by origin. The consensus sequences were translated to amino acid sequences using the ExPASy Translate Tool](https://web.expasy.org/translate/). Finally, BLASTp was performed on the comparing the translated sequences to a the translated references in order to determine if the SNPs resuled in mutations in the primary amino acid sequence. This protocol was followed for COX1, Cyt-b, and the D-loop control region datasets.
 
 ### Cytochrome c oxidase subunit I (COX1)
 COX1 is the mitochondrially-encoded subunit 1 of cytochrome c oxidase, also known as respiratory complex IV. COX is a multimeric enzyme with intricate and highly regulated assembly that involves multiple cofactors and associated assmebly proteins. It contains 13 subunits, where the three catalytic subunits (I-III) are mitochondrial coded, and the other 10 are nuclear coded. As a unit, COX is a directly redox-linked proton pump that facilitates the reduction of peroxide ions to water in terminal electron acceptance. Due the essential function of COX1 and its binding of heme-a and heme-a3-CuB, COX1's active sites have conserved structure and function across eukaryotic taxa. However, other regions of the gene are more variable. The MT-CO1 gene is often used as a DNA barcode to identify animal species because its sequence is conserved among conspecifics, but the mutation rate of non-conserved areas is often fast enough to distinguish closely related species.
@@ -498,7 +499,16 @@ AATTTAGAATGACTTCATGGCTGCCCTCCACCATATCACACATTCGAGGAACCAACCTATGTAAAAGTAA
 AATAA
 ```
 
-Below are the translated amino acid sequences generated using [ExPASy Translate Tool](https://web.expasy.org/translate/) for the control COX1 and restricted read data.
+The results of the BLASTp in COX1 identified 4 mismatch SNPs: 225T>C, 516A>G, 603G>A, 717G>A. As shown in the table below, all of the SNPs identified in COX1 are transitions due to polymerase read error.
+
+| Position | Mutation | TsTv | Type | Origin |
+| --- | --- | --- |  --- | --- |
+| 225 | T>C | Ts | Pyr>Pyr | Read Error |
+| 516 | A>G | Ts | Pur>Pur | Read Error |
+| 603 | G>A | Ts | Pur>Pur | Read Error |
+| 717 | G>A | Ts | Pur>Pur | Read Error |
+
+Next, translated amino acid sequences were generated using [ExPASy Translate Tool](https://web.expasy.org/translate/) for the control COX1 and restricted read data, as shown below
 
 ```
 COX1 control, open reading frame 1 sequence, translated 5'-3':
@@ -524,7 +534,7 @@ PQHFLGLSGMPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHG
 CPPPYHTFEEPTYVKVK-
 ```
 
-Below is a basic amino acid local alignment created using BLASTp of the control vs the read sequence data for COX1.
+Finally, BLASTp was performed in order to determine if the identified SNPs result in downstream mutations in primary amino acid structure, and therefore protein folding and function. Shown below is the basic amino acid local alignment of the control (query) vs the read sequence data (subject) for COX1.
 
 <img width="717" alt="COX1-BLASTp" src="https://user-images.githubusercontent.com/98036665/162488655-681aa5fb-b55d-4a15-a436-a1deb3edafe0.png">
 
@@ -580,7 +590,18 @@ GGCCAACTAGCCTCCATCTCATACTTCTCAATCATCTTAATTCTTATACCAATCTCAGGAATTATCGAAG
 ACAAAATACTAAAATTATATCCAT
 ```
 
-Below are the translated amino acid sequences generated using [ExPASy Translate Tool](https://web.expasy.org/translate/) for the control Cyt-b and restricted read data.
+Basic nucleotide local alignment of the above control sequence (query) vs the consenus sequence (subject) was performed using BLASTn to locate SNPs in the consensus read data, shown below.
+
+<img width="368" alt="Cyt-b-BLASTn" src="https://user-images.githubusercontent.com/98036665/162497882-caaba962-dfcf-4b51-a01c-4f1fd9ad9184.png">
+
+The results of the BLASTp in Cyt-b identified 2 mismatch SNPs: 525G>A, 594C>T. As shown in the table below, all of the SNPs identified in Cyt-b are transitions due to polymerase read error.
+
+| Position | Mutation | TsTv | Type | Origin |
+| --- | --- | --- |  --- | --- |
+| 525 | G>A | Ts | Pyr>Pyr | Read Error |
+| 594 | C>T | Ts | Pyr>Pyr | Read Error |
+
+Next, translated amino acid sequences were generated using [ExPASy Translate Tool](https://web.expasy.org/translate/) for the control Cyt-b and restricted read data, as shown below
 
 ```
 Cyt-b control, open reading frame 1 sequence, translated 5'-3':
@@ -602,7 +623,7 @@ LRSIPNKLGGVLALILSILILALMPFLHTSKQRSLMFRPITQILYWILVANLLILTWIGGQPVEHPFIII
 GQLASISYFSIILILMPISGIIEDKMLKLYP
 ```
 
-Below is a basic amino acid local alignment created using BLASTp of the control vs the read sequence data for COX1.
+Finally, BLASTp was performed in order to determine if the identified SNPs result in downstream mutations in primary amino acid structure, and therefore protein folding and function. Shown below is the basic amino acid local alignment of the control (query) vs the read sequence data (subject) for Cyt-b.
 
 <img width="717" alt="Cyt-b-BLASTp" src="https://user-images.githubusercontent.com/98036665/162488789-e9dff98d-1916-4ef7-8a88-b1722f948b9e.png">
 
@@ -652,9 +673,20 @@ CGTCACCCTCCTCAAATTAAATTAAACTTAACATAATTAATTTCTAGACATCCGTTTATGAGAGGAGATA
 AGTCGTAACAAGGTAAGCATACTGGAAAGTGTGCTTGGAATAATCMT
 ```
 
-Since the D-loop is a regulatory region that is not transcribed or translated, BLASTp cannot be used. Therefore, only basic nucleotide local alignment (BLASTn) of the control vs the consensus read sequence data for the D-loop was performed, as shown below.
+Basic nucleotide local alignment of the above control sequence (query) vs the consenus sequence (subject) was performed using BLASTn to locate SNPs in the consensus read data, shown below.
 
 <img width="491" alt="D-loop-BLASTn" src="https://user-images.githubusercontent.com/98036665/162489804-8118e400-ef6f-4a73-a7b1-433de92570af.png">
+
+The results of the BLASTp in the D-loop identified 4 mismatch SNPs: 52A>G, 55G>A, 381A>T, 465G>A. As shown in the table below, all of the SNPs identified in COX1 are transitions due to polymerase read error.
+
+| Position | Mutation | TsTv | Type | Origin |
+| --- | --- | --- |  --- | --- |
+| 225 | T>C | Ts | Pyr>Pyr | Read Error |
+| 516 | A>G | Ts | Pur>Pur | Read Error |
+| 603 | G>A | Ts | Pur>Pur | Read Error |
+| 717 | G>A | Ts | Pur>Pur | Read Error |
+
+Since the D-loop is a regulatory region that is not transcribed or translated, BLASTp cannot be used. Therefore, only BLASTn was performed to identify SNPs. Predictions reguarding change in the function of the H strand promoter are based on whether or not the number of mutations present affect polymerase binding for transcription or mitochondrial genome replication.
 
 ## Results and Discussion
 
