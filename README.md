@@ -650,7 +650,7 @@ BLASTp of colony consensus Cyt-b vs the control shows 100% amino acid sequence i
 
 
 ### D-loop control region
-The D-loop is technically not a gene, but rather, a non-coding region of mtDNA that acts as a promoter for both the heavy and light strands of the circular mitochondrial genome. As such, it contains essential transcription and replication elements. Mutations in this region may serve as potential indicators of cellular DNA damage, and according to the recent literature, increased rates of D-loop mutation have also been linked to the pathogenesis of many types of cancer.
+The D-loop is technically not a gene, but rather, a non-coding region of mtDNA that acts as a promoter for the heavy strand of the circular mitochondrial genome. As such, it contains essential transcription and replication elements. Mutations in this region may serve as potential indicators of cellular DNA damage, and according to the recent literature, increased rates of D-loop mutation have also been linked to the pathogenesis of many types of cancer.
 
 ```
 Reference genome source of mt-D-loop, presented in the 5'-3' direction:
