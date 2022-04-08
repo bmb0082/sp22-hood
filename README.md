@@ -538,6 +538,10 @@ Finally, BLASTp was performed in order to determine if the identified SNPs resul
 
 <img width="717" alt="COX1-BLASTp" src="https://user-images.githubusercontent.com/98036665/162488655-681aa5fb-b55d-4a15-a436-a1deb3edafe0.png">
 
+BLASTp of colony consensus COX1 vs the control shows 100% amino acid sequence identity despite the presence of 4 mismatch SNPs, thus maintaining the same protein structure and function. A model of COX1 made with [SWISS-MODEL](https://swissmodel.expasy.org/interactive) is shown below.
+
+![COX1 5-3](https://user-images.githubusercontent.com/98036665/162526503-a4b54859-cb8a-453c-a2bc-eec34396b655.png)
+
 ### Cytochrome b subunit (Cyt-b)
 Cyt-b is the only mitochondrially encoded subunit of the cytochrome c reductase complex, also known as respiratory complex III in the electron transport chain. Its two heme groups, Cyt-bL and Cyt-bH, participate in electron bifurcation in the lower half of the Q cycle. It contains 11 subunits, cytochrome b, cytochrome c1, the Rieske protein, plus two core proteins and 6 low molecular weight proteins. Interestingly, the mitochondrial Cyt-b gene is ideal for phylogenetic studies and species identification, as it shows limited variability within species, and much greater variation between species.
 
@@ -627,6 +631,10 @@ Finally, BLASTp was performed in order to determine if the identified SNPs resul
 
 <img width="717" alt="Cyt-b-BLASTp" src="https://user-images.githubusercontent.com/98036665/162488789-e9dff98d-1916-4ef7-8a88-b1722f948b9e.png">
 
+BLASTp of colony consensus Cyt-b vs the control shows 100% amino acid sequence identity despite the presence of 2 mismatch SNPs, thus maintaining the same protein structure and function. A model of Cyt-b made with [SWISS-MODEL](https://swissmodel.expasy.org/interactive) is shown below.
+
+![Cyt-b 5-3](https://user-images.githubusercontent.com/98036665/162527603-732a178b-558a-4074-bdc0-d3ccd7a60b10.png)
+
 ### D-loop control region
 The D-loop is technically not a gene, but rather, a non-coding region of mtDNA that acts as a promoter for both the heavy and light strands of the circular mitochondrial genome. As such, it contains essential transcription and replication elements. Mutations in this region may serve as potential indicators of cellular DNA damage, and according to the recent literature, increased rates of D-loop mutation have also been linked to the pathogenesis of many types of cancer.
 
@@ -677,16 +685,16 @@ Basic nucleotide local alignment of the above control sequence (query) vs the co
 
 <img width="491" alt="D-loop-BLASTn" src="https://user-images.githubusercontent.com/98036665/162489804-8118e400-ef6f-4a73-a7b1-433de92570af.png">
 
-The results of the BLASTp in the D-loop identified 4 mismatch SNPs: 52A>G, 55G>A, 381A>T, 465G>A. As shown in the table below, all of the SNPs identified in COX1 are transitions due to polymerase read error.
+The results of the BLASTp in the D-loop identified 4 mismatch SNPs: 52A>G, 55G>A, 381A>T, 465G>A. As shown in the table below, 3 of the 4 of the SNPs identified in the D-loop are transitions due to polymerase read error. The remaining SNP is a transversion with an unknown origin.
 
 | Position | Mutation | TsTv | Type | Origin |
 | --- | --- | --- |  --- | --- |
-| 225 | T>C | Ts | Pyr>Pyr | Read Error |
-| 516 | A>G | Ts | Pur>Pur | Read Error |
-| 603 | G>A | Ts | Pur>Pur | Read Error |
-| 717 | G>A | Ts | Pur>Pur | Read Error |
+| 52 | A>G | Ts | Pur>Pur | Read Error |
+| 55 | G>A | Ts | Pur>Pur | Read Error |
+| 381 | A>T | Tv | Pur>Pyr | Other Origin |
+| 465 | G>A | Ts | Pur>Pur | Read Error |
 
-Since the D-loop is a regulatory region that is not transcribed or translated, BLASTp cannot be used. Therefore, only BLASTn was performed to identify SNPs. Predictions reguarding change in the function of the H strand promoter are based on whether or not the number of mutations present affect polymerase binding for transcription or mitochondrial genome replication.
+Since the D-loop is a regulatory region that is not transcribed or translated, BLASTp and SWISS-MODEL, which are protein bioinformatics tools, cannot be used. Therefore, only BLASTn was performed to identify SNPs. Predictions regarding change in the function the D-loop and the H strand promoter it contains are based on whether or not the number of mutations present affect polymerase binding for transcription or mitochondrial genome replication.
 
 ## Results and Discussion
 
