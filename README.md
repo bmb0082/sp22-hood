@@ -524,6 +524,10 @@ PQHFLGLSGMPRRYSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHG
 CPPPYHTFEEPTYVKVK-
 ```
 
+Below is a basic amino acid local alignment created using BLASTp of the control vs the read sequence data for COX1.
+
+<img width="717" alt="COX1-BLASTp" src="https://user-images.githubusercontent.com/98036665/162488655-681aa5fb-b55d-4a15-a436-a1deb3edafe0.png">
+
 ### Cytochrome b subunit (Cyt-b)
 Cyt-b is the only mitochondrially encoded subunit of the cytochrome c reductase complex, also known as respiratory complex III in the electron transport chain. Its two heme groups, Cyt-bL and Cyt-bH, participate in electron bifurcation in the lower half of the Q cycle. It contains 11 subunits, cytochrome b, cytochrome c1, the Rieske protein, plus two core proteins and 6 low molecular weight proteins. Interestingly, the mitochondrial Cyt-b gene is ideal for phylogenetic studies and species identification, as it shows limited variability within species, and much greater variation between species.
 
@@ -598,6 +602,10 @@ LRSIPNKLGGVLALILSILILALMPFLHTSKQRSLMFRPITQILYWILVANLLILTWIGGQPVEHPFIII
 GQLASISYFSIILILMPISGIIEDKMLKLYP
 ```
 
+Below is a basic amino acid local alignment created using BLASTp of the control vs the read sequence data for COX1.
+
+<img width="717" alt="Cyt-b-BLASTp" src="https://user-images.githubusercontent.com/98036665/162488789-e9dff98d-1916-4ef7-8a88-b1722f948b9e.png">
+
 ### D-loop control region
 The D-loop is technically not a gene, but rather, a non-coding region of mtDNA that acts as a promoter for both the heavy and light strands of the circular mitochondrial genome. As such, it contains essential transcription and replication elements. Mutations in this region may serve as potential indicators of cellular DNA damage, and according to the recent literature, increased rates of D-loop mutation have also been linked to the pathogenesis of many types of cancer.
 
@@ -643,6 +651,11 @@ GGAGGATTTAGTAGTAAATTAAGAATAGAGAGCTTAATTGAATTGAGCAATGAAGTACGCACACACCGCC
 CGTCACCCTCCTCAAATTAAATTAAACTTAACATAATTAATTTCTAGACATCCGTTTATGAGAGGAGATA
 AGTCGTAACAAGGTAAGCATACTGGAAAGTGTGCTTGGAATAATCMT
 ```
+
+Since the D-loop is a regulatory region that is not transcribed or translated, BLASTp cannot be used. Therefore, only basic nucleotide local alignment with BLASTn was performed, as shown below.
+
+
+
 
 ## Results and Discussion
 
