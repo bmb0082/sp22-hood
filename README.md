@@ -536,17 +536,11 @@ CPPPYHTFEEPTYVKVK-
 
 Finally, BLASTp was performed in order to determine if the identified SNPs result in downstream mutations in primary amino acid structure, and therefore protein folding and function. Shown below is the basic amino acid local alignment of the control (query) vs the read sequence data (subject) for COX1.
 
-<p align="center">
 <img width="717" alt="COX1-BLASTp" src="https://user-images.githubusercontent.com/98036665/162488655-681aa5fb-b55d-4a15-a436-a1deb3edafe0.png">
-</p>
  
 BLASTp of colony consensus COX1 vs the control shows 100% amino acid sequence identity despite the presence of 4 mismatch SNPs, thus maintaining the same protein structure and function. A model of COX1 made with [SWISS-MODEL](https://swissmodel.expasy.org/interactive) is shown below.
 
-
- <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/162526503-a4b54859-cb8a-453c-a2bc-eec34396b655.png" width="600" height="600">
-</p>
-
 
 ### Cytochrome b subunit (Cyt-b)
 Cyt-b is the only mitochondrially encoded subunit of the cytochrome c reductase complex, also known as respiratory complex III in the electron transport chain. Its two heme groups, Cyt-bL and Cyt-bH, participate in electron bifurcation in the lower half of the Q cycle. It contains 11 subunits, cytochrome b, cytochrome c1, the Rieske protein, plus two core proteins and 6 low molecular weight proteins. Interestingly, the mitochondrial Cyt-b gene is ideal for phylogenetic studies and species identification, as it shows limited variability within species, and much greater variation between species.
@@ -602,9 +596,7 @@ ACAAAATACTAAAATTATATCCAT
 
 Basic nucleotide local alignment of the above control sequence (query) vs the consenus sequence (subject) was performed using BLASTn to locate SNPs in the consensus read data, shown below.
 
-<p align="center">
 <img width="368" alt="Cyt-b-BLASTn" src="https://user-images.githubusercontent.com/98036665/162497882-caaba962-dfcf-4b51-a01c-4f1fd9ad9184.png">
-</p>
 
 The results of the BLASTp in Cyt-b identified 2 mismatch SNPs: 525G>A, 594C>T. As shown in the table below, all of the SNPs identified in Cyt-b are transitions due to polymerase read error.
 
@@ -637,17 +629,11 @@ GQLASISYFSIILILMPISGIIEDKMLKLYP
 
 Finally, BLASTp was performed in order to determine if the identified SNPs result in downstream mutations in primary amino acid structure, and therefore protein folding and function. Shown below is the basic amino acid local alignment of the control (query) vs the read sequence data (subject) for Cyt-b.
 
-<p align="center">
 <img width="717" alt="Cyt-b-BLASTp" src="https://user-images.githubusercontent.com/98036665/162488789-e9dff98d-1916-4ef7-8a88-b1722f948b9e.png">
-</p>
  
 BLASTp of colony consensus Cyt-b vs the control shows 100% amino acid sequence identity despite the presence of 2 mismatch SNPs, thus maintaining the same protein structure and function. A model of Cyt-b made with [SWISS-MODEL](https://swissmodel.expasy.org/interactive) is shown below.
 
-
- <p align="center">
 <img src="https://user-images.githubusercontent.com/98036665/162528144-c16b8697-cfa4-4847-9c30-07bfa43dcf78.png" width="600" height="600">
-</p>
-
 
 ### D-loop control region
 The D-loop is technically not a gene, but rather, a non-coding region of mtDNA that acts as a promoter for the heavy strand of the circular mitochondrial genome. As such, it contains essential transcription and replication elements. Mutations in this region may serve as potential indicators of cellular DNA damage, and according to the recent literature, increased rates of D-loop mutation have also been linked to the pathogenesis of many types of cancer.
