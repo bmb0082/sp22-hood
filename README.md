@@ -696,4 +696,6 @@ Since the D-loop is a regulatory region that is not transcribed or translated, B
 
 ## Results and Discussion
 
+
 ## Conclusions
+The SNPs found in COX1 and Cyt-b do not have a downstream effect in protein structure to the wobble base. Additionally, the low number of mutations in the D-loop are unlikely to cause dysfunctional polymerase binding, but do not exclude change in function if more mutations were to accumulate.
