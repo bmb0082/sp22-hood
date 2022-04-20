@@ -1,7 +1,13 @@
+# Using bioinformatics to detect SNPs and predict functional changes in COX1, CytB, and the mitochondrial control region
+
+## Project Summary
+
+This project’s central aim is to identify and characterize mutations from reproductive female (n=3) and 14-day old (n=3) House mice maintained in seminatural enclosures. Given mutations in the mitochondrial genome can arise from replication error in the form of transitions or from damaging reactive oxygen species (ROS)as a unique transversion type, we further investigate the origin of the mutations detected and use protein modelling to predict which type of mutation could induce functional changes. The project begins with a proof of concept providing a background in single nucleotide polymorphisms (SNP), theory, and the central dogma to show how insertions and deletions might affect translated products while showcasing functional changes using a predicted 3D model in COX1. While methods for the proof of concept used reference genes from the NCBI database, we used bioinformatics to identify mutations in COX1, CytB, and the control region of the mitochondrial genome from raw read fastq-formatted data. Of the mutations detected in COX1, CytB, and the control region, 24.0%, 24.4%, and 25.0% were ROS-mediated respectively, while 33.0%, 30.8%, and 33.7% of mutations detected were due to errors in replication. Although none of the mutations detected within COX1 and CytB were predicted to result in functional changes, we are left to ask if the mutational load detected in the control region might have any effect on mtDNA replication frequency.
+
 # Table of Contents
 
 <details>
-<summary>Projects</summary>
+<summary>Sections</summary>
 
  1. [Modeling transcript directionality in *Mus musculus* mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/blob/main/README.md#modeling-transcript-directionality-in-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
  2. [Modeling insertions, deletions, and INDEL mutations in *Mus musculus* mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/blob/main/README.md#modeling-insertions-deletions-and-indel-mutations-in-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
@@ -362,16 +368,23 @@ For each gene, the purine/pyrimidine origin frequences for ROS, read error, and 
 | A>G | 58 | Ts | Pur>Pur | Read Error |
 | A>T | 49 | Tv | Pur>Pyr | Other Origin |
 | C>A | 54 | Tv | Pyr>Pur | ROS |
-| C>G | 9 | Tv | Pyr>Pur | Other |
+| C>G | 9 | Tv | Pyr>Pur | Other Origin |
 | C>T | 46 | Ts | Pyr>Pyr | Read Error |
 | G>A | 38 | Ts | Pur>Pur | Read Error |
-| G>C | 15 | Tv | Pur>Pyr | Other |
+| G>C | 15 | Tv | Pur>Pyr | Other Origin |
 | G>T | 89 | Tv | Pur>Pyr | ROS |
-| T>A | 95 | Tv | Pyr>Pur | Other |
+| T>A | 95 | Tv | Pyr>Pur | Other Origin |
 | T>C | 53 | Ts | Pyr>Pyr | Read Error |
-| T>G | 45 | Tv | Pyr>Pur | Other |
+| T>G | 45 | Tv | Pyr>Pur | Other Origin |
 
 ![ROS-COX1](https://user-images.githubusercontent.com/98036665/161463337-75658a1a-82d1-4225-a026-f09c9eed25b2.png)
+
+| Origin | Count | Percent |
+| --- | --- | --- |
+| Read Error | 195 | 33.0% |
+| Other | 253 | 42.8% |
+| ROS | 143 | 24.0% |
+| Total | 591 |  |
 
 Linear regression of the above COX1 data with the ROS group set as the origin of reference produced a p-value of 0.3842, meaning that despite the visual difference in frequencies represented graphically, there is not a statistically significant difference between the mean frequencies of each origin of mutation.
 
@@ -383,16 +396,23 @@ Linear regression of the above COX1 data with the ROS group set as the origin of
 | A>G | 37 | Ts | Pur>Pur | Read Error |
 | A>T | 50 | Tv | Pur>Pyr | Other Origin |
 | C>A | 45 | Tv | Pyr>Pur | ROS |
-| C>G | 5 | Tv | Pyr>Pur | Other |
+| C>G | 5 | Tv | Pyr>Pur | Other Origin |
 | C>T | 36 | Ts | Pyr>Pyr | Read Error |
 | G>A | 21 | Ts | Pur>Pur | Read Error |
-| G>C | 4 | Tv | Pur>Pyr | Other |
+| G>C | 4 | Tv | Pur>Pyr | Other Origin |
 | G>T | 62 | Tv | Pur>Pyr | ROS |
-| T>A | 74 | Tv | Pyr>Pur | Other |
+| T>A | 74 | Tv | Pyr>Pur | Other Origin |
 | T>C | 41 | Ts | Pyr>Pyr | Read Error |
-| T>G | 28 | Tv | Pyr>Pur | Other |
+| T>G | 28 | Tv | Pyr>Pur | Other Origin |
 
 ![ROS-CytB](https://user-images.githubusercontent.com/98036665/161463349-fea3ca6e-bc8a-4f06-aa13-1823c3b59040.png)
+
+| Origin | Count | Percent |
+| --- | --- | --- |
+| Read Error | 135 | 30.8% |
+| Other | 196 | 44.8% |
+| ROS | 107 | 24.4% |
+| Total | 438 |  |
 
 Linear regression of the above Cyt-b data with the ROS group set as the origin of reference produced a p-value of 0.4855, meaning that despite the visual difference in frequencies represented graphically, there is not a statistically significant difference between the mean frequencies of each origin of mutation.
 
@@ -404,16 +424,23 @@ Linear regression of the above Cyt-b data with the ROS group set as the origin o
 | A>G | 29 | Ts | Pur>Pur | Read Error |
 | A>T | 22 | Tv | Pur>Pyr | Other Origin |
 | C>A | 27 | Tv | Pyr>Pur | ROS |
-| C>G | 7 | Tv | Pyr>Pur | Other |
+| C>G | 7 | Tv | Pyr>Pur | Other Origin |
 | C>T | 30 | Ts | Pyr>Pyr | Read Error |
 | G>A | 19 | Ts | Pur>Pur | Read Error |
-| G>C | 6 | Tv | Pur>Pyr | Other |
+| G>C | 6 | Tv | Pur>Pyr | Other Origin |
 | G>T | 45 | Tv | Pur>Pyr | ROS |
-| T>A | 49 | Tv | Pyr>Pur | Other |
+| T>A | 49 | Tv | Pyr>Pur | Other Origin |
 | T>C | 19 | Ts | Pyr>Pyr | Read Error |
-| T>G | 9 | Tv | Pyr>Pur | Other |
+| T>G | 9 | Tv | Pyr>Pur | Other Origin |
 
 ![ROS-D-loop](https://user-images.githubusercontent.com/98036665/161464449-f46a1315-d28f-4e4f-b80a-5a73d41ebeb3.png)
+
+| Origin | Count | Percent | 288
+| --- | --- | --- |
+| Read Error | 97 | 33.7% |
+| Other | 119 | 41.3% |
+| ROS | 72 | 25.0% |
+| Total | 288 |  |
 
 Linear regression of the above D-loop data with the ROS group set as the origin of reference produced a p-value of 0.3808, meaning that despite the visual difference in frequencies represented graphically, there is not a statistically significant difference between the mean frequencies of each origin of mutation.
 
