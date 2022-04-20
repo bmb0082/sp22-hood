@@ -97,7 +97,7 @@ The data gathered in this experiment supports the idea that directionality of tr
 Reading the mt-CO1 gene transcript in 5'-3' direction produces a functional protein that can bind its necessary prosthetic groups and participate in the safe acceptance of electrons. Consequently, the 3'-5' direction lacks function given its lack of folding, and would not perform catalysis, as it lacks an active site.
 
 ## References
-1. Garrido, C., Galluzzi, L., Brunet, M. et al. Mechanisms of cytochrome c release from mitochondria. Cell Death Differ 13, 1423–1433 (2006). https://doi.org/10.1038/sj.cdd.4401950
+1. Garrido, C, Galluzzi, L, Brunet, M et al. "Mechanisms of cytochrome c release from mitochondria." Cell Death Differ 13, 1423–1433 (2006). doi:10.1038/sj.cdd.4401950
 2. Rak, Malgorzata et al. “Mitochondrial cytochrome c oxidase deficiency.” Clinical science (London, England : 1979) vol. 130,6 (2016): 393-407. doi:10.1042/CS20150707
 
 [Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
