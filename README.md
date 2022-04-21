@@ -447,7 +447,7 @@ Linear regression of the above Cyt-b data with the ROS group set as the origin o
 
 ![ROS-D-loop](https://user-images.githubusercontent.com/98036665/161464449-f46a1315-d28f-4e4f-b80a-5a73d41ebeb3.png)
 
-| Origin | Count | Percent | 288
+| Origin | Count | Percent |
 | --- | --- | --- |
 | Read Error | 97 | 33.7% |
 | Other | 119 | 41.3% |
