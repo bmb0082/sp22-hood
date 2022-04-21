@@ -12,8 +12,8 @@ This project’s central aim is to identify and characterize mutations from repr
  1. [Proof of Concept: Modeling transcript directionality in *Mus musculus* mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/blob/main/README.md#proof-of-concept-modeling-transcript-directionality-in-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
  2. [Validation of Predictions: Modeling insertions, deletions, and INDEL mutations in *Mus musculus* mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/blob/main/README.md#validation-of-predictions-modeling-insertions-deletions-and-indel-mutations-in-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
  3. [Analyzing SNP transition and transversion ratios in three *Mus musculus* mitochondrial regions: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region from raw-read fastq formatted data](https://github.com/bmb0082/lab-project/blob/main/README.md#analyzing-snp-transition-and-transversion-ratios-in-three-mus-musculus-mitochondrial-regions-cytochrome-c-oxidase-subunit-i-cytochrome-b-subunit-and-the-d-loop-control-region-from-raw-read-fastq-formatted-data)
- 4. [Investigating the origin of SNPs by type in three *Mus musculus* mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region](https://github.com/bmb0082/lab-project/blob/main/README.md#investigating-the-origins-of-snps-by-type-in-three-mus-musculus-mitochondrial-genes-cytochrome-c-oxidase-subunit-i-cytochrome-b-subunit-and-the-d-loop-control-region)
- 5. [Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region](https://github.com/bmb0082/lab-project/blob/main/README.md#modeling-the-effects-of-snps-from-mus-musculus-consensus-read-data-in-three-mitochondrial-genes-cytochrome-c-oxidase-subunit-i-cytochrome-b-subunit-and-the-d-loop-control-region)
+ 4. [Investigating the origin of SNPs by type in three *Mus musculus* mitochondrial regions: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region](https://github.com/bmb0082/lab-project/blob/main/README.md#investigating-the-origins-of-snps-by-type-in-three-mus-musculus-mitochondrial-regions-cytochrome-c-oxidase-subunit-i-cytochrome-b-subunit-and-the-d-loop-control-region)
+ 5. [Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial regions: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region](https://github.com/bmb0082/lab-project/blob/main/README.md#modeling-the-effects-of-snps-from-mus-musculus-consensus-read-data-in-three-mitochondrial-genes-cytochrome-c-oxidase-subunit-i-cytochrome-b-subunit-and-the-d-loop-control-region)
  
 </details>
 
@@ -348,7 +348,7 @@ Bioinformatics analysis of a sample from *Mus musculus* brain tissue produced a 
 
 [Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
 
-# Investigating the origins of SNPs by type in three *Mus musculus* mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
+# Investigating the origins of SNPs by type in three *Mus musculus* mitochondrial regions: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
 In general, mitochondrial DNA has a 10x greater rate of mutation than nuclear DNA due to less efficient DNA repair, a more mutagenic environment, and higher load of replications per cell division.
 
 The nuclear genome has five main mechanisms of DNA repair mechanisms: base excision repair (BER), nucleotide excision repair (NER), mismatch repair (MMR), homologous recombination (HR) and non-homologous end joining (NHEJ). Mitochondrial BER machinery shares some overlap with that of the nucleus, but there is still not a clear consensus regarding mitochondrial double-strand break repair. Current research shows that a majority of mitochondrial DNA repair is not repair at all, and instead comes from genome sharing that occurs when an injured mitochondria fuses with a healthy one (Youle, Richard J). This heteroplasmy of mitochondrial DNA variants contributes greatly to the increased mutation frequency observed in mtDNA.
@@ -466,7 +466,7 @@ There is no statistically significant difference between the frequencies of ROS-
 
 [Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
 
-# Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial genes: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
+# Modeling the effects of SNPs from *Mus musculus* consensus read data in three mitochondrial regions: cytochrome c oxidase subunit I, cytochrome b subunit, and the D-loop control region
 
 ## Purpose - To determine through sequence analysis how identified SNPs in collected consensus read data effect protein structure and function
 **Hypothesis - The SNPs identified in the colony mice read data will have little to no effect on protein structure and function**
