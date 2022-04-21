@@ -1,4 +1,4 @@
-# Using bioinformatics to detect SNPs and predict functional changes in COX1, CytB, and the mitochondrial control region
+# Using bioinformatics to detect SNPs and predict functional changes in COX1, Cyt-b, and the mitochondrial control region
 
 ## Project Summary
 
