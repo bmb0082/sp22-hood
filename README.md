@@ -480,6 +480,8 @@ Though there were many mutations identified in the variant called format (VCF) r
 ### Cytochrome c oxidase subunit I (COX1)
 COX1 is the mitochondrially-encoded subunit 1 of cytochrome c oxidase, also known as respiratory complex IV. COX is a multimeric enzyme with intricate and highly regulated assembly that involves multiple cofactors and associated assembly proteins. It contains 13 subunits, where the three catalytic subunits (I-III) are mitochondrial coded, and the other 10 are nuclear coded. As a unit, COX is a directly redox-linked proton pump that facilitates the reduction of peroxide ions to water in terminal electron acceptance. Due the essential function of COX1 and its binding of heme-a and heme-a3-CuB, COX1's active sites have conserved structure and function across eukaryotic taxa. However, other regions of the gene are more variable. The MT-CO1 gene is often used as a DNA barcode to identify animal species because its sequence is conserved among conspecifics, but the mutation rate of non-conserved areas is often fast enough to distinguish closely related species (Pierron, Denis et al.).
 
+Below is the nucleotide reference for COX1, followed by the consensus sequence generated using Use Galaxy.
+
 ```
 Reference genome source of mt-Co1 gene, presented in the 5'-3' direction:
 Mus musculus mitochondrion, complete genome
@@ -550,7 +552,7 @@ The results of the BLASTp in COX1 identified 4 mismatch SNPs: 225T>C, 516A>G, 60
 | 603 | G>A | Ts | Pur>Pur | Read Error |
 | 717 | G>A | Ts | Pur>Pur | Read Error |
 
-Next, translated amino acid sequences were generated using [ExPASy Translate Tool](https://web.expasy.org/translate/) for the control COX1 and restricted read data, as shown below
+Next, translated amino acid sequences were generated using [ExPASy Translate Tool](https://web.expasy.org/translate/) for the control COX1 and restricted read data, as shown below.
 
 ```
 COX1 control, open reading frame 1 sequence, translated 5'-3':
@@ -586,6 +588,8 @@ BLASTp of colony consensus COX1 vs the control shows 100% amino acid sequence id
 
 ### Cytochrome b subunit (Cyt-b)
 Cyt-b is the only mitochondrially encoded subunit of the cytochrome c reductase complex, also known as respiratory complex III in the electron transport chain. Its two heme groups, Cyt-bL and Cyt-bH, participate in electron bifurcation in the lower half of the Q cycle. It contains 11 subunits, cytochrome b, cytochrome c1, the Rieske protein, plus two core proteins and 6 low molecular weight proteins. Interestingly, the mitochondrial Cyt-b gene is ideal for phylogenetic studies and species identification, as it shows limited variability within species, and much greater variation between species (Esposti, M D et al.).
+
+Below is the nucleotide reference for Cyt-b, followed by the consensus sequence generated using Use Galaxy.
 
 ```
 Reference genome source of mt-Cyt-b gene, presented in the 5'-3' direction:
@@ -680,6 +684,8 @@ BLASTp of colony consensus Cyt-b vs the control shows 100% amino acid sequence i
 ### D-loop control region
 The D-loop is technically not a gene, but rather, a non-coding region of mtDNA that houses the heavy strand origin of replication, heavy strand promoter, and light strand promoter. As such, it contains essential transcription and replication elements and is the binding site of multiple mitochondrial polymerases. Mutations in this region may serve as potential indicators of cellular DNA damage, and according to the recent literature, increased rates of D-loop mutation have also been linked to the pathogenesis of many types of cancer (Sharma, Himani et al.).
 
+Below is the nucleotide reference for the D-loop, followed by the consensus sequence generated using Use Galaxy.
+
 ```
 Reference genome source of mt-D-loop, presented in the 5'-3' direction:
 Mus musculus mitochondrion, complete genome
@@ -725,7 +731,7 @@ AGTCGTAACAAGGTAAGCATACTGGAAAGTGTGCTTGGAATAATCMT
 
 Basic nucleotide local alignment of the above control sequence (query) vs the consensus sequence (subject) was performed using BLASTn to locate SNPs in the consensus read data, shown below.
 
-The results of the BLASTp in the D-loop identified 4 mismatch SNPs: 52A>G, 55G>A, 381A>T, 465G>A. As shown in the table below, 3 of the 4 of the SNPs identified in the D-loop are transitions due to polymerase read error. The remaining SNP is a transversion with an unknown origin.
+The results of the BLASTp in the D-loop identified 4 mismatch SNPs: 52A>G, 55G>A, 381A>T, 465G>A. As shown in the table below, 3 of the 4 of the SNPs identified in the D-loop are transitions due to polymerase read error. The remaining SNP is a transversion from unknown origins.
 
 | Position | Mutation | TsTv | Type | Origin |
 | --- | --- | --- |  --- | --- |
