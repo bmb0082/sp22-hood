@@ -1,13 +1,13 @@
 # Using bioinformatics to detect SNPs and predict functional changes in COX1, Cyt-b, and the mitochondrial control region
 
-## Project Summary
+## Research Summary
 
 This project’s central aim is to identify and characterize mutations from reproductive female (n=3) and 14-day old (n=3) house mice maintained in seminatural enclosures. Given mutations in the mitochondrial genome can arise from replication error in the form of transitions or from damaging reactive oxygen species (ROS) as a unique transversion type, we further investigate the origin of the mutations detected and use protein modeling to predict which type of mutation could induce functional changes. The project begins with a proof of concept providing a background in single nucleotide polymorphisms (SNP), theory, and the central dogma to show how insertions and deletions might affect translated products, while showcasing functional changes using a predicted 3D model in COX1. While methods for the proof of concept used reference genes from the NCBI database, we used bioinformatics to identify mutations in COX1, Cyt-b, and the control region of the mitochondrial genome from raw read fastq-formatted data. Of the mutations detected in COX1, Cyt-b, and the control region, 24.0%, 24.4%, and 25.0% were ROS-mediated respectively, while 33.0%, 30.8%, and 33.7% of mutations detected were due to errors in replication. Although none of the mutations detected within COX1 and Cyt-b were predicted to result in functional changes, we are left to ask if the mutational load detected in the control region might have any effect on mtDNA replication frequency.
 
 # Table of Contents
 
 <details>
-<summary>Sections</summary>
+<summary>Projects</summary>
 
  1. [Proof of Concept: Modeling transcript directionality in *Mus musculus* mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/blob/main/README.md#proof-of-concept-modeling-transcript-directionality-in-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
  2. [Validation of Predictions: Modeling insertions, deletions, and INDEL mutations in *Mus musculus* mitochondrial cytochrome c oxidase subunit I](https://github.com/bmb0082/lab-project/blob/main/README.md#validation-of-predictions-modeling-insertions-deletions-and-indel-mutations-in-mus-musculus-mitochondrial-cytochrome-c-oxidase-subunit-i)
