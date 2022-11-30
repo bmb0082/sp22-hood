@@ -754,3 +754,5 @@ The SNPs found the consensus sequence of COX1 and Cyt-b do not result in downstr
 1. Pierron, Denis et al. “Cytochrome c oxidase: evolution of control via nuclear subunit addition.” Biochimica et biophysica acta vol. 1817,4 (2012): 590-7. doi:10.1016/j.bbabio.2011.07.007
 2. Esposti, M D et al. “Mitochondrial cytochrome b: evolution and structure of the protein.” Biochimica et biophysica acta vol. 1143,3 (1993): 243-71. doi:10.1016/0005-2728(93)90197-n
 3. Sharma, Himani et al. “Mutations in the mitochondrial DNA D-loop region are frequent in cervical cancer.” Cancer cell international vol. 5 34. 16 Dec. 2005, doi:10.1186/1475-2867-5-34
+
+[Return to Table of Contents](https://github.com/bmb0082/lab-project/blob/main/README.md#table-of-contents)
